@@ -1,7 +1,7 @@
 import os
 from pyspark.sql import SparkSession
 from pyspark import SparkConf
-from pyspark.sql.functions import explode, col, from_utc_timestamp, to_timestamp
+from pyspark.sql.functions import col, to_utc_timestamp, date_format
 
 HOME = os.path.expanduser('~')
 AIRFLOW_ROOT_FOLDER = os.path.join(HOME, "airflow")
@@ -32,11 +32,14 @@ def index_data_to_elasticsearch():
     # Read the Parquet file into a DataFrame
     df = spark.read.parquet(local_path)
 
-    # Ensure the date column is correctly formatted
-    df = df.withColumn("date", to_timestamp(from_utc_timestamp(col("date"), "UTC")))
+    # Ensure the date column is correctly formatted to strict_date_optional_time
+    df = df.withColumn("date", to_utc_timestamp(col("date"), "UTC"))
 
     # Log the schema of the DataFrame to verify it's correctly read
     df.printSchema()
+
+    # Format the date column to the strict_date_optional_time format
+    df = df.withColumn("date", date_format(col("date"), "yyyy-MM-dd'T'HH:mm:ss.SSSZ"))
 
     # Show a sample of the data
     df.show(5)
@@ -50,6 +53,6 @@ def index_data_to_elasticsearch():
         .mode("overwrite") \
         .save()
 
-# # Ensure that the function is called only if this script is run directly
+# Ensure that the function is called only if this script is run directly
 if __name__ == "__main__":
     index_data_to_elasticsearch()

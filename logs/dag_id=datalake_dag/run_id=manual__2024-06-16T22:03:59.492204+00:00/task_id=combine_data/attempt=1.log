@@ -1,0 +1,42 @@
+[2024-06-17T00:04:21.935+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-17T00:04:21.944+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: datalake_dag.combine_data manual__2024-06-16T22:03:59.492204+00:00 [queued]>
+[2024-06-17T00:04:21.947+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: datalake_dag.combine_data manual__2024-06-16T22:03:59.492204+00:00 [queued]>
+[2024-06-17T00:04:21.947+0200] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-06-17T00:04:21.960+0200] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): combine_data> on 2024-06-16 22:03:59.492204+00:00
+[2024-06-17T00:04:21.961+0200] {standard_task_runner.py:63} INFO - Started process 80042 to run task
+[2024-06-17T00:04:21.963+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'datalake_dag', 'combine_data', 'manual__2024-06-16T22:03:59.492204+00:00', '--job-id', '286', '--raw', '--subdir', 'DAGS_FOLDER/datalake_dag.py', '--cfg-path', '/tmp/tmpxlmz09ai']
+[2024-06-17T00:04:21.963+0200] {standard_task_runner.py:91} INFO - Job 286: Subtask combine_data
+[2024-06-17T00:04:21.986+0200] {task_command.py:426} INFO - Running <TaskInstance: datalake_dag.combine_data manual__2024-06-16T22:03:59.492204+00:00 [running]> on host Desktop-Hector.
+[2024-06-17T00:04:22.124+0200] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='datalake_dag' AIRFLOW_CTX_TASK_ID='combine_data' AIRFLOW_CTX_EXECUTION_DATE='2024-06-16T22:03:59.492204+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-16T22:03:59.492204+00:00'
+[2024-06-17T00:04:22.125+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-17T00:04:28.030+0200] {logging_mixin.py:188} INFO - +---------------+-------------------+-----+---------------+---------------+
+|production_type|               date|value|carbon_emission|emissions_total|
++---------------+-------------------+-----+---------------+---------------+
+|        BIOMASS|2024-06-01 00:00:00|  355|           32.0|        11360.0|
+|        BIOMASS|2024-06-01 01:00:00|  356|           32.0|        11392.0|
+|        BIOMASS|2024-06-01 02:00:00|  356|           32.0|        11392.0|
+|        BIOMASS|2024-06-01 03:00:00|  357|           32.0|        11424.0|
+|        BIOMASS|2024-06-01 04:00:00|  357|           32.0|        11424.0|
+|        BIOMASS|2024-06-01 05:00:00|  358|           32.0|        11456.0|
+|        BIOMASS|2024-06-01 06:00:00|  358|           32.0|        11456.0|
+|        BIOMASS|2024-06-01 07:00:00|  358|           32.0|        11456.0|
+|        BIOMASS|2024-06-01 08:00:00|  356|           32.0|        11392.0|
+|        BIOMASS|2024-06-01 09:00:00|  356|           32.0|        11392.0|
+|        BIOMASS|2024-06-01 10:00:00|  358|           32.0|        11456.0|
+|        BIOMASS|2024-06-01 11:00:00|  356|           32.0|        11392.0|
+|        BIOMASS|2024-06-01 12:00:00|  357|           32.0|        11424.0|
+|        BIOMASS|2024-06-01 13:00:00|  357|           32.0|        11424.0|
+|        BIOMASS|2024-06-01 14:00:00|  359|           32.0|        11488.0|
+|        BIOMASS|2024-06-01 15:00:00|  360|           32.0|        11520.0|
+|        BIOMASS|2024-06-01 16:00:00|  358|           32.0|        11456.0|
+|        BIOMASS|2024-06-01 17:00:00|  357|           32.0|        11424.0|
+|        BIOMASS|2024-06-01 18:00:00|  357|           32.0|        11424.0|
+|        BIOMASS|2024-06-01 19:00:00|  356|           32.0|        11392.0|
++---------------+-------------------+-----+---------------+---------------+
+only showing top 20 rows
+[2024-06-17T00:04:28.481+0200] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-17T00:04:28.481+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-17T00:04:28.486+0200] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=datalake_dag, task_id=combine_data, execution_date=20240616T220359, start_date=20240616T220421, end_date=20240616T220428
+[2024-06-17T00:04:28.544+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-17T00:04:28.630+0200] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-17T00:04:28.640+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

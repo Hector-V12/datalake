@@ -1,0 +1,189 @@
+[2024-06-16T23:52:38.276+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-16T23:52:38.286+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: datalake_dag.index_data_to_elasticsearch manual__2024-06-16T21:52:09.888456+00:00 [queued]>
+[2024-06-16T23:52:38.288+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: datalake_dag.index_data_to_elasticsearch manual__2024-06-16T21:52:09.888456+00:00 [queued]>
+[2024-06-16T23:52:38.288+0200] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-06-16T23:52:38.301+0200] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): index_data_to_elasticsearch> on 2024-06-16 21:52:09.888456+00:00
+[2024-06-16T23:52:38.303+0200] {standard_task_runner.py:63} INFO - Started process 54794 to run task
+[2024-06-16T23:52:38.305+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'datalake_dag', 'index_data_to_elasticsearch', 'manual__2024-06-16T21:52:09.888456+00:00', '--job-id', '274', '--raw', '--subdir', 'DAGS_FOLDER/datalake_dag.py', '--cfg-path', '/tmp/tmpqygiq6x0']
+[2024-06-16T23:52:38.305+0200] {standard_task_runner.py:91} INFO - Job 274: Subtask index_data_to_elasticsearch
+[2024-06-16T23:52:38.329+0200] {task_command.py:426} INFO - Running <TaskInstance: datalake_dag.index_data_to_elasticsearch manual__2024-06-16T21:52:09.888456+00:00 [running]> on host Desktop-Hector.
+[2024-06-16T23:52:38.446+0200] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='datalake_dag' AIRFLOW_CTX_TASK_ID='index_data_to_elasticsearch' AIRFLOW_CTX_EXECUTION_DATE='2024-06-16T21:52:09.888456+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-16T21:52:09.888456+00:00'
+[2024-06-16T23:52:38.446+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-16T23:52:41.811+0200] {logging_mixin.py:188} INFO - Reading Parquet file from: /home/hectorv/airflow/data/usage/usage_data.parquet
+[2024-06-16T23:52:43.242+0200] {logging_mixin.py:188} INFO - root
+ |-- production_type: string (nullable = true)
+ |-- date: timestamp (nullable = true)
+ |-- value: long (nullable = true)
+ |-- carbon_emission: double (nullable = true)
+ |-- emissions_total: double (nullable = true)
+[2024-06-16T23:52:44.402+0200] {logging_mixin.py:188} INFO - +---------------+--------------------+-----+---------------+---------------+
+|production_type|                date|value|carbon_emission|emissions_total|
++---------------+--------------------+-----+---------------+---------------+
+|        BIOMASS|2024-04-01T00:00:...|  347|           32.0|        11104.0|
+|        BIOMASS|2024-04-01T01:00:...|  347|           32.0|        11104.0|
+|        BIOMASS|2024-04-01T02:00:...|  346|           32.0|        11072.0|
+|        BIOMASS|2024-04-01T03:00:...|  333|           32.0|        10656.0|
+|        BIOMASS|2024-04-01T04:00:...|  334|           32.0|        10688.0|
++---------------+--------------------+-----+---------------+---------------+
+only showing top 5 rows
+[2024-06-16T23:52:44.597+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-16T23:52:44.597+0200] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/hectorv/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/hectorv/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/hectorv/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/hectorv/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/hectorv/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/hectorv/airflow/dags/lib/index.py", line 54, in index_data_to_elasticsearch
+    .save()
+  File "/home/hectorv/.local/lib/python3.10/site-packages/pyspark/sql/readwriter.py", line 1461, in save
+    self._jwrite.save()
+  File "/home/hectorv/.local/lib/python3.10/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/home/hectorv/.local/lib/python3.10/site-packages/pyspark/errors/exceptions/captured.py", line 179, in deco
+    return f(*a, **kw)
+  File "/home/hectorv/.local/lib/python3.10/site-packages/py4j/protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o58.save.
+: org.elasticsearch.hadoop.EsHadoopException: Could not write all entries for bulk operation [1000/1000]. Error sample (first [5] error messages):
+	org.elasticsearch.hadoop.rest.EsHadoopRemoteException: index_not_found_exception: no such index [datalake_index*]
+	{"delete":{"_id":"wMeSIpAB7UiR4zGCLDU1"}}
+
+	org.elasticsearch.hadoop.rest.EsHadoopRemoteException: index_not_found_exception: no such index [datalake_index*]
+	{"delete":{"_id":"wceSIpAB7UiR4zGCLDU1"}}
+
+	org.elasticsearch.hadoop.rest.EsHadoopRemoteException: index_not_found_exception: no such index [datalake_index*]
+	{"delete":{"_id":"wseSIpAB7UiR4zGCLDU1"}}
+
+	org.elasticsearch.hadoop.rest.EsHadoopRemoteException: index_not_found_exception: no such index [datalake_index*]
+	{"delete":{"_id":"w8eSIpAB7UiR4zGCLDU1"}}
+
+	org.elasticsearch.hadoop.rest.EsHadoopRemoteException: index_not_found_exception: no such index [datalake_index*]
+	{"delete":{"_id":"xMeSIpAB7UiR4zGCLDU1"}}
+
+Bailing out...
+	at org.elasticsearch.hadoop.rest.bulk.BulkProcessor.flush(BulkProcessor.java:538)
+	at org.elasticsearch.hadoop.rest.bulk.BulkProcessor.add(BulkProcessor.java:146)
+	at org.elasticsearch.hadoop.rest.RestRepository.doWriteToIndex(RestRepository.java:192)
+	at org.elasticsearch.hadoop.rest.RestRepository.writeProcessedToIndex(RestRepository.java:188)
+	at org.elasticsearch.hadoop.rest.RestRepository.delete(RestRepository.java:458)
+	at org.elasticsearch.spark.sql.ElasticsearchRelation.insert(DefaultSource.scala:625)
+	at org.elasticsearch.spark.sql.DefaultSource.createRelation(DefaultSource.scala:108)
+	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:48)
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2024-06-16T23:52:44.601+0200] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=datalake_dag, task_id=index_data_to_elasticsearch, execution_date=20240616T215209, start_date=20240616T215238, end_date=20240616T215244
+[2024-06-16T23:52:44.621+0200] {standard_task_runner.py:110} ERROR - Failed to execute job 274 for task index_data_to_elasticsearch (An error occurred while calling o58.save.
+: org.elasticsearch.hadoop.EsHadoopException: Could not write all entries for bulk operation [1000/1000]. Error sample (first [5] error messages):
+	org.elasticsearch.hadoop.rest.EsHadoopRemoteException: index_not_found_exception: no such index [datalake_index*]
+	{"delete":{"_id":"wMeSIpAB7UiR4zGCLDU1"}}
+
+	org.elasticsearch.hadoop.rest.EsHadoopRemoteException: index_not_found_exception: no such index [datalake_index*]
+	{"delete":{"_id":"wceSIpAB7UiR4zGCLDU1"}}
+
+	org.elasticsearch.hadoop.rest.EsHadoopRemoteException: index_not_found_exception: no such index [datalake_index*]
+	{"delete":{"_id":"wseSIpAB7UiR4zGCLDU1"}}
+
+	org.elasticsearch.hadoop.rest.EsHadoopRemoteException: index_not_found_exception: no such index [datalake_index*]
+	{"delete":{"_id":"w8eSIpAB7UiR4zGCLDU1"}}
+
+	org.elasticsearch.hadoop.rest.EsHadoopRemoteException: index_not_found_exception: no such index [datalake_index*]
+	{"delete":{"_id":"xMeSIpAB7UiR4zGCLDU1"}}
+
+Bailing out...
+	at org.elasticsearch.hadoop.rest.bulk.BulkProcessor.flush(BulkProcessor.java:538)
+	at org.elasticsearch.hadoop.rest.bulk.BulkProcessor.add(BulkProcessor.java:146)
+	at org.elasticsearch.hadoop.rest.RestRepository.doWriteToIndex(RestRepository.java:192)
+	at org.elasticsearch.hadoop.rest.RestRepository.writeProcessedToIndex(RestRepository.java:188)
+	at org.elasticsearch.hadoop.rest.RestRepository.delete(RestRepository.java:458)
+	at org.elasticsearch.spark.sql.ElasticsearchRelation.insert(DefaultSource.scala:625)
+	at org.elasticsearch.spark.sql.DefaultSource.createRelation(DefaultSource.scala:108)
+	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:48)
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+; 54794)
+[2024-06-16T23:52:44.644+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-16T23:52:44.722+0200] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-16T23:52:44.722+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

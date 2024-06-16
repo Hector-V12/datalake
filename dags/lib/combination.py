@@ -57,6 +57,8 @@ def combine_data():
 
   # Computing global emissions
   df_joined = df_joined.withColumn("emissions_total", col("value") * col("carbon_emission"))
+
+  df_joined.show()
   
   file_location = "data/usage/usage_data.parquet"
   local_path = f"{AIRFLOW_ROOT_FOLDER}/{file_location}"
@@ -67,3 +69,6 @@ def combine_data():
       tar.add(local_path)
 
   client.fput_object(bucket_name, file_location, archive_path)
+  
+if __name__ == "__main__":
+    combine_data()

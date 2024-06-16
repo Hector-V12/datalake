@@ -1,0 +1,44 @@
+[2024-06-16T23:47:55.399+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-16T23:47:55.408+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: datalake_dag.format_consumption_data manual__2024-06-16T21:47:51.820222+00:00 [queued]>
+[2024-06-16T23:47:55.411+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: datalake_dag.format_consumption_data manual__2024-06-16T21:47:51.820222+00:00 [queued]>
+[2024-06-16T23:47:55.411+0200] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-06-16T23:47:55.425+0200] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): format_consumption_data> on 2024-06-16 21:47:51.820222+00:00
+[2024-06-16T23:47:55.427+0200] {standard_task_runner.py:63} INFO - Started process 44295 to run task
+[2024-06-16T23:47:55.429+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'datalake_dag', 'format_consumption_data', 'manual__2024-06-16T21:47:51.820222+00:00', '--job-id', '258', '--raw', '--subdir', 'DAGS_FOLDER/datalake_dag.py', '--cfg-path', '/tmp/tmpns4ndh08']
+[2024-06-16T23:47:55.429+0200] {standard_task_runner.py:91} INFO - Job 258: Subtask format_consumption_data
+[2024-06-16T23:47:55.456+0200] {task_command.py:426} INFO - Running <TaskInstance: datalake_dag.format_consumption_data manual__2024-06-16T21:47:51.820222+00:00 [running]> on host Desktop-Hector.
+[2024-06-16T23:47:55.598+0200] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='datalake_dag' AIRFLOW_CTX_TASK_ID='format_consumption_data' AIRFLOW_CTX_EXECUTION_DATE='2024-06-16T21:47:51.820222+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-16T21:47:51.820222+00:00'
+[2024-06-16T23:47:55.598+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-16T23:48:01.878+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-16T23:48:01.879+0200] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/hectorv/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/hectorv/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/hectorv/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/hectorv/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/hectorv/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/hectorv/airflow/dags/lib/format_digital_iservices_data.py", line 41, in format_consumption_data
+    new_df = df.withColumn("production_type", explode(col("actual_generations_per_production_type")))
+  File "/home/hectorv/.local/lib/python3.10/site-packages/pyspark/sql/dataframe.py", line 5174, in withColumn
+    return DataFrame(self._jdf.withColumn(colName, col._jc), self.sparkSession)
+  File "/home/hectorv/.local/lib/python3.10/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/home/hectorv/.local/lib/python3.10/site-packages/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.AnalysisException: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `actual_generations_per_production_type` cannot be resolved. Did you mean one of the following? [`error_description`, `error_details`, `error_uri`, `error`].;
+'Project [error#6, error_description#7, error_details#8, error_uri#9, explode('actual_generations_per_production_type) AS production_type#14]
++- LogicalRDD [error#6, error_description#7, error_details#8, error_uri#9], false
+
+[2024-06-16T23:48:01.890+0200] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=datalake_dag, task_id=format_consumption_data, execution_date=20240616T214751, start_date=20240616T214755, end_date=20240616T214801
+[2024-06-16T23:48:01.904+0200] {standard_task_runner.py:110} ERROR - Failed to execute job 258 for task format_consumption_data ([UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `actual_generations_per_production_type` cannot be resolved. Did you mean one of the following? [`error_description`, `error_details`, `error_uri`, `error`].;
+'Project [error#6, error_description#7, error_details#8, error_uri#9, explode('actual_generations_per_production_type) AS production_type#14]
++- LogicalRDD [error#6, error_description#7, error_details#8, error_uri#9], false
+; 44295)
+[2024-06-16T23:48:01.931+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-16T23:48:02.047+0200] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-16T23:48:02.057+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

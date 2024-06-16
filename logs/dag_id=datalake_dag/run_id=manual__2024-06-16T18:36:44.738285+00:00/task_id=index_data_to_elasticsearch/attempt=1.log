@@ -1,0 +1,34 @@
+[2024-06-16T20:37:12.333+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-16T20:37:12.341+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: datalake_dag.index_data_to_elasticsearch manual__2024-06-16T18:36:44.738285+00:00 [queued]>
+[2024-06-16T20:37:12.343+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: datalake_dag.index_data_to_elasticsearch manual__2024-06-16T18:36:44.738285+00:00 [queued]>
+[2024-06-16T20:37:12.343+0200] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-06-16T20:37:12.357+0200] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): index_data_to_elasticsearch> on 2024-06-16 18:36:44.738285+00:00
+[2024-06-16T20:37:12.359+0200] {standard_task_runner.py:63} INFO - Started process 66121 to run task
+[2024-06-16T20:37:12.360+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'datalake_dag', 'index_data_to_elasticsearch', 'manual__2024-06-16T18:36:44.738285+00:00', '--job-id', '216', '--raw', '--subdir', 'DAGS_FOLDER/datalake_dag.py', '--cfg-path', '/tmp/tmpnxey9025']
+[2024-06-16T20:37:12.360+0200] {standard_task_runner.py:91} INFO - Job 216: Subtask index_data_to_elasticsearch
+[2024-06-16T20:37:12.383+0200] {task_command.py:426} INFO - Running <TaskInstance: datalake_dag.index_data_to_elasticsearch manual__2024-06-16T18:36:44.738285+00:00 [running]> on host Desktop-Hector.
+[2024-06-16T20:37:12.493+0200] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='datalake_dag' AIRFLOW_CTX_TASK_ID='index_data_to_elasticsearch' AIRFLOW_CTX_EXECUTION_DATE='2024-06-16T18:36:44.738285+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-16T18:36:44.738285+00:00'
+[2024-06-16T20:37:12.493+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-16T20:37:15.716+0200] {logging_mixin.py:188} INFO - Reading Parquet file from: /home/hectorv/airflow/data/usage/usage_data.parquet
+[2024-06-16T20:37:17.273+0200] {logging_mixin.py:188} INFO - root
+ |-- production_type: string (nullable = true)
+ |-- date: timestamp (nullable = true)
+ |-- value: long (nullable = true)
+ |-- carbon_emission: double (nullable = true)
+ |-- emissions_total: double (nullable = true)
+[2024-06-16T20:37:18.461+0200] {logging_mixin.py:188} INFO - +---------------+-------------------+-----+---------------+---------------+
+|production_type|               date|value|carbon_emission|emissions_total|
++---------------+-------------------+-----+---------------+---------------+
+|        BIOMASS|2024-06-01 00:00:00|  355|           32.0|        11360.0|
+|        BIOMASS|2024-06-01 01:00:00|  356|           32.0|        11392.0|
+|        BIOMASS|2024-06-01 02:00:00|  356|           32.0|        11392.0|
+|        BIOMASS|2024-06-01 03:00:00|  357|           32.0|        11424.0|
+|        BIOMASS|2024-06-01 04:00:00|  357|           32.0|        11424.0|
++---------------+-------------------+-----+---------------+---------------+
+only showing top 5 rows
+[2024-06-16T20:37:19.069+0200] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-16T20:37:19.069+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-16T20:37:19.073+0200] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=datalake_dag, task_id=index_data_to_elasticsearch, execution_date=20240616T183644, start_date=20240616T183712, end_date=20240616T183719
+[2024-06-16T20:37:19.103+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-16T20:37:19.182+0200] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-16T20:37:19.183+0200] {local_task_job_runner.py:222} INFO - ::endgroup::
