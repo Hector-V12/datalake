@@ -1,0 +1,578 @@
+[2024-06-13T23:19:33.556+0200] {processor.py:161} INFO - Started process (PID=452) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:19:33.556+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:19:33.556+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:33.556+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:19:33.558+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:19:33.609+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:33.608+0200] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2024-06-13T23:19:33.620+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:33.620+0200] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2024-06-13T23:19:33.630+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:33.630+0200] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2024-06-13T23:19:33.630+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:33.630+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:19:33.633+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:33.633+0200] {dag.py:3118} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2024-06-13T23:19:33.634+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:33.634+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:19:33.649+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.095 seconds
+[2024-06-13T23:20:24.853+0200] {processor.py:161} INFO - Started process (PID=503) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:20:24.854+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:20:24.854+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:24.854+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:20:24.856+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:20:24.861+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:24.861+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:20:24.865+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:24.865+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:20:24.880+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.029 seconds
+[2024-06-13T23:21:10.984+0200] {processor.py:161} INFO - Started process (PID=554) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:21:10.986+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:21:10.987+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:10.987+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:21:10.989+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:21:10.994+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:10.994+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:21:11.041+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:11.041+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:21:11.055+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.073 seconds
+[2024-06-13T23:22:09.956+0200] {processor.py:161} INFO - Started process (PID=613) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:22:09.958+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:22:09.958+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:09.958+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:22:09.961+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:22:09.966+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:09.966+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:22:09.969+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:09.969+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:22:09.984+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-13T23:22:52.631+0200] {processor.py:161} INFO - Started process (PID=657) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:22:52.633+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:22:52.634+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:52.634+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:22:52.636+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:22:52.642+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:52.642+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:22:52.645+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:52.645+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:22:52.660+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-13T23:23:49.916+0200] {processor.py:161} INFO - Started process (PID=718) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:23:49.917+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:23:49.918+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:49.918+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:23:49.920+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:23:49.925+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:49.925+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:23:49.928+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:49.928+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:23:49.943+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.029 seconds
+[2024-06-13T23:24:46.014+0200] {processor.py:161} INFO - Started process (PID=782) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:24:46.016+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:24:46.016+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:46.016+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:24:46.019+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:24:46.024+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:46.024+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:24:46.027+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:46.027+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:24:46.042+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-13T23:25:38.845+0200] {processor.py:161} INFO - Started process (PID=839) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:25:38.847+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:25:38.847+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:38.847+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:25:38.850+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:25:38.855+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:38.855+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:25:38.859+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:38.859+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:25:38.875+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.032 seconds
+[2024-06-13T23:26:36.350+0200] {processor.py:161} INFO - Started process (PID=900) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:26:36.352+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:26:36.352+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:36.352+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:26:36.355+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:26:36.360+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:36.360+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:26:36.364+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:36.364+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:26:36.379+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-13T23:27:33.375+0200] {processor.py:161} INFO - Started process (PID=959) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:27:33.377+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:27:33.377+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:33.377+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:27:33.380+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:27:33.385+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:33.385+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:27:33.389+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:33.389+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:27:33.404+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-13T23:28:13.809+0200] {processor.py:161} INFO - Started process (PID=1002) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:28:13.811+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:28:13.811+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:13.811+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:28:13.813+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:28:13.818+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:13.818+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:28:13.822+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:13.822+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:28:13.838+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-13T23:29:13.087+0200] {processor.py:161} INFO - Started process (PID=1141) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:29:13.089+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:29:13.089+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:13.089+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:29:13.092+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:29:13.097+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:13.097+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:29:13.100+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:13.100+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:29:13.116+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-13T23:30:12.371+0200] {processor.py:161} INFO - Started process (PID=1203) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:30:12.371+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:30:12.372+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:12.372+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:30:12.374+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:30:12.380+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:12.379+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:30:12.383+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:12.383+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:30:12.398+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.029 seconds
+[2024-06-13T23:30:53.918+0200] {processor.py:161} INFO - Started process (PID=1246) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:30:53.920+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:30:53.921+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:53.921+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:30:53.923+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:30:53.928+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:53.928+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:30:53.932+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:53.932+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:30:53.946+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-13T23:31:51.503+0200] {processor.py:161} INFO - Started process (PID=1306) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:31:51.505+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:31:51.506+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:51.505+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:31:51.508+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:31:51.513+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:51.513+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:31:51.517+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:51.517+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:31:51.531+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-13T23:32:31.739+0200] {processor.py:161} INFO - Started process (PID=1348) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:32:31.740+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:32:31.741+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:31.741+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:32:31.743+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:32:31.748+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:31.748+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:32:31.752+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:31.752+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:32:31.767+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-13T23:33:28.689+0200] {processor.py:161} INFO - Started process (PID=1412) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:33:28.690+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:33:28.690+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:28.690+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:33:28.693+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:33:28.698+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:28.698+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:33:28.701+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:28.701+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:33:28.716+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-13T23:34:24.245+0200] {processor.py:161} INFO - Started process (PID=1478) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:34:24.247+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:34:24.247+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:24.247+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:34:24.249+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:34:24.254+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:24.254+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:34:24.258+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:24.258+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:34:24.274+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-13T23:35:06.639+0200] {processor.py:161} INFO - Started process (PID=1520) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:35:06.645+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:35:06.646+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:06.645+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:35:06.648+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:35:06.653+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:06.653+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:35:06.657+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:06.656+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:35:06.711+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.073 seconds
+[2024-06-13T23:35:48.479+0200] {processor.py:161} INFO - Started process (PID=1565) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:35:48.482+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:35:48.482+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:48.482+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:35:48.485+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:35:48.490+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:48.490+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:35:48.493+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:48.493+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:35:48.541+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.064 seconds
+[2024-06-13T23:36:46.427+0200] {processor.py:161} INFO - Started process (PID=1626) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:36:46.429+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:36:46.430+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:46.430+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:36:46.432+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:36:46.446+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:46.445+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:36:46.449+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:46.449+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:36:46.464+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.038 seconds
+[2024-06-13T23:37:42.517+0200] {processor.py:161} INFO - Started process (PID=1685) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:37:42.518+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:37:42.519+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:42.519+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:37:42.521+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:37:42.526+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:42.526+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:37:42.530+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:42.530+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:37:42.544+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.029 seconds
+[2024-06-13T23:38:41.076+0200] {processor.py:161} INFO - Started process (PID=1746) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:38:41.078+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:38:41.078+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:41.078+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:38:41.081+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:38:41.086+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:41.086+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:38:41.090+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:41.090+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:38:41.105+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-13T23:39:22.697+0200] {processor.py:161} INFO - Started process (PID=1789) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:39:22.698+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:39:22.699+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:22.698+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:39:22.701+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:39:22.706+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:22.706+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:39:22.709+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:22.709+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:39:22.724+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.029 seconds
+[2024-06-13T23:40:18.964+0200] {processor.py:161} INFO - Started process (PID=1849) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:40:18.966+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:40:18.967+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:18.967+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:40:18.969+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:40:18.974+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:18.974+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:40:18.978+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:18.978+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:40:18.993+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-13T23:41:16.182+0200] {processor.py:161} INFO - Started process (PID=1908) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:41:16.184+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:41:16.184+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:16.184+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:41:16.186+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:41:16.191+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:16.191+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:41:16.195+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:16.195+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:41:16.210+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-13T23:42:13.557+0200] {processor.py:161} INFO - Started process (PID=1969) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:42:13.559+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:42:13.559+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:13.559+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:42:13.561+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:42:13.566+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:13.566+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:42:13.570+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:13.570+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:42:13.584+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.029 seconds
+[2024-06-13T23:43:14.546+0200] {processor.py:161} INFO - Started process (PID=2032) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:43:14.547+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:43:14.547+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:14.547+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:43:14.550+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:43:14.554+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:14.554+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:43:14.558+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:14.558+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:43:14.573+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.029 seconds
+[2024-06-13T23:44:11.018+0200] {processor.py:161} INFO - Started process (PID=2091) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:44:11.019+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:44:11.019+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:11.019+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:44:11.021+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:44:11.026+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:11.026+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:44:11.030+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:11.030+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:44:11.045+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.029 seconds
+[2024-06-13T23:45:07.441+0200] {processor.py:161} INFO - Started process (PID=2151) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:45:07.443+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:45:07.443+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:07.443+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:45:07.446+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:45:07.451+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:07.451+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:45:07.454+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:07.454+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:45:07.469+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-13T23:46:07.435+0200] {processor.py:161} INFO - Started process (PID=2213) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:46:07.437+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:46:07.438+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:07.438+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:46:07.440+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:46:07.445+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:07.445+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:46:07.449+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:07.449+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:46:07.498+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.065 seconds
+[2024-06-13T23:46:49.085+0200] {processor.py:161} INFO - Started process (PID=2256) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:46:49.087+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:46:49.088+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:49.087+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:46:49.090+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:46:49.095+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:49.095+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:46:49.099+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:49.099+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:46:49.113+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-13T23:47:46.893+0200] {processor.py:161} INFO - Started process (PID=2316) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:47:46.893+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:47:46.894+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:46.894+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:47:46.896+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:47:46.901+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:46.901+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:47:46.905+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:46.905+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:47:46.919+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.029 seconds
+[2024-06-13T23:48:42.741+0200] {processor.py:161} INFO - Started process (PID=2376) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:48:42.742+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:48:42.742+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:42.742+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:48:42.745+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:48:42.749+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:42.749+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:48:42.753+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:42.753+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:48:42.768+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.029 seconds
+[2024-06-13T23:55:30.393+0200] {processor.py:161} INFO - Started process (PID=2466) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:55:30.394+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:55:30.395+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:30.395+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:55:30.397+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:55:30.402+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:30.402+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:55:30.406+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:30.406+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:55:30.421+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-13T23:56:19.988+0200] {processor.py:161} INFO - Started process (PID=2517) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:56:19.990+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:56:19.990+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:19.990+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:56:19.992+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:56:19.997+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:19.997+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:56:20.001+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:20.001+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:56:20.016+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-13T23:57:06.386+0200] {processor.py:161} INFO - Started process (PID=2566) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:57:06.387+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:57:06.387+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:06.387+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:57:06.390+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:57:06.395+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:06.395+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:57:06.398+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:06.398+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:57:06.414+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-13T23:58:02.874+0200] {processor.py:161} INFO - Started process (PID=2625) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:58:02.875+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:58:02.875+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:02.875+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:58:02.878+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:58:02.884+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:02.884+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:58:02.888+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:02.888+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:58:02.937+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.065 seconds
+[2024-06-13T23:58:59.671+0200] {processor.py:161} INFO - Started process (PID=2685) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:58:59.672+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:58:59.673+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:59.673+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:58:59.675+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:58:59.681+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:59.681+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:58:59.685+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:59.685+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:58:59.733+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.064 seconds
+[2024-06-13T23:59:53.697+0200] {processor.py:161} INFO - Started process (PID=2743) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:59:53.698+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-13T23:59:53.699+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:53.699+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:59:53.701+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-13T23:59:53.706+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:53.706+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:59:53.710+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:53.710+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-13T23:59:53.725+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-14T00:00:48.063+0200] {processor.py:161} INFO - Started process (PID=2857) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:00:48.065+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:00:48.065+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:48.065+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:00:48.067+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:00:48.072+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:48.072+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:00:48.076+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:48.076+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:00:48.091+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-14T00:01:45.072+0200] {processor.py:161} INFO - Started process (PID=2916) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:01:45.073+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:01:45.074+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:45.074+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:01:45.076+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:01:45.081+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:45.081+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:01:45.085+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:45.085+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:01:45.101+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.032 seconds
+[2024-06-14T00:02:41.533+0200] {processor.py:161} INFO - Started process (PID=2976) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:02:41.534+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:02:41.535+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:41.535+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:02:41.537+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:02:41.542+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:41.542+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:02:41.547+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:41.546+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:02:41.562+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-14T00:03:34.414+0200] {processor.py:161} INFO - Started process (PID=3034) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:03:34.415+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:03:34.415+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:34.415+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:03:34.418+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:03:34.424+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:34.423+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:03:34.427+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:34.427+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:03:34.442+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-14T00:04:31.687+0200] {processor.py:161} INFO - Started process (PID=3093) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:04:31.691+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:04:31.692+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:31.692+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:04:31.694+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:04:31.699+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:31.699+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:04:31.703+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:31.703+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:04:31.753+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.068 seconds
+[2024-06-14T00:05:26.462+0200] {processor.py:161} INFO - Started process (PID=3153) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:05:26.464+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:05:26.464+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:26.464+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:05:26.467+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:05:26.472+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:26.472+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:05:26.476+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:26.476+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:05:26.491+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-14T00:06:18.498+0200] {processor.py:161} INFO - Started process (PID=3209) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:06:18.499+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:06:18.499+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:18.499+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:06:18.502+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:06:18.507+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:18.507+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:06:18.511+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:18.511+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:06:18.527+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-14T00:07:12.701+0200] {processor.py:161} INFO - Started process (PID=3266) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:07:12.703+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:07:12.704+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:12.704+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:07:12.706+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:07:12.711+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:12.711+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:07:12.715+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:12.715+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:07:12.730+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-14T00:07:51.605+0200] {processor.py:161} INFO - Started process (PID=3308) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:07:51.606+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:07:51.607+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:51.607+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:07:51.610+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:07:51.616+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:51.616+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:07:51.620+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:51.620+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:07:51.636+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.034 seconds
+[2024-06-14T00:08:51.729+0200] {processor.py:161} INFO - Started process (PID=3369) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:08:51.730+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:08:51.731+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:51.731+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:08:51.733+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:08:51.738+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:51.738+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:08:51.742+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:51.742+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:08:51.757+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-14T00:09:50.681+0200] {processor.py:161} INFO - Started process (PID=3429) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:09:50.683+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:09:50.683+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:50.683+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:09:50.685+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:09:50.690+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:50.690+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:09:50.694+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:50.694+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:09:50.709+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-14T00:10:33.853+0200] {processor.py:161} INFO - Started process (PID=3473) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:10:33.854+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:10:33.855+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:33.855+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:10:33.857+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:10:33.862+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:33.862+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:10:33.866+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:33.866+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:10:33.881+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-14T00:11:32.828+0200] {processor.py:161} INFO - Started process (PID=3534) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:11:32.829+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:11:32.830+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:32.829+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:11:32.832+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:11:32.837+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:32.837+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:11:32.841+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:32.841+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:11:32.856+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-14T00:12:25.428+0200] {processor.py:161} INFO - Started process (PID=3591) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:12:25.429+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:12:25.430+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:25.430+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:12:25.432+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:12:25.438+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:25.438+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:12:25.441+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:25.441+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:12:25.456+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-14T00:13:20.753+0200] {processor.py:161} INFO - Started process (PID=3649) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:13:20.753+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:13:20.754+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:20.754+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:13:20.756+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:13:20.761+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:20.761+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:13:20.765+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:20.765+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:13:20.780+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-14T00:14:00.067+0200] {processor.py:161} INFO - Started process (PID=3691) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:14:00.068+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:14:00.069+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:00.069+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:14:00.072+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:14:00.077+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:00.077+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:14:00.081+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:00.081+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:14:00.096+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.032 seconds
+[2024-06-14T00:14:41.682+0200] {processor.py:161} INFO - Started process (PID=3732) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:14:41.683+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:14:41.684+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:41.683+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:14:41.687+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:14:41.694+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:41.693+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:14:41.699+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:41.698+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:14:41.716+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.036 seconds
+[2024-06-14T00:15:37.349+0200] {processor.py:161} INFO - Started process (PID=3791) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:15:37.351+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:15:37.351+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:37.351+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:15:37.354+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:15:37.360+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:37.360+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:15:37.365+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:37.365+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:15:37.381+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.034 seconds
+[2024-06-14T00:16:18.395+0200] {processor.py:161} INFO - Started process (PID=3834) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:16:18.397+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:16:18.398+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:18.398+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:16:18.400+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:16:18.406+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:18.406+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:16:18.410+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:18.410+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:16:18.427+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.034 seconds
+[2024-06-14T00:17:10.692+0200] {processor.py:161} INFO - Started process (PID=3894) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:17:10.693+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:17:10.694+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:10.694+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:17:10.696+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:17:10.702+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:10.702+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:17:10.705+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:10.705+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:17:10.721+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-14T00:18:06.072+0200] {processor.py:161} INFO - Started process (PID=3955) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:18:06.072+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:18:06.073+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:06.073+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:18:06.075+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:18:06.080+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:06.080+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:18:06.084+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:06.084+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:18:06.099+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.029 seconds
+[2024-06-14T00:19:01.412+0200] {processor.py:161} INFO - Started process (PID=4015) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:19:01.412+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:19:01.413+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:01.413+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:19:01.415+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:19:01.420+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:01.420+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:19:01.424+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:01.424+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:19:01.439+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-14T00:20:07.488+0200] {processor.py:161} INFO - Started process (PID=4134) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:20:07.489+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:20:07.489+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:07.489+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:20:07.492+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:20:07.497+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:07.497+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:20:07.501+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:07.501+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:20:07.516+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-14T00:21:06.922+0200] {processor.py:161} INFO - Started process (PID=4212) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:21:06.923+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:21:06.923+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:06.923+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:21:06.926+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:21:06.931+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:06.931+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:21:06.935+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:06.935+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:21:06.950+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-14T00:21:54.242+0200] {processor.py:161} INFO - Started process (PID=4262) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:21:54.244+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:21:54.244+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:54.244+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:21:54.247+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:21:54.252+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:54.252+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:21:54.256+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:54.256+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:21:54.272+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.032 seconds
+[2024-06-14T00:22:36.427+0200] {processor.py:161} INFO - Started process (PID=4307) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:22:36.431+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:22:36.431+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:36.431+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:22:36.434+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:22:36.440+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:36.439+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:22:36.444+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:36.443+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:22:36.502+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.077 seconds
+[2024-06-14T00:23:34.361+0200] {processor.py:161} INFO - Started process (PID=4367) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:23:34.363+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:23:34.364+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:34.364+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:23:34.366+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:23:34.372+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:34.372+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:23:34.376+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:34.375+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:23:34.390+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-14T00:24:15.150+0200] {processor.py:161} INFO - Started process (PID=4409) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:24:15.152+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:24:15.152+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:15.152+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:24:15.155+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:24:15.160+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:15.160+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:24:15.163+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:15.163+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:24:15.178+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-14T00:25:10.873+0200] {processor.py:161} INFO - Started process (PID=4468) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:25:10.874+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:25:10.875+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:10.875+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:25:10.877+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:25:10.883+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:10.883+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:25:10.887+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:10.887+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:25:10.905+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.034 seconds
+[2024-06-14T00:48:42.332+0200] {processor.py:161} INFO - Started process (PID=4546) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:48:42.333+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:48:42.334+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:42.334+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:48:42.336+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:48:42.338+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:42.338+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:48:42.342+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:42.342+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:48:42.357+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.027 seconds
+[2024-06-14T00:49:34.501+0200] {processor.py:161} INFO - Started process (PID=4597) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:49:34.506+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:49:34.507+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:34.507+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:49:34.509+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:49:34.585+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:34.585+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:49:34.588+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:34.588+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:49:34.636+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.137 seconds
+[2024-06-14T00:50:23.863+0200] {processor.py:161} INFO - Started process (PID=4648) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:50:23.865+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:50:23.865+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:23.865+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:50:23.868+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:50:23.873+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:23.873+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:50:23.923+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:23.922+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:50:23.944+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.083 seconds
+[2024-06-14T00:51:06.493+0200] {processor.py:161} INFO - Started process (PID=4691) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:51:06.494+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:51:06.495+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:06.495+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:51:06.497+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:51:06.502+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:06.502+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:51:06.506+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:06.506+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:51:06.521+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-14T00:51:46.982+0200] {processor.py:161} INFO - Started process (PID=4787) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:51:46.984+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:51:46.984+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:46.984+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:51:46.987+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:51:46.992+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:46.992+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:51:46.996+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:46.996+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:51:47.010+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.030 seconds
+[2024-06-14T00:52:42.131+0200] {processor.py:161} INFO - Started process (PID=4857) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:52:42.133+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:52:42.133+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:42.133+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:52:42.136+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:52:42.141+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:42.141+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:52:42.145+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:42.144+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:52:42.159+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-14T00:53:35.941+0200] {processor.py:161} INFO - Started process (PID=11630) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:53:35.943+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:53:35.943+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:35.943+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:53:35.945+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:53:35.951+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:35.951+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:53:35.954+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:35.954+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:53:35.970+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.031 seconds
+[2024-06-14T00:54:31.943+0200] {processor.py:161} INFO - Started process (PID=11835) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:54:31.945+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:54:31.946+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:31.946+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:54:31.948+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:54:31.953+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:31.953+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:54:31.957+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:31.957+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:54:31.973+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.032 seconds
+[2024-06-14T00:55:30.114+0200] {processor.py:161} INFO - Started process (PID=12142) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:55:30.116+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:55:30.116+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:30.116+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:55:30.119+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:55:30.124+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:30.124+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:55:30.128+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:30.128+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:55:30.144+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.032 seconds
+[2024-06-14T00:56:30.433+0200] {processor.py:161} INFO - Started process (PID=15437) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:56:30.434+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T00:56:30.435+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:30.435+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:56:30.437+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T00:56:30.443+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:30.443+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:56:30.448+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:30.448+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T00:56:30.464+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.034 seconds
+[2024-06-14T01:02:31.409+0200] {processor.py:161} INFO - Started process (PID=6117) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T01:02:31.410+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T01:02:31.410+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:31.410+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T01:02:31.412+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T01:02:31.415+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:31.415+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:02:31.419+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:31.419+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T01:02:31.433+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.026 seconds
+[2024-06-14T01:03:23.310+0200] {processor.py:161} INFO - Started process (PID=6509) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T01:03:23.311+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T01:03:23.312+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:23.312+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T01:03:23.314+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T01:03:23.388+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:23.387+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:03:23.390+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:23.390+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T01:03:23.405+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.098 seconds
+[2024-06-14T01:04:13.634+0200] {processor.py:161} INFO - Started process (PID=6897) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T01:04:13.635+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-06-14T01:04:13.636+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:13.636+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T01:04:13.638+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-06-14T01:04:13.643+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:13.643+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:04:13.698+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:13.697+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-06-14T01:04:13.717+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.085 seconds

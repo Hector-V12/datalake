@@ -1,0 +1,788 @@
+[2024-06-13T23:19:13.877+0200] {processor.py:161} INFO - Started process (PID=431) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:19:13.877+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:19:13.877+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:13.877+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:19:13.880+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:19:13.931+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:13.931+0200] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial_objectstorage
+[2024-06-13T23:19:13.942+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:13.942+0200] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial_objectstorage
+[2024-06-13T23:19:13.953+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:13.953+0200] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial_objectstorage
+[2024-06-13T23:19:13.953+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:13.953+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:19:13.957+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:13.957+0200] {dag.py:3118} INFO - Creating ORM DAG for tutorial_objectstorage
+[2024-06-13T23:19:13.957+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:13.957+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:19:13.973+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.098 seconds
+[2024-06-13T23:20:06.619+0200] {processor.py:161} INFO - Started process (PID=484) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:20:06.620+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:20:06.621+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:06.621+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:20:06.624+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:20:06.628+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:06.628+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:20:06.632+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:06.632+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:20:06.647+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:20:48.763+0200] {processor.py:161} INFO - Started process (PID=528) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:20:48.765+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:20:48.765+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:48.765+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:20:48.768+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:20:48.772+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:48.772+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:20:48.776+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:48.776+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:20:48.791+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-13T23:21:25.798+0200] {processor.py:161} INFO - Started process (PID=568) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:21:25.799+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:21:25.800+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:25.800+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:21:25.803+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:21:25.807+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:25.807+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:21:25.811+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:25.811+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:21:25.826+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-13T23:22:06.720+0200] {processor.py:161} INFO - Started process (PID=609) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:22:06.722+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:22:06.722+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:06.722+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:22:06.725+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:22:06.730+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:06.730+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:22:06.734+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:06.733+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:22:06.748+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:22:45.535+0200] {processor.py:161} INFO - Started process (PID=650) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:22:45.536+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:22:45.537+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:45.536+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:22:45.539+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:22:45.544+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:45.544+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:22:45.548+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:45.548+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:22:45.563+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-13T23:23:24.527+0200] {processor.py:161} INFO - Started process (PID=692) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:23:24.527+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:23:24.528+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:24.528+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:23:24.531+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:23:24.536+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:24.536+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:23:24.540+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:24.540+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:23:24.556+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-13T23:24:02.156+0200] {processor.py:161} INFO - Started process (PID=734) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:24:02.158+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:24:02.158+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:02.158+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:24:02.161+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:24:02.166+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:02.166+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:24:02.169+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:02.169+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:24:02.184+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:24:40.150+0200] {processor.py:161} INFO - Started process (PID=776) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:24:40.151+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:24:40.152+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:40.152+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:24:40.154+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:24:40.159+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:40.159+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:24:40.163+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:40.162+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:24:40.178+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:25:15.423+0200] {processor.py:161} INFO - Started process (PID=815) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:25:15.424+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:25:15.424+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:15.424+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:25:15.427+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:25:15.432+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:15.432+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:25:15.436+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:15.436+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:25:15.451+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-13T23:25:51.355+0200] {processor.py:161} INFO - Started process (PID=852) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:25:51.357+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:25:51.358+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:51.357+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:25:51.360+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:25:51.365+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:51.365+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:25:51.369+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:51.369+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:25:51.383+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:26:31.216+0200] {processor.py:161} INFO - Started process (PID=894) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:26:31.217+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:26:31.218+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:31.218+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:26:31.221+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:26:31.226+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:31.226+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:26:31.230+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:31.230+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:26:31.245+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-13T23:27:07.888+0200] {processor.py:161} INFO - Started process (PID=933) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:27:07.889+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:27:07.890+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:07.890+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:27:07.893+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:27:07.897+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:07.897+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:27:07.901+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:07.901+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:27:07.915+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:27:47.018+0200] {processor.py:161} INFO - Started process (PID=973) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:27:47.019+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:27:47.020+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:47.020+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:27:47.023+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:27:47.027+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:47.027+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:27:47.031+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:47.031+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:27:47.045+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:28:26.683+0200] {processor.py:161} INFO - Started process (PID=1015) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:28:26.685+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:28:26.685+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:26.685+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:28:26.688+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:28:26.693+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:26.693+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:28:26.696+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:26.696+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:28:26.711+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:29:06.666+0200] {processor.py:161} INFO - Started process (PID=1134) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:29:06.667+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:29:06.668+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:06.668+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:29:06.671+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:29:06.675+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:06.675+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:29:06.679+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:06.679+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:29:06.694+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:29:44.875+0200] {processor.py:161} INFO - Started process (PID=1175) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:29:44.877+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:29:44.878+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:44.878+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:29:44.880+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:29:44.885+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:44.885+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:29:44.889+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:44.889+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:29:44.903+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:30:26.496+0200] {processor.py:161} INFO - Started process (PID=1217) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:30:26.497+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:30:26.497+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:26.497+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:30:26.500+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:30:26.505+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:26.505+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:30:26.509+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:26.509+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:30:26.524+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.029 seconds
+[2024-06-13T23:31:05.941+0200] {processor.py:161} INFO - Started process (PID=1259) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:31:05.942+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:31:05.943+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:05.942+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:31:05.946+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:31:05.953+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:05.953+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:31:05.958+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:05.958+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:31:05.974+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.036 seconds
+[2024-06-13T23:31:44.128+0200] {processor.py:161} INFO - Started process (PID=1299) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:31:44.130+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:31:44.131+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:44.131+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:31:44.133+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:31:44.138+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:44.138+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:31:44.142+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:44.142+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:31:44.156+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:32:26.235+0200] {processor.py:161} INFO - Started process (PID=1341) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:32:26.236+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:32:26.236+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:26.236+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:32:26.239+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:32:26.244+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:26.244+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:32:26.247+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:26.247+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:32:26.263+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:33:02.163+0200] {processor.py:161} INFO - Started process (PID=1381) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:33:02.164+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:33:02.164+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:02.164+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:33:02.167+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:33:02.172+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:02.172+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:33:02.176+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:02.176+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:33:02.192+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-13T23:33:42.182+0200] {processor.py:161} INFO - Started process (PID=1431) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:33:42.183+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:33:42.184+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:42.184+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:33:42.186+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:33:42.192+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:42.191+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:33:42.195+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:42.195+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:33:42.210+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:34:19.116+0200] {processor.py:161} INFO - Started process (PID=1473) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:34:19.118+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:34:19.118+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:19.118+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:34:19.121+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:34:19.126+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:19.126+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:34:19.130+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:19.129+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:34:19.144+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:34:58.487+0200] {processor.py:161} INFO - Started process (PID=1512) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:34:58.490+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:34:58.491+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:58.491+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:34:58.493+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:34:58.499+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:58.498+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:34:58.502+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:58.502+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:34:58.556+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.071 seconds
+[2024-06-13T23:35:41.225+0200] {processor.py:161} INFO - Started process (PID=1557) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:35:41.228+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:35:41.229+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:41.228+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:35:41.231+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:35:41.236+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:41.236+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:35:41.240+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:41.240+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:35:41.295+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.071 seconds
+[2024-06-13T23:36:21.719+0200] {processor.py:161} INFO - Started process (PID=1600) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:36:21.721+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:36:21.721+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:21.721+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:36:21.724+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:36:21.729+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:21.729+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:36:21.733+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:21.733+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:36:21.747+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-13T23:36:59.912+0200] {processor.py:161} INFO - Started process (PID=1640) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:36:59.913+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:36:59.914+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:59.914+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:36:59.916+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:36:59.921+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:59.921+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:36:59.925+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:59.925+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:36:59.939+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.029 seconds
+[2024-06-13T23:37:37.384+0200] {processor.py:161} INFO - Started process (PID=1680) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:37:37.385+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:37:37.386+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:37.385+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:37:37.388+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:37:37.393+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:37.393+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:37:37.397+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:37.397+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:37:37.412+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:38:15.944+0200] {processor.py:161} INFO - Started process (PID=1720) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:38:15.945+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:38:15.946+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:15.946+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:38:15.948+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:38:15.953+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:15.953+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:38:15.957+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:15.957+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:38:15.971+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:38:55.504+0200] {processor.py:161} INFO - Started process (PID=1760) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:38:55.506+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:38:55.507+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:55.506+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:38:55.509+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:38:55.514+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:55.514+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:38:55.518+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:55.518+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:38:55.533+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-13T23:39:35.362+0200] {processor.py:161} INFO - Started process (PID=1803) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:39:35.364+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:39:35.364+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:35.364+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:39:35.367+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:39:35.371+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:35.371+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:39:35.375+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:35.375+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:39:35.390+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:40:12.134+0200] {processor.py:161} INFO - Started process (PID=1842) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:40:12.136+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:40:12.137+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:12.136+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:40:12.139+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:40:12.144+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:12.144+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:40:12.147+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:12.147+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:40:12.162+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:40:51.150+0200] {processor.py:161} INFO - Started process (PID=1882) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:40:51.151+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:40:51.152+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:51.152+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:40:51.154+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:40:51.159+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:51.159+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:40:51.163+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:51.162+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:40:51.178+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:41:29.336+0200] {processor.py:161} INFO - Started process (PID=1922) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:41:29.337+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:41:29.338+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:29.338+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:41:29.341+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:41:29.345+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:29.345+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:41:29.349+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:29.349+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:41:29.364+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:42:08.069+0200] {processor.py:161} INFO - Started process (PID=1963) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:42:08.070+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:42:08.071+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:08.070+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:42:08.073+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:42:08.078+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:08.078+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:42:08.081+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:08.081+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:42:08.096+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.029 seconds
+[2024-06-13T23:42:47.254+0200] {processor.py:161} INFO - Started process (PID=2003) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:42:47.255+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:42:47.256+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:47.256+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:42:47.259+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:42:47.263+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:47.263+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:42:47.267+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:47.267+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:42:47.282+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-13T23:43:27.070+0200] {processor.py:161} INFO - Started process (PID=2046) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:43:27.071+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:43:27.072+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:27.072+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:43:27.075+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:43:27.079+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:27.079+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:43:27.083+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:27.083+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:43:27.097+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:44:04.577+0200] {processor.py:161} INFO - Started process (PID=2084) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:44:04.579+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:44:04.579+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:04.579+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:44:04.582+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:44:04.586+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:04.586+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:44:04.590+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:04.590+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:44:04.605+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.029 seconds
+[2024-06-13T23:44:44.030+0200] {processor.py:161} INFO - Started process (PID=2126) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:44:44.032+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:44:44.033+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:44.033+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:44:44.035+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:44:44.040+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:44.040+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:44:44.043+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:44.043+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:44:44.058+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:45:20.191+0200] {processor.py:161} INFO - Started process (PID=2165) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:45:20.196+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:45:20.197+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:20.197+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:45:20.200+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:45:20.204+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:20.204+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:45:20.208+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:20.208+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:45:20.258+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.069 seconds
+[2024-06-13T23:46:00.163+0200] {processor.py:161} INFO - Started process (PID=2205) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:46:00.167+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:46:00.168+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:00.168+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:46:00.171+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:46:00.175+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:00.175+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:46:00.179+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:00.179+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:46:00.228+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.066 seconds
+[2024-06-13T23:46:41.359+0200] {processor.py:161} INFO - Started process (PID=2248) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:46:41.361+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:46:41.362+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:41.362+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:46:41.364+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:46:41.369+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:41.369+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:46:41.373+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:41.373+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:46:41.388+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-13T23:47:19.390+0200] {processor.py:161} INFO - Started process (PID=2288) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:47:19.392+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:47:19.392+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:19.392+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:47:19.395+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:47:19.400+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:19.400+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:47:19.403+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:19.403+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:47:19.418+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:47:58.764+0200] {processor.py:161} INFO - Started process (PID=2329) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:47:58.766+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:47:58.767+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:58.767+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:47:58.769+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:47:58.774+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:58.774+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:47:58.778+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:58.777+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:47:58.792+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:48:35.715+0200] {processor.py:161} INFO - Started process (PID=2368) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:48:35.717+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:48:35.718+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:35.718+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:48:35.720+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:48:35.725+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:35.725+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:48:35.729+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:35.729+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:48:35.744+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:49:13.104+0200] {processor.py:161} INFO - Started process (PID=2409) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:49:13.106+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:49:13.106+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:49:13.106+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:49:13.109+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:49:13.113+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:49:13.113+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:49:13.117+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:49:13.117+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:49:13.132+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:55:12.161+0200] {processor.py:161} INFO - Started process (PID=2445) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:55:12.161+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:55:12.162+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:12.161+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:55:12.164+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:55:12.170+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:12.170+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:55:12.174+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:12.174+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:55:12.189+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-13T23:55:59.740+0200] {processor.py:161} INFO - Started process (PID=2496) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:55:59.741+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:55:59.742+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:59.742+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:55:59.744+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:55:59.749+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:59.749+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:55:59.753+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:59.753+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:55:59.767+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:56:39.046+0200] {processor.py:161} INFO - Started process (PID=2538) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:56:39.048+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:56:39.048+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:39.048+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:56:39.051+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:56:39.055+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:39.055+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:56:39.059+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:39.059+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:56:39.073+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-13T23:57:16.385+0200] {processor.py:161} INFO - Started process (PID=2576) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:57:16.385+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:57:16.386+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:16.385+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:57:16.388+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:57:16.393+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:16.393+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:57:16.397+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:16.397+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:57:16.411+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.029 seconds
+[2024-06-13T23:57:54.833+0200] {processor.py:161} INFO - Started process (PID=2617) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:57:54.835+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:57:54.836+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:54.836+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:57:54.838+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:57:54.843+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:54.843+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:57:54.847+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:54.847+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:57:54.863+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2024-06-13T23:58:33.852+0200] {processor.py:161} INFO - Started process (PID=2657) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:58:33.862+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:58:33.863+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:33.862+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:58:33.865+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:58:33.870+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:33.870+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:58:33.874+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:33.874+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:58:33.921+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.071 seconds
+[2024-06-13T23:59:10.957+0200] {processor.py:161} INFO - Started process (PID=2697) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:59:10.959+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:59:10.960+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:10.960+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:59:10.963+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:59:10.968+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:10.968+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:59:10.971+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:10.971+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:59:11.014+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.059 seconds
+[2024-06-13T23:59:47.685+0200] {processor.py:161} INFO - Started process (PID=2736) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:59:47.690+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-13T23:59:47.690+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:47.690+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:59:47.693+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-13T23:59:47.698+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:47.698+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:59:47.701+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:47.701+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-13T23:59:47.716+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.033 seconds
+[2024-06-14T00:00:24.218+0200] {processor.py:161} INFO - Started process (PID=2831) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:00:24.220+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:00:24.220+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:24.220+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:00:24.223+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:00:24.228+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:24.228+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:00:24.232+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:24.232+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:00:24.247+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2024-06-14T00:01:01.270+0200] {processor.py:161} INFO - Started process (PID=2871) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:01:01.271+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:01:01.271+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:01.271+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:01:01.274+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:01:01.279+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:01.279+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:01:01.283+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:01.283+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:01:01.298+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-14T00:01:38.202+0200] {processor.py:161} INFO - Started process (PID=2909) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:01:38.204+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:01:38.205+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:38.205+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:01:38.208+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:01:38.213+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:38.213+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:01:38.216+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:38.216+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:01:38.232+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:02:15.868+0200] {processor.py:161} INFO - Started process (PID=2950) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:02:15.870+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:02:15.870+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:15.870+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:02:15.873+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:02:15.878+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:15.878+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:02:15.882+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:15.882+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:02:15.897+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:02:53.617+0200] {processor.py:161} INFO - Started process (PID=2990) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:02:53.618+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:02:53.618+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:53.618+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:02:53.621+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:02:53.626+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:53.626+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:02:53.630+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:53.630+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:02:53.646+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:03:31.091+0200] {processor.py:161} INFO - Started process (PID=3029) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:03:31.092+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:03:31.093+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:31.092+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:03:31.095+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:03:31.100+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:31.100+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:03:31.104+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:31.104+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:03:31.119+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-14T00:04:05.779+0200] {processor.py:161} INFO - Started process (PID=3067) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:04:05.781+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:04:05.782+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:05.781+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:04:05.784+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:04:05.789+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:05.789+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:04:05.793+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:05.793+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:04:05.807+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-14T00:04:44.938+0200] {processor.py:161} INFO - Started process (PID=3107) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:04:44.947+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:04:44.947+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:44.947+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:04:44.950+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:04:44.955+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:44.955+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:04:44.959+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:44.959+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:04:45.009+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.073 seconds
+[2024-06-14T00:05:21.336+0200] {processor.py:161} INFO - Started process (PID=3147) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:05:21.337+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:05:21.338+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:21.337+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:05:21.340+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:05:21.346+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:21.346+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:05:21.349+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:21.349+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:05:21.364+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:05:57.968+0200] {processor.py:161} INFO - Started process (PID=3186) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:05:57.969+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:05:57.970+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:57.970+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:05:57.973+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:05:57.977+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:57.977+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:05:57.981+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:57.981+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:05:57.996+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-14T00:06:45.283+0200] {processor.py:161} INFO - Started process (PID=3237) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:06:45.285+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:06:45.286+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:45.286+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:06:45.289+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:06:45.293+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:45.293+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:06:45.297+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:45.297+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:06:45.312+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:07:22.960+0200] {processor.py:161} INFO - Started process (PID=3276) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:07:22.962+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:07:22.963+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:22.963+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:07:22.965+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:07:22.970+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:22.970+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:07:22.974+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:22.974+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:07:22.989+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-14T00:08:02.350+0200] {processor.py:161} INFO - Started process (PID=3318) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:08:02.351+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:08:02.352+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:02.352+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:08:02.355+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:08:02.360+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:02.360+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:08:02.364+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:02.364+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:08:02.380+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2024-06-14T00:08:41.042+0200] {processor.py:161} INFO - Started process (PID=3357) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:08:41.044+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:08:41.045+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:41.044+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:08:41.047+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:08:41.052+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:41.052+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:08:41.056+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:41.056+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:08:41.071+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:09:19.189+0200] {processor.py:161} INFO - Started process (PID=3398) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:09:19.189+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:09:19.190+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:19.190+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:09:19.193+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:09:19.198+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:19.198+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:09:19.201+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:19.201+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:09:19.216+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.029 seconds
+[2024-06-14T00:10:00.803+0200] {processor.py:161} INFO - Started process (PID=3439) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:10:00.805+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:10:00.805+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:00.805+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:10:00.808+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:10:00.813+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:00.813+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:10:00.817+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:00.817+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:10:00.832+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:10:42.208+0200] {processor.py:161} INFO - Started process (PID=3482) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:10:42.210+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:10:42.211+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:42.210+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:10:42.213+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:10:42.218+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:42.218+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:10:42.222+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:42.222+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:10:42.237+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:11:21.584+0200] {processor.py:161} INFO - Started process (PID=3522) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:11:21.586+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:11:21.587+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:21.587+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:11:21.590+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:11:21.595+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:21.595+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:11:21.599+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:21.599+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:11:21.613+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:11:58.142+0200] {processor.py:161} INFO - Started process (PID=3562) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:11:58.143+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:11:58.144+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:58.144+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:11:58.147+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:11:58.152+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:58.152+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:11:58.156+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:58.156+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:11:58.170+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:12:33.959+0200] {processor.py:161} INFO - Started process (PID=3600) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:12:33.960+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:12:33.961+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:33.961+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:12:33.964+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:12:33.969+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:33.969+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:12:33.972+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:33.972+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:12:33.987+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:13:09.889+0200] {processor.py:161} INFO - Started process (PID=3638) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:13:09.890+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:13:09.891+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:09.891+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:13:09.894+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:13:09.898+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:09.898+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:13:09.902+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:09.902+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:13:09.918+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:13:50.922+0200] {processor.py:161} INFO - Started process (PID=3680) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:13:50.923+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:13:50.924+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:50.924+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:13:50.927+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:13:50.931+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:50.931+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:13:50.935+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:50.935+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:13:50.951+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-14T00:14:30.869+0200] {processor.py:161} INFO - Started process (PID=3721) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:14:30.869+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:14:30.870+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:30.870+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:14:30.872+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:14:30.877+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:30.877+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:14:30.881+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:30.881+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:14:30.896+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.029 seconds
+[2024-06-14T00:15:09.702+0200] {processor.py:161} INFO - Started process (PID=3764) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:15:09.703+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:15:09.704+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:09.704+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:15:09.707+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:15:09.713+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:09.713+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:15:09.718+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:09.718+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:15:09.736+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.036 seconds
+[2024-06-14T00:15:47.618+0200] {processor.py:161} INFO - Started process (PID=3802) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:15:47.620+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:15:47.621+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:47.620+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:15:47.623+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:15:47.629+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:47.629+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:15:47.633+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:47.633+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:15:47.649+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.033 seconds
+[2024-06-14T00:16:26.407+0200] {processor.py:161} INFO - Started process (PID=3843) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:16:26.408+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:16:26.409+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:26.409+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:16:26.412+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:16:26.417+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:26.417+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:16:26.421+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:26.421+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:16:26.436+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:17:01.710+0200] {processor.py:161} INFO - Started process (PID=3885) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:17:01.712+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:17:01.713+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:01.713+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:17:01.716+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:17:01.722+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:01.721+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:17:01.726+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:01.726+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:17:01.743+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.035 seconds
+[2024-06-14T00:17:38.282+0200] {processor.py:161} INFO - Started process (PID=3923) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:17:38.283+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:17:38.283+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:38.283+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:17:38.286+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:17:38.291+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:38.291+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:17:38.295+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:38.295+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:17:38.310+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-14T00:18:14.081+0200] {processor.py:161} INFO - Started process (PID=3964) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:18:14.085+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:18:14.085+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:14.085+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:18:14.088+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:18:14.093+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:14.093+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:18:14.096+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:14.096+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:18:14.111+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.033 seconds
+[2024-06-14T00:18:52.754+0200] {processor.py:161} INFO - Started process (PID=4005) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:18:52.756+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:18:52.757+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:52.756+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:18:52.759+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:18:52.764+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:52.764+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:18:52.768+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:52.768+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:18:52.783+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:19:47.987+0200] {processor.py:161} INFO - Started process (PID=4097) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:19:47.989+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:19:47.990+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:47.990+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:19:47.992+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:19:47.998+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:47.998+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:19:48.002+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:48.002+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:19:48.018+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.033 seconds
+[2024-06-14T00:20:27.346+0200] {processor.py:161} INFO - Started process (PID=4159) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:20:27.347+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:20:27.348+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:27.348+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:20:27.351+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:20:27.356+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:27.356+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:20:27.359+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:27.359+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:20:27.374+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-14T00:21:00.656+0200] {processor.py:161} INFO - Started process (PID=4206) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:21:00.657+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:21:00.658+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:00.658+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:21:00.661+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:21:00.666+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:00.666+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:21:00.670+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:00.670+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:21:00.684+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:21:47.984+0200] {processor.py:161} INFO - Started process (PID=4256) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:21:47.985+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:21:47.986+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:47.986+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:21:47.989+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:21:47.993+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:47.993+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:21:47.997+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:47.997+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:21:48.012+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-14T00:22:30.468+0200] {processor.py:161} INFO - Started process (PID=4301) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:22:30.474+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:22:30.474+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:30.474+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:22:30.477+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:22:30.482+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:30.482+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:22:30.486+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:30.486+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:22:30.532+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.066 seconds
+[2024-06-14T00:23:10.339+0200] {processor.py:161} INFO - Started process (PID=4342) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:23:10.345+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:23:10.346+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:10.346+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:23:10.349+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:23:10.354+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:10.354+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:23:10.357+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:10.357+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:23:10.406+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.069 seconds
+[2024-06-14T00:23:47.514+0200] {processor.py:161} INFO - Started process (PID=4381) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:23:47.519+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:23:47.520+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:47.520+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:23:47.522+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:23:47.527+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:47.527+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:23:47.531+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:47.531+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:23:47.546+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.034 seconds
+[2024-06-14T00:24:28.577+0200] {processor.py:161} INFO - Started process (PID=4423) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:24:28.577+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:24:28.578+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:28.578+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:24:28.581+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:24:28.586+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:28.585+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:24:28.589+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:28.589+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:24:28.606+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:25:06.465+0200] {processor.py:161} INFO - Started process (PID=4464) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:25:06.467+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:25:06.467+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:06.467+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:25:06.470+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:25:06.475+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:06.475+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:25:06.479+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:06.478+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:25:06.493+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:48:26.468+0200] {processor.py:161} INFO - Started process (PID=4527) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:48:26.470+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:48:26.471+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:26.470+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:48:26.474+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:48:26.476+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:26.476+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:48:26.481+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:26.481+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:48:26.496+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-14T00:49:15.918+0200] {processor.py:161} INFO - Started process (PID=4578) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:49:15.919+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:49:15.920+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:15.920+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:49:15.923+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:49:16.010+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:16.010+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:49:16.013+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:16.013+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:49:16.072+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.157 seconds
+[2024-06-14T00:49:59.102+0200] {processor.py:161} INFO - Started process (PID=4621) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:49:59.106+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:49:59.107+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:59.106+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:49:59.109+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:49:59.114+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:59.114+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:49:59.117+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:59.117+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:49:59.160+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.060 seconds
+[2024-06-14T00:50:38.152+0200] {processor.py:161} INFO - Started process (PID=4663) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:50:38.153+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:50:38.153+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:38.153+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:50:38.156+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:50:38.161+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:38.160+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:50:38.164+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:38.164+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:50:38.179+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.029 seconds
+[2024-06-14T00:51:19.994+0200] {processor.py:161} INFO - Started process (PID=4711) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:51:19.995+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:51:19.995+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:19.995+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:51:19.998+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:51:20.003+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:20.003+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:51:20.009+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:20.009+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:51:20.026+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.034 seconds
+[2024-06-14T00:51:59.942+0200] {processor.py:161} INFO - Started process (PID=4804) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:51:59.944+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:51:59.945+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:59.945+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:51:59.948+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:51:59.953+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:59.953+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:51:59.957+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:59.957+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:51:59.972+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2024-06-14T00:52:36.422+0200] {processor.py:161} INFO - Started process (PID=4843) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:52:36.424+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:52:36.424+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:36.424+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:52:36.427+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:52:36.432+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:36.432+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:52:36.436+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:36.436+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:52:36.451+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:53:10.685+0200] {processor.py:161} INFO - Started process (PID=11530) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:53:10.686+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:53:10.687+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:10.687+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:53:10.689+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:53:10.695+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:10.694+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:53:10.698+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:10.698+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:53:10.713+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:53:47.619+0200] {processor.py:161} INFO - Started process (PID=11667) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:53:47.621+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:53:47.622+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:47.621+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:53:47.624+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:53:47.629+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:47.629+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:53:47.633+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:47.633+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:53:47.647+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-14T00:54:23.727+0200] {processor.py:161} INFO - Started process (PID=11802) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:54:23.728+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:54:23.728+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:23.728+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:54:23.731+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:54:23.736+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:23.736+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:54:23.741+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:23.741+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:54:23.758+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.033 seconds
+[2024-06-14T00:55:05.576+0200] {processor.py:161} INFO - Started process (PID=12031) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:55:05.577+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:55:05.578+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:05.578+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:55:05.581+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:55:05.586+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:05.586+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:55:05.590+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:05.589+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:55:05.605+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-14T00:55:43.747+0200] {processor.py:161} INFO - Started process (PID=12212) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:55:43.749+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:55:43.750+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:43.749+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:55:43.752+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:55:43.757+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:43.757+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:55:43.761+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:43.761+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:55:43.776+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:56:25.300+0200] {processor.py:161} INFO - Started process (PID=15431) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:56:25.300+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:56:25.301+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:25.301+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:56:25.303+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:56:25.308+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:25.308+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:56:25.313+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:25.313+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:56:25.329+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2024-06-14T00:57:03.400+0200] {processor.py:161} INFO - Started process (PID=15552) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:57:03.401+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T00:57:03.402+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:57:03.402+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:57:03.406+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T00:57:03.412+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:57:03.412+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:57:03.417+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:57:03.417+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T00:57:03.432+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.034 seconds
+[2024-06-14T01:02:15.546+0200] {processor.py:161} INFO - Started process (PID=3674) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T01:02:15.546+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T01:02:15.547+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:15.547+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T01:02:15.550+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T01:02:15.553+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:15.553+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:02:15.558+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:15.558+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T01:02:15.573+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.030 seconds
+[2024-06-14T01:03:04.868+0200] {processor.py:161} INFO - Started process (PID=6386) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T01:03:04.870+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T01:03:04.870+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:04.870+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T01:03:04.873+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T01:03:04.946+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:04.945+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:03:04.948+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:04.948+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T01:03:04.964+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.098 seconds
+[2024-06-14T01:03:47.318+0200] {processor.py:161} INFO - Started process (PID=6718) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T01:03:47.320+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T01:03:47.320+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:47.320+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T01:03:47.323+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T01:03:47.329+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:47.329+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:03:47.333+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:47.333+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T01:03:47.348+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2024-06-14T01:04:29.407+0200] {processor.py:161} INFO - Started process (PID=7024) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T01:04:29.408+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-06-14T01:04:29.409+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:29.409+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T01:04:29.411+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-06-14T01:04:29.416+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:29.416+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:04:29.420+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:29.420+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-06-14T01:04:29.435+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.029 seconds

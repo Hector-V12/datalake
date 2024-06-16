@@ -1,0 +1,648 @@
+[2024-06-13T23:19:34.688+0200] {processor.py:161} INFO - Started process (PID=453) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:19:34.688+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:19:34.689+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:34.689+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:19:34.691+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:19:34.742+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:34.742+0200] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2024-06-13T23:19:34.753+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:34.753+0200] {override.py:1829} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2024-06-13T23:19:34.763+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:34.763+0200] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2024-06-13T23:19:34.787+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:34.787+0200] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2024-06-13T23:19:34.797+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:34.797+0200] {override.py:1829} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2024-06-13T23:19:34.807+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:34.807+0200] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2024-06-13T23:19:34.807+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:34.807+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:19:34.811+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:34.811+0200] {dag.py:3118} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2024-06-13T23:19:34.811+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:34.811+0200] {dag.py:3118} INFO - Creating ORM DAG for example_xcom_args
+[2024-06-13T23:19:34.811+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:34.811+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:19:34.811+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:34.811+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:19:34.830+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.143 seconds
+[2024-06-13T23:20:25.987+0200] {processor.py:161} INFO - Started process (PID=504) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:20:25.989+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:20:25.989+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:25.989+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:20:25.992+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:20:25.998+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:25.998+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:20:26.002+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:26.002+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:20:26.003+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:26.003+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:20:26.017+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:21:12.117+0200] {processor.py:161} INFO - Started process (PID=555) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:21:12.118+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:21:12.119+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:12.119+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:21:12.122+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:21:12.128+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:12.128+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:21:12.175+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:12.175+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:21:12.176+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:12.176+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:21:12.190+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.075 seconds
+[2024-06-13T23:22:11.083+0200] {processor.py:161} INFO - Started process (PID=614) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:22:11.085+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:22:11.085+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:11.085+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:22:11.088+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:22:11.094+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:11.094+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:22:11.098+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:11.098+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:22:11.099+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:11.099+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:22:11.113+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-13T23:22:53.545+0200] {processor.py:161} INFO - Started process (PID=658) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:22:53.547+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:22:53.548+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:53.547+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:22:53.551+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:22:53.557+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:53.557+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:22:53.560+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:53.560+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:22:53.561+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:53.561+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:22:53.576+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-13T23:23:50.910+0200] {processor.py:161} INFO - Started process (PID=719) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:23:50.911+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:23:50.911+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:50.911+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:23:50.914+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:23:50.920+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:50.920+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:23:50.924+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:50.924+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:23:50.925+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:50.925+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:23:50.939+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.031 seconds
+[2024-06-13T23:24:46.381+0200] {processor.py:161} INFO - Started process (PID=783) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:24:46.381+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:24:46.382+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:46.382+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:24:46.385+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:24:46.391+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:46.391+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:24:46.395+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:46.395+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:24:46.396+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:46.396+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:24:46.413+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.034 seconds
+[2024-06-13T23:25:39.968+0200] {processor.py:161} INFO - Started process (PID=840) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:25:39.968+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:25:39.969+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:39.969+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:25:39.972+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:25:39.978+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:39.978+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:25:39.982+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:39.982+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:25:39.983+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:39.983+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:25:39.998+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-13T23:26:37.472+0200] {processor.py:161} INFO - Started process (PID=901) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:26:37.473+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:26:37.474+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:37.474+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:26:37.477+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:26:37.484+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:37.483+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:26:37.487+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:37.487+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:26:37.488+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:37.488+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:26:37.502+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-13T23:27:34.498+0200] {processor.py:161} INFO - Started process (PID=960) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:27:34.499+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:27:34.500+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:34.500+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:27:34.503+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:27:34.509+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:34.509+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:27:34.513+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:34.513+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:27:34.514+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:34.514+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:27:34.528+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:28:32.086+0200] {processor.py:161} INFO - Started process (PID=1021) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:28:32.092+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:28:32.092+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:32.092+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:28:32.095+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:28:32.101+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:32.101+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:28:32.105+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:32.105+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:28:32.106+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:32.106+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:28:32.120+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.036 seconds
+[2024-06-13T23:29:14.221+0200] {processor.py:161} INFO - Started process (PID=1142) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:29:14.222+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:29:14.223+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:14.223+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:29:14.226+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:29:14.232+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:14.232+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:29:14.236+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:14.236+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:29:14.237+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:14.237+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:29:14.251+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-13T23:30:13.494+0200] {processor.py:161} INFO - Started process (PID=1204) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:30:13.495+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:30:13.496+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:13.496+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:30:13.499+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:30:13.505+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:13.505+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:30:13.508+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:13.508+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:30:13.509+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:13.509+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:30:13.524+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-13T23:31:12.773+0200] {processor.py:161} INFO - Started process (PID=1266) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:31:12.775+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:31:12.775+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:12.775+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:31:12.778+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:31:12.784+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:12.784+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:31:12.788+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:12.788+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:31:12.789+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:12.789+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:31:12.803+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:32:12.356+0200] {processor.py:161} INFO - Started process (PID=1327) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:32:12.358+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:32:12.358+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:12.358+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:32:12.361+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:32:12.367+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:12.367+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:32:12.371+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:12.371+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:32:12.372+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:12.372+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:32:12.386+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:33:08.265+0200] {processor.py:161} INFO - Started process (PID=1387) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:33:08.267+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:33:08.267+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:08.267+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:33:08.270+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:33:08.276+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:08.276+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:33:08.280+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:08.279+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:33:08.281+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:08.281+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:33:08.294+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:33:49.894+0200] {processor.py:161} INFO - Started process (PID=1439) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:33:49.896+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:33:49.897+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:49.896+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:33:49.899+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:33:49.905+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:49.905+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:33:49.909+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:49.909+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:33:49.910+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:49.910+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:33:49.924+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:34:45.349+0200] {processor.py:161} INFO - Started process (PID=1499) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:34:45.354+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:34:45.355+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:45.355+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:34:45.358+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:34:45.364+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:45.364+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:34:45.368+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:45.368+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:34:45.369+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:45.369+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:34:45.423+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.076 seconds
+[2024-06-13T23:35:27.325+0200] {processor.py:161} INFO - Started process (PID=1543) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:35:27.328+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:35:27.329+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:27.328+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:35:27.332+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:35:27.338+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:27.338+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:35:27.341+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:27.341+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:35:27.342+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:27.342+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:35:27.388+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.065 seconds
+[2024-06-13T23:36:08.993+0200] {processor.py:161} INFO - Started process (PID=1586) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:36:08.995+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:36:08.995+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:08.995+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:36:08.998+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:36:09.004+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:09.004+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:36:09.008+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:09.008+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:36:09.009+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:09.009+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:36:09.024+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-13T23:37:05.455+0200] {processor.py:161} INFO - Started process (PID=1646) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:37:05.457+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:37:05.458+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:05.458+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:37:05.461+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:37:05.467+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:05.467+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:37:05.470+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:05.470+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:37:05.471+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:05.471+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:37:05.485+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:38:03.050+0200] {processor.py:161} INFO - Started process (PID=1706) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:38:03.051+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:38:03.052+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:03.052+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:38:03.055+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:38:03.061+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:03.061+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:38:03.065+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:03.065+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:38:03.066+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:03.066+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:38:03.080+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:39:02.448+0200] {processor.py:161} INFO - Started process (PID=1768) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:39:02.450+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:39:02.450+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:02.450+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:39:02.453+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:39:02.459+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:02.459+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:39:02.463+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:02.463+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:39:02.464+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:02.464+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:39:02.478+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:39:59.896+0200] {processor.py:161} INFO - Started process (PID=1828) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:39:59.897+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:39:59.897+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:59.897+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:39:59.900+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:39:59.906+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:59.906+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:39:59.909+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:59.909+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:39:59.910+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:59.910+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:39:59.924+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.031 seconds
+[2024-06-13T23:40:57.415+0200] {processor.py:161} INFO - Started process (PID=1889) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:40:57.416+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:40:57.416+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:57.416+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:40:57.419+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:40:57.426+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:57.425+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:40:57.429+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:57.429+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:40:57.430+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:57.430+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:40:57.444+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:41:55.557+0200] {processor.py:161} INFO - Started process (PID=1949) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:41:55.559+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:41:55.559+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:55.559+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:41:55.562+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:41:55.568+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:55.568+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:41:55.572+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:55.572+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:41:55.573+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:55.573+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:41:55.587+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:42:54.008+0200] {processor.py:161} INFO - Started process (PID=2010) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:42:54.009+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:42:54.010+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:54.010+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:42:54.012+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:42:54.018+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:54.018+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:42:54.022+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:54.022+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:42:54.023+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:54.023+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:42:54.038+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:43:34.332+0200] {processor.py:161} INFO - Started process (PID=2053) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:43:34.334+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:43:34.334+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:34.334+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:43:34.337+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:43:34.343+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:34.343+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:43:34.347+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:34.347+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:43:34.348+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:34.348+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:43:34.362+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:44:31.506+0200] {processor.py:161} INFO - Started process (PID=2113) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:44:31.507+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:44:31.508+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:31.508+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:44:31.511+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:44:31.516+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:31.516+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:44:31.520+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:31.520+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:44:31.522+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:31.522+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:44:31.536+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:45:27.022+0200] {processor.py:161} INFO - Started process (PID=2172) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:45:27.027+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:45:27.028+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:27.028+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:45:27.031+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:45:27.037+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:27.037+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:45:27.040+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:27.040+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:45:27.042+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:27.041+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:45:27.099+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.079 seconds
+[2024-06-13T23:46:28.839+0200] {processor.py:161} INFO - Started process (PID=2234) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:46:28.841+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:46:28.841+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:28.841+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:46:28.844+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:46:28.850+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:28.850+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:46:28.854+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:28.854+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:46:28.855+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:28.855+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:46:28.869+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-13T23:47:25.723+0200] {processor.py:161} INFO - Started process (PID=2294) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:47:25.725+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:47:25.726+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:25.726+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:47:25.729+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:47:25.735+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:25.735+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:47:25.738+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:25.738+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:47:25.739+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:25.739+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:47:25.756+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.035 seconds
+[2024-06-13T23:48:21.716+0200] {processor.py:161} INFO - Started process (PID=2354) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:48:21.718+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:48:21.719+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:21.719+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:48:21.722+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:48:21.727+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:21.727+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:48:21.731+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:21.731+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:48:21.732+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:21.732+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:48:21.746+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:49:18.598+0200] {processor.py:161} INFO - Started process (PID=2414) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:49:18.600+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:49:18.600+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:49:18.600+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:49:18.603+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:49:18.609+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:49:18.609+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:49:18.613+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:49:18.613+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:49:18.614+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:49:18.614+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:49:18.628+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.031 seconds
+[2024-06-13T23:55:30.519+0200] {processor.py:161} INFO - Started process (PID=2467) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:55:30.519+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:55:30.520+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:30.520+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:55:30.523+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:55:30.529+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:30.529+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:55:30.533+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:30.533+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:55:30.534+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:30.534+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:55:30.549+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-13T23:56:20.270+0200] {processor.py:161} INFO - Started process (PID=2518) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:56:20.272+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:56:20.272+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:20.272+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:56:20.275+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:56:20.281+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:20.281+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:56:20.285+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:20.285+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:56:20.286+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:20.286+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:56:20.302+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.034 seconds
+[2024-06-13T23:57:07.518+0200] {processor.py:161} INFO - Started process (PID=2567) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:57:07.520+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:57:07.520+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:07.520+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:57:07.523+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:57:07.529+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:07.529+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:57:07.533+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:07.533+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:57:07.534+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:07.534+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:57:07.549+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-13T23:58:04.053+0200] {processor.py:161} INFO - Started process (PID=2626) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:58:04.057+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:58:04.057+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:04.057+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:58:04.061+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:58:04.068+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:04.068+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:58:04.072+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:04.072+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:58:04.074+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:04.073+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:58:04.141+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.090 seconds
+[2024-06-13T23:59:00.835+0200] {processor.py:161} INFO - Started process (PID=2686) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:59:00.841+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:59:00.842+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:00.842+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:59:00.845+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:59:00.851+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:00.851+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:59:00.855+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:00.855+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:59:00.856+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:00.856+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:59:00.907+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.074 seconds
+[2024-06-13T23:59:54.819+0200] {processor.py:161} INFO - Started process (PID=2744) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:59:54.820+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-13T23:59:54.821+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:54.821+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:59:54.824+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-13T23:59:54.830+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:54.830+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-13T23:59:54.834+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:54.834+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-13T23:59:54.835+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:54.835+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-13T23:59:54.849+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-14T00:00:48.617+0200] {processor.py:161} INFO - Started process (PID=2858) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:00:48.619+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:00:48.619+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:48.619+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:00:48.622+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:00:48.629+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:48.629+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:00:48.632+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:48.632+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:00:48.633+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:48.633+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:00:48.647+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-14T00:01:46.193+0200] {processor.py:161} INFO - Started process (PID=2917) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:01:46.195+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:01:46.196+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:46.196+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:01:46.199+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:01:46.205+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:46.205+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:01:46.209+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:46.209+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:01:46.210+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:46.210+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:01:46.224+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-14T00:02:42.655+0200] {processor.py:161} INFO - Started process (PID=2977) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:02:42.656+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:02:42.657+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:42.656+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:02:42.659+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:02:42.666+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:42.665+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:02:42.669+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:42.669+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:02:42.670+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:42.670+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:02:42.685+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-14T00:03:35.537+0200] {processor.py:161} INFO - Started process (PID=3035) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:03:35.539+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:03:35.539+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:35.539+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:03:35.542+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:03:35.548+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:35.548+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:03:35.552+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:35.552+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:03:35.553+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:35.553+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:03:35.567+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-14T00:04:32.808+0200] {processor.py:161} INFO - Started process (PID=3094) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:04:32.810+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:04:32.811+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:32.811+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:04:32.814+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:04:32.820+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:32.820+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:04:32.824+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:32.824+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:04:32.825+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:32.825+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:04:32.875+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.069 seconds
+[2024-06-14T00:05:27.584+0200] {processor.py:161} INFO - Started process (PID=3154) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:05:27.586+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:05:27.586+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:27.586+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:05:27.589+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:05:27.595+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:27.595+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:05:27.599+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:27.599+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:05:27.600+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:27.600+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:05:27.614+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-14T00:06:19.619+0200] {processor.py:161} INFO - Started process (PID=3210) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:06:19.621+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:06:19.621+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:19.621+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:06:19.624+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:06:19.630+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:19.630+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:06:19.634+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:19.634+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:06:19.635+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:19.635+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:06:19.649+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-14T00:07:13.833+0200] {processor.py:161} INFO - Started process (PID=3267) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:07:13.834+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:07:13.835+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:13.835+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:07:13.838+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:07:13.844+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:13.844+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:07:13.848+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:13.847+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:07:13.849+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:13.848+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:07:13.863+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.031 seconds
+[2024-06-14T00:08:11.453+0200] {processor.py:161} INFO - Started process (PID=3328) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:08:11.455+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:08:11.455+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:11.455+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:08:11.458+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:08:11.465+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:11.465+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:08:11.469+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:11.469+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:08:11.470+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:11.470+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:08:11.485+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.034 seconds
+[2024-06-14T00:09:10.266+0200] {processor.py:161} INFO - Started process (PID=3389) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:09:10.267+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:09:10.268+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:10.268+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:09:10.271+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:09:10.277+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:10.277+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:09:10.281+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:10.281+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:09:10.282+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:10.282+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:09:10.296+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-14T00:10:11.928+0200] {processor.py:161} INFO - Started process (PID=3450) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:10:11.930+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:10:11.930+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:11.930+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:10:11.933+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:10:11.939+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:11.939+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:10:11.943+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:11.943+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:10:11.944+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:11.944+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:10:11.958+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-14T00:10:52.709+0200] {processor.py:161} INFO - Started process (PID=3493) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:10:52.711+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:10:52.712+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:52.712+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:10:52.715+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:10:52.721+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:52.721+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:10:52.725+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:52.725+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:10:52.726+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:52.726+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:10:52.740+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-14T00:11:49.630+0200] {processor.py:161} INFO - Started process (PID=3553) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:11:49.632+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:11:49.632+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:49.632+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:11:49.635+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:11:49.641+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:49.641+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:11:49.645+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:49.645+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:11:49.646+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:49.646+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:11:49.660+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-14T00:12:43.101+0200] {processor.py:161} INFO - Started process (PID=3610) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:12:43.103+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:12:43.104+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:43.104+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:12:43.107+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:12:43.113+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:43.113+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:12:43.117+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:43.117+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:12:43.118+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:43.118+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:12:43.133+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-14T00:13:41.003+0200] {processor.py:161} INFO - Started process (PID=3670) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:13:41.004+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:13:41.005+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:41.005+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:13:41.008+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:13:41.014+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:41.014+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:13:41.017+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:41.017+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:13:41.018+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:41.018+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:13:41.032+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-14T00:14:42.808+0200] {processor.py:161} INFO - Started process (PID=3733) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:14:42.810+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:14:42.811+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:42.811+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:14:42.815+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:14:42.822+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:42.822+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:14:42.827+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:42.827+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:14:42.828+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:42.828+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:14:42.846+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.040 seconds
+[2024-06-14T00:15:38.472+0200] {processor.py:161} INFO - Started process (PID=3792) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:15:38.473+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:15:38.473+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:38.473+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:15:38.477+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:15:38.484+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:38.484+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:15:38.488+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:38.488+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:15:38.489+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:38.489+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:15:38.504+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.034 seconds
+[2024-06-14T00:16:36.240+0200] {processor.py:161} INFO - Started process (PID=3853) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:16:36.241+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:16:36.242+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:36.242+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:16:36.245+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:16:36.253+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:36.253+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:16:36.257+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:36.257+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:16:36.259+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:36.259+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:16:36.273+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.035 seconds
+[2024-06-14T00:17:29.151+0200] {processor.py:161} INFO - Started process (PID=3913) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:17:29.153+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:17:29.153+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:29.153+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:17:29.156+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:17:29.162+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:29.162+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:17:29.167+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:29.167+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:17:29.168+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:29.168+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:17:29.181+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-14T00:18:24.070+0200] {processor.py:161} INFO - Started process (PID=3974) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:18:24.072+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:18:24.072+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:24.072+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:18:24.075+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:18:24.081+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:24.081+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:18:24.085+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:24.085+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:18:24.086+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:24.086+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:18:24.100+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-14T00:19:26.801+0200] {processor.py:161} INFO - Started process (PID=4057) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:19:26.802+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:19:26.803+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:26.802+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:19:26.806+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:19:26.813+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:26.812+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:19:26.817+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:26.817+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:19:26.818+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:26.818+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:19:26.832+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.034 seconds
+[2024-06-14T00:20:49.501+0200] {processor.py:161} INFO - Started process (PID=4192) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:20:49.502+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:20:49.503+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:49.503+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:20:49.506+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:20:49.513+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:49.513+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:20:49.517+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:49.517+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:20:49.518+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:49.518+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:20:49.533+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.034 seconds
+[2024-06-14T00:21:36.585+0200] {processor.py:161} INFO - Started process (PID=4245) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:21:36.586+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:21:36.586+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:36.586+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:21:36.589+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:21:36.595+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:36.595+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:21:36.599+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:36.599+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:21:36.600+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:36.600+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:21:36.614+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.031 seconds
+[2024-06-14T00:22:37.549+0200] {processor.py:161} INFO - Started process (PID=4308) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:22:37.552+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:22:37.553+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:37.552+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:22:37.556+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:22:37.562+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:37.562+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:22:37.566+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:37.566+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:22:37.567+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:37.567+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:22:37.612+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.066 seconds
+[2024-06-14T00:23:34.995+0200] {processor.py:161} INFO - Started process (PID=4368) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:23:34.996+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:23:34.997+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:34.996+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:23:35.000+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:23:35.006+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:35.006+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:23:35.010+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:35.009+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:23:35.011+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:35.011+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:23:35.026+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-14T00:24:36.216+0200] {processor.py:161} INFO - Started process (PID=4431) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:24:36.218+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:24:36.219+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:36.219+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:24:36.222+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:24:36.228+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:36.228+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:24:36.232+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:36.232+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:24:36.233+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:36.233+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:24:36.248+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-14T00:25:31.873+0200] {processor.py:161} INFO - Started process (PID=4490) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:25:31.874+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:25:31.875+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:31.875+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:25:31.878+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:25:31.884+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:31.884+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:25:31.888+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:31.888+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:25:31.889+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:31.889+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:25:31.903+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-14T00:48:43.466+0200] {processor.py:161} INFO - Started process (PID=4547) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:48:43.467+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:48:43.468+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:43.468+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:48:43.471+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:48:43.473+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:43.473+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:48:43.477+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:43.477+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:48:43.478+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:43.478+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:48:43.492+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.028 seconds
+[2024-06-14T00:49:35.774+0200] {processor.py:161} INFO - Started process (PID=4598) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:49:35.781+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:49:35.781+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:35.781+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:49:35.784+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:49:35.861+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:35.861+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:49:35.864+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:35.864+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:49:35.865+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:35.865+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:49:35.915+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.143 seconds
+[2024-06-14T00:50:24.985+0200] {processor.py:161} INFO - Started process (PID=4649) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:50:24.987+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:50:24.988+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:24.987+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:50:24.991+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:50:24.997+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:24.997+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:50:25.047+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:25.046+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:50:25.048+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:25.048+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:50:25.065+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.082 seconds
+[2024-06-14T00:51:26.737+0200] {processor.py:161} INFO - Started process (PID=4718) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:51:26.741+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:51:26.742+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:26.742+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:51:26.745+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:51:26.751+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:26.751+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:51:26.755+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:26.755+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:51:26.756+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:26.756+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:51:26.770+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.035 seconds
+[2024-06-14T00:52:22.359+0200] {processor.py:161} INFO - Started process (PID=4828) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:52:22.361+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:52:22.362+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:22.362+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:52:22.365+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:52:22.371+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:22.371+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:52:22.375+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:22.375+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:52:22.376+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:22.376+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:52:22.390+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.033 seconds
+[2024-06-14T00:53:15.686+0200] {processor.py:161} INFO - Started process (PID=11559) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:53:15.687+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:53:15.688+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:15.688+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:53:15.691+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:53:15.697+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:15.697+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:53:15.701+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:15.700+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:53:15.702+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:15.702+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:53:15.718+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.034 seconds
+[2024-06-14T00:54:09.802+0200] {processor.py:161} INFO - Started process (PID=11739) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:54:09.803+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:54:09.804+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:09.804+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:54:09.807+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:54:09.813+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:09.813+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:54:09.817+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:09.817+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:54:09.818+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:09.818+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:54:09.832+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-14T00:54:52.423+0200] {processor.py:161} INFO - Started process (PID=11987) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:54:52.424+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:54:52.425+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:52.425+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:54:52.428+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:54:52.434+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:52.434+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:54:52.438+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:52.438+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:54:52.439+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:52.439+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:54:52.453+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds
+[2024-06-14T00:55:49.514+0200] {processor.py:161} INFO - Started process (PID=12218) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:55:49.515+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:55:49.515+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:49.515+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:55:49.519+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:55:49.527+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:49.527+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:55:49.531+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:49.531+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:55:49.532+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:49.532+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:55:49.547+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.035 seconds
+[2024-06-14T00:56:31.566+0200] {processor.py:161} INFO - Started process (PID=15438) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:56:31.567+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T00:56:31.567+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:31.567+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:56:31.571+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T00:56:31.578+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:31.578+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T00:56:31.582+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:31.582+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T00:56:31.583+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:31.583+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T00:56:31.598+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.034 seconds
+[2024-06-14T01:02:32.542+0200] {processor.py:161} INFO - Started process (PID=6123) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T01:02:32.543+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T01:02:32.544+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:32.543+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T01:02:32.547+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T01:02:32.549+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:32.549+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T01:02:32.553+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:32.553+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T01:02:32.554+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:32.554+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T01:02:32.570+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.029 seconds
+[2024-06-14T01:03:24.443+0200] {processor.py:161} INFO - Started process (PID=6538) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T01:03:24.444+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T01:03:24.444+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:24.444+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T01:03:24.447+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T01:03:24.527+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:24.527+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T01:03:24.530+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:24.530+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T01:03:24.531+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:24.531+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T01:03:24.547+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.107 seconds
+[2024-06-14T01:04:14.755+0200] {processor.py:161} INFO - Started process (PID=6927) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T01:04:14.758+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-06-14T01:04:14.759+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:14.759+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T01:04:14.762+0200] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-06-14T01:04:14.768+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:14.768+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-14T01:04:14.816+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:14.816+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-06-14T01:04:14.817+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:14.817+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-06-14T01:04:14.837+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.084 seconds

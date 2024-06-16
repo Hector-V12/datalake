@@ -1,0 +1,522 @@
+[2024-06-13T23:19:51.313+0200] {processor.py:161} INFO - Started process (PID=469) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:19:51.314+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:19:51.314+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:51.314+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:19:51.316+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:19:51.365+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:51.365+0200] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_time_delta_sensor_async
+[2024-06-13T23:19:51.378+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:51.378+0200] {override.py:1829} INFO - Created Permission View: can read on DAG:example_time_delta_sensor_async
+[2024-06-13T23:19:51.388+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:51.388+0200] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_time_delta_sensor_async
+[2024-06-13T23:19:51.388+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:51.388+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:19:51.438+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:51.438+0200] {dag.py:3118} INFO - Creating ORM DAG for example_time_delta_sensor_async
+[2024-06-13T23:19:51.438+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:51.438+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:19:51.454+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.143 seconds
+[2024-06-13T23:20:40.251+0200] {processor.py:161} INFO - Started process (PID=520) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:20:40.251+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:20:40.252+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:40.252+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:20:40.254+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:20:40.258+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:40.258+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:20:40.262+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:40.262+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:20:40.277+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-13T23:21:36.648+0200] {processor.py:161} INFO - Started process (PID=579) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:21:36.649+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:21:36.650+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:36.649+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:21:36.651+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:21:36.656+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:36.656+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:21:36.660+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:36.660+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:21:36.675+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-13T23:22:37.512+0200] {processor.py:161} INFO - Started process (PID=642) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:22:37.513+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:22:37.514+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:37.514+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:22:37.516+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:22:37.521+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:37.521+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:22:37.524+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:37.524+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:22:37.539+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-13T23:23:35.745+0200] {processor.py:161} INFO - Started process (PID=704) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:23:35.746+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:23:35.747+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:35.747+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:23:35.749+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:23:35.755+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:35.755+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:23:35.759+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:35.759+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:23:35.774+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.032 seconds
+[2024-06-13T23:24:32.526+0200] {processor.py:161} INFO - Started process (PID=768) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:24:32.527+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:24:32.528+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:32.528+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:24:32.529+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:24:32.534+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:32.534+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:24:32.538+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:32.538+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:24:32.553+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-13T23:25:25.500+0200] {processor.py:161} INFO - Started process (PID=826) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:25:25.501+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:25:25.502+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:25.502+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:25:25.504+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:25:25.509+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:25.509+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:25:25.512+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:25.512+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:25:25.530+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.032 seconds
+[2024-06-13T23:26:23.681+0200] {processor.py:161} INFO - Started process (PID=886) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:26:23.682+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:26:23.683+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:23.682+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:26:23.684+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:26:23.690+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:23.690+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:26:23.694+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:23.693+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:26:23.708+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-13T23:27:19.669+0200] {processor.py:161} INFO - Started process (PID=945) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:27:19.671+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:27:19.671+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:19.671+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:27:19.673+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:27:19.678+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:19.678+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:27:19.682+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:19.682+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:27:19.697+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-13T23:28:18.942+0200] {processor.py:161} INFO - Started process (PID=1007) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:28:18.943+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:28:18.944+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:18.944+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:28:18.945+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:28:18.951+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:18.951+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:28:18.955+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:18.954+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:28:18.970+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-13T23:29:18.220+0200] {processor.py:161} INFO - Started process (PID=1147) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:29:18.221+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:29:18.222+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:18.222+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:29:18.224+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:29:18.229+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:18.229+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:29:18.232+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:18.232+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:29:18.247+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-13T23:30:18.618+0200] {processor.py:161} INFO - Started process (PID=1209) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:30:18.620+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:30:18.620+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:18.620+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:30:18.622+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:30:18.627+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:18.627+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:30:18.631+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:18.631+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:30:18.645+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-13T23:31:17.340+0200] {processor.py:161} INFO - Started process (PID=1271) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:31:17.341+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:31:17.342+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:17.342+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:31:17.344+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:31:17.349+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:17.349+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:31:17.352+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:17.352+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:31:17.368+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-13T23:32:17.726+0200] {processor.py:161} INFO - Started process (PID=1333) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:32:17.727+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:32:17.728+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:17.728+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:32:17.729+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:32:17.735+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:17.735+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:32:17.738+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:17.738+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:32:17.754+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-13T23:33:14.202+0200] {processor.py:161} INFO - Started process (PID=1393) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:33:14.202+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:33:14.203+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:14.203+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:33:14.205+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:33:14.210+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:14.210+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:33:14.215+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:14.215+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:33:14.230+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-13T23:34:10.600+0200] {processor.py:161} INFO - Started process (PID=1465) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:34:10.602+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:34:10.603+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:10.603+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:34:10.604+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:34:10.610+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:10.610+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:34:10.614+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:10.614+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:34:10.629+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.031 seconds
+[2024-06-13T23:35:11.561+0200] {processor.py:161} INFO - Started process (PID=1526) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:35:11.565+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:35:11.566+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:11.566+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:35:11.567+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:35:11.572+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:11.572+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:35:11.576+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:11.576+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:35:11.631+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.072 seconds
+[2024-06-13T23:36:14.124+0200] {processor.py:161} INFO - Started process (PID=1592) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:36:14.126+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:36:14.127+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:14.127+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:36:14.128+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:36:14.133+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:14.133+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:36:14.137+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:14.137+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:36:14.152+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-13T23:37:10.589+0200] {processor.py:161} INFO - Started process (PID=1652) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:37:10.591+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:37:10.591+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:10.591+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:37:10.593+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:37:10.598+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:10.598+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:37:10.602+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:10.602+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:37:10.617+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-13T23:38:09.304+0200] {processor.py:161} INFO - Started process (PID=1712) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:38:09.306+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:38:09.306+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:09.306+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:38:09.308+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:38:09.313+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:09.313+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:38:09.316+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:09.316+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:38:09.331+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-13T23:39:08.633+0200] {processor.py:161} INFO - Started process (PID=1774) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:39:08.634+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:39:08.635+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:08.635+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:39:08.636+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:39:08.641+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:08.641+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:39:08.645+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:08.645+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:39:08.660+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-13T23:40:05.029+0200] {processor.py:161} INFO - Started process (PID=1834) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:40:05.030+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:40:05.031+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:05.031+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:40:05.033+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:40:05.037+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:05.037+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:40:05.041+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:05.041+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:40:05.056+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.028 seconds
+[2024-06-13T23:41:02.751+0200] {processor.py:161} INFO - Started process (PID=1895) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:41:02.752+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:41:02.753+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:02.753+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:41:02.755+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:41:02.759+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:02.759+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:41:02.763+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:02.763+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:41:02.777+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.028 seconds
+[2024-06-13T23:42:02.302+0200] {processor.py:161} INFO - Started process (PID=1955) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:42:02.304+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:42:02.305+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:02.304+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:42:02.306+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:42:02.311+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:02.311+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:42:02.315+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:02.315+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:42:02.329+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-13T23:43:00.278+0200] {processor.py:161} INFO - Started process (PID=2016) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:43:00.280+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:43:00.281+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:00.281+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:43:00.282+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:43:00.287+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:00.287+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:43:00.291+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:00.291+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:43:00.306+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-13T23:43:56.751+0200] {processor.py:161} INFO - Started process (PID=2076) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:43:56.753+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:43:56.753+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:56.753+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:43:56.755+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:43:56.760+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:56.760+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:43:56.764+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:56.763+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:43:56.778+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-13T23:44:54.299+0200] {processor.py:161} INFO - Started process (PID=2137) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:44:54.300+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:44:54.301+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:54.301+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:44:54.303+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:44:54.308+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:54.307+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:44:54.311+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:54.311+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:44:54.326+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-13T23:45:51.558+0200] {processor.py:161} INFO - Started process (PID=2197) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:45:51.560+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:45:51.561+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:51.561+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:45:51.563+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:45:51.568+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:51.568+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:45:51.572+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:51.571+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:45:51.622+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.066 seconds
+[2024-06-13T23:46:53.869+0200] {processor.py:161} INFO - Started process (PID=2261) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:46:53.870+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:46:53.871+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:53.871+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:46:53.873+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:46:53.878+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:53.878+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:46:53.881+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:53.881+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:46:53.897+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-13T23:47:51.470+0200] {processor.py:161} INFO - Started process (PID=2321) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:47:51.471+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:47:51.472+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:51.471+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:47:51.473+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:47:51.478+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:51.478+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:47:51.482+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:51.482+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:47:51.497+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-13T23:48:47.876+0200] {processor.py:161} INFO - Started process (PID=2381) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:48:47.878+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:48:47.879+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:47.878+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:48:47.880+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:48:47.885+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:47.885+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:48:47.889+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:47.889+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:48:47.903+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-13T23:55:44.617+0200] {processor.py:161} INFO - Started process (PID=2481) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:55:44.619+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:55:44.620+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:44.620+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:55:44.621+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:55:44.626+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:44.626+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:55:44.630+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:44.630+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:55:44.644+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-13T23:56:33.251+0200] {processor.py:161} INFO - Started process (PID=2532) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:56:33.251+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:56:33.252+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:33.251+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:56:33.253+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:56:33.258+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:33.258+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:56:33.262+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:33.262+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:56:33.277+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.028 seconds
+[2024-06-13T23:57:30.787+0200] {processor.py:161} INFO - Started process (PID=2591) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:57:30.789+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:57:30.789+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:30.789+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:57:30.791+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:57:30.796+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:30.796+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:57:30.800+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:30.800+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:57:30.815+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.031 seconds
+[2024-06-13T23:58:28.688+0200] {processor.py:161} INFO - Started process (PID=2651) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:58:28.691+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:58:28.692+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:28.692+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:58:28.694+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:58:28.699+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:28.699+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:58:28.703+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:28.703+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:58:28.746+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.060 seconds
+[2024-06-13T23:59:23.327+0200] {processor.py:161} INFO - Started process (PID=2709) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:59:23.329+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-13T23:59:23.330+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:23.330+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:59:23.331+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-13T23:59:23.337+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:23.337+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:59:23.340+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:23.340+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-13T23:59:23.356+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.031 seconds
+[2024-06-14T00:00:18.941+0200] {processor.py:161} INFO - Started process (PID=2825) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:00:18.943+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:00:18.944+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:18.944+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:00:18.945+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:00:18.950+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:18.950+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:00:18.954+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:18.954+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:00:18.970+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:01:13.292+0200] {processor.py:161} INFO - Started process (PID=2884) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:01:13.294+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:01:13.295+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:13.294+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:01:13.296+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:01:13.301+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:13.301+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:01:13.305+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:13.305+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:01:13.321+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.031 seconds
+[2024-06-14T00:02:10.734+0200] {processor.py:161} INFO - Started process (PID=2944) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:02:10.736+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:02:10.736+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:10.736+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:02:10.738+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:02:10.743+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:10.743+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:02:10.747+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:10.747+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:02:10.762+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-14T00:03:07.198+0200] {processor.py:161} INFO - Started process (PID=3004) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:03:07.198+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:03:07.199+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:07.199+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:03:07.200+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:03:07.206+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:07.205+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:03:07.209+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:07.209+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:03:07.224+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.028 seconds
+[2024-06-14T00:04:00.751+0200] {processor.py:161} INFO - Started process (PID=3061) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:04:00.753+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:04:00.753+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:00.753+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:04:00.755+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:04:00.760+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:00.760+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:04:00.764+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:00.764+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:04:00.779+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:04:57.309+0200] {processor.py:161} INFO - Started process (PID=3121) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:04:57.312+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:04:57.312+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:57.312+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:04:57.314+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:04:57.319+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:57.319+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:04:57.323+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:57.323+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:04:57.393+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.086 seconds
+[2024-06-14T00:05:51.361+0200] {processor.py:161} INFO - Started process (PID=3180) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:05:51.363+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:05:51.364+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:51.363+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:05:51.365+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:05:51.370+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:51.370+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:05:51.374+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:51.374+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:05:51.389+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:06:43.039+0200] {processor.py:161} INFO - Started process (PID=3235) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:06:43.040+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:06:43.041+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:43.041+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:06:43.042+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:06:43.048+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:43.047+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:06:43.051+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:43.051+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:06:43.067+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:07:40.629+0200] {processor.py:161} INFO - Started process (PID=3295) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:07:40.631+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:07:40.632+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:40.631+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:07:40.633+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:07:40.639+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:40.639+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:07:40.642+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:40.642+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:07:40.658+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.031 seconds
+[2024-06-14T00:08:38.775+0200] {processor.py:161} INFO - Started process (PID=3355) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:08:38.776+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:08:38.777+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:38.777+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:08:38.779+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:08:38.784+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:38.784+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:08:38.787+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:38.787+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:08:38.802+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-14T00:09:36.338+0200] {processor.py:161} INFO - Started process (PID=3415) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:09:36.340+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:09:36.340+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:36.340+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:09:36.342+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:09:36.347+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:36.347+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:09:36.351+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:36.351+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:09:36.367+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:10:38.842+0200] {processor.py:161} INFO - Started process (PID=3479) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:10:38.844+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:10:38.845+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:38.845+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:10:38.846+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:10:38.852+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:38.852+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:10:38.856+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:38.856+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:10:38.870+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:11:38.076+0200] {processor.py:161} INFO - Started process (PID=3540) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:11:38.078+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:11:38.078+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:38.078+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:11:38.080+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:11:38.085+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:38.085+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:11:38.089+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:38.089+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:11:38.103+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:12:30.576+0200] {processor.py:161} INFO - Started process (PID=3597) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:12:30.576+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:12:30.577+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:30.577+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:12:30.579+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:12:30.584+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:30.584+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:12:30.588+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:30.588+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:12:30.602+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-14T00:13:27.013+0200] {processor.py:161} INFO - Started process (PID=3655) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:13:27.015+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:13:27.016+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:27.016+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:13:27.018+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:13:27.023+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:27.023+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:13:27.027+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:27.027+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:13:27.042+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:14:27.702+0200] {processor.py:161} INFO - Started process (PID=3718) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:14:27.704+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:14:27.704+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:27.704+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:14:27.706+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:14:27.711+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:27.711+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:14:27.715+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:27.715+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:14:27.730+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:15:24.825+0200] {processor.py:161} INFO - Started process (PID=3779) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:15:24.826+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:15:24.826+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:24.826+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:15:24.828+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:15:24.834+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:24.834+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:15:24.839+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:24.838+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:15:24.854+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.032 seconds
+[2024-06-14T00:16:23.874+0200] {processor.py:161} INFO - Started process (PID=3840) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:16:23.876+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:16:23.876+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:23.876+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:16:23.878+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:16:23.883+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:23.883+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:16:23.888+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:23.888+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:16:23.903+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.031 seconds
+[2024-06-14T00:17:16.673+0200] {processor.py:161} INFO - Started process (PID=3900) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:17:16.675+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:17:16.676+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:16.675+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:17:16.677+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:17:16.682+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:16.682+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:17:16.686+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:16.686+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:17:16.701+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:18:12.326+0200] {processor.py:161} INFO - Started process (PID=3961) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:18:12.326+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:18:12.327+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:12.327+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:18:12.329+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:18:12.334+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:12.334+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:18:12.337+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:12.337+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:18:12.352+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-14T00:19:07.667+0200] {processor.py:161} INFO - Started process (PID=4021) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:19:07.669+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:19:07.670+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:07.669+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:19:07.671+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:19:07.677+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:07.677+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:19:07.681+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:07.680+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:19:07.695+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:20:21.635+0200] {processor.py:161} INFO - Started process (PID=4152) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:20:21.641+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:20:21.642+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:21.641+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:20:21.643+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:20:21.648+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:21.648+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:20:21.652+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:21.652+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:20:21.668+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.036 seconds
+[2024-06-14T00:21:21.187+0200] {processor.py:161} INFO - Started process (PID=4229) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:21:21.187+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:21:21.188+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:21.188+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:21:21.190+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:21:21.195+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:21.195+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:21:21.200+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:21.200+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:21:21.215+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:22:23.830+0200] {processor.py:161} INFO - Started process (PID=4294) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:22:23.832+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:22:23.832+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:23.832+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:22:23.834+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:22:23.840+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:23.839+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:22:23.844+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:23.843+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:22:23.887+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.060 seconds
+[2024-06-14T00:23:22.024+0200] {processor.py:161} INFO - Started process (PID=4355) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:23:22.032+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:23:22.032+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:22.032+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:23:22.034+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:23:22.039+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:22.039+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:23:22.043+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:22.043+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:23:22.086+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.064 seconds
+[2024-06-14T00:24:22.323+0200] {processor.py:161} INFO - Started process (PID=4416) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:24:22.325+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:24:22.325+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:22.325+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:24:22.327+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:24:22.332+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:22.332+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:24:22.336+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:22.336+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:24:22.351+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:25:16.749+0200] {processor.py:161} INFO - Started process (PID=4475) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:25:16.750+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:25:16.751+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:16.751+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:25:16.752+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:25:16.758+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:16.758+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:25:16.763+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:16.762+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:25:16.779+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.033 seconds
+[2024-06-14T00:49:00.121+0200] {processor.py:161} INFO - Started process (PID=4563) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:49:00.127+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:49:00.128+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:00.128+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:49:00.129+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:49:00.158+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:00.158+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:49:00.209+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:00.209+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:49:00.263+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.144 seconds
+[2024-06-14T00:49:52.505+0200] {processor.py:161} INFO - Started process (PID=4614) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:49:52.508+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:49:52.509+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:52.509+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:49:52.511+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:49:52.516+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:52.516+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:49:52.519+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:52.519+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:49:52.574+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.071 seconds
+[2024-06-14T00:50:51.524+0200] {processor.py:161} INFO - Started process (PID=4676) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:50:51.526+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:50:51.526+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:51.526+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:50:51.528+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:50:51.533+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:51.533+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:50:51.536+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:51.536+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:50:51.551+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.029 seconds
+[2024-06-14T00:51:53.035+0200] {processor.py:161} INFO - Started process (PID=4797) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:51:53.037+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:51:53.037+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:53.037+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:51:53.039+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:51:53.044+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:53.044+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:51:53.047+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:53.047+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:51:53.063+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:52:47.667+0200] {processor.py:161} INFO - Started process (PID=4875) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:52:47.668+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:52:47.669+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:47.669+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:52:47.671+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:52:47.676+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:47.676+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:52:47.679+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:47.679+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:52:47.695+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.031 seconds
+[2024-06-14T00:53:41.351+0200] {processor.py:161} INFO - Started process (PID=11636) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:53:41.352+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:53:41.353+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:41.353+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:53:41.355+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:53:41.360+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:41.360+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:53:41.363+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:41.363+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:53:41.379+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:54:37.711+0200] {processor.py:161} INFO - Started process (PID=11841) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:54:37.712+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:54:37.712+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:37.712+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:54:37.714+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:54:37.719+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:37.719+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:54:37.723+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:37.723+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:54:37.739+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:55:36.370+0200] {processor.py:161} INFO - Started process (PID=12181) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:55:36.371+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:55:36.371+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:36.371+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:55:36.373+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:55:36.379+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:36.378+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:55:36.382+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:36.382+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:55:36.398+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T00:56:38.123+0200] {processor.py:161} INFO - Started process (PID=15469) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:56:38.124+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T00:56:38.125+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:38.124+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:56:38.126+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T00:56:38.132+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:38.132+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:56:38.136+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:38.136+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T00:56:38.151+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds
+[2024-06-14T01:02:49.168+0200] {processor.py:161} INFO - Started process (PID=6261) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T01:02:49.170+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T01:02:49.171+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:49.171+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T01:02:49.173+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T01:02:49.208+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:49.208+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:02:49.265+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:49.265+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T01:02:49.281+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.115 seconds
+[2024-06-14T01:03:40.961+0200] {processor.py:161} INFO - Started process (PID=6644) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T01:03:40.963+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-06-14T01:03:40.963+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:40.963+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T01:03:40.965+0200] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-06-14T01:03:40.970+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:40.970+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:03:40.973+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:40.973+0200] {dag.py:3954} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-06-14T01:03:40.988+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.030 seconds

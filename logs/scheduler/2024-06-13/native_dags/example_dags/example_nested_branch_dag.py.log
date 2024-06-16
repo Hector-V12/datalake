@@ -1,0 +1,522 @@
+[2024-06-13T23:19:47.503+0200] {processor.py:161} INFO - Started process (PID=465) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:19:47.504+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:19:47.504+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:47.504+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:19:47.507+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:19:47.557+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:47.557+0200] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_nested_branch_dag
+[2024-06-13T23:19:47.570+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:47.570+0200] {override.py:1829} INFO - Created Permission View: can read on DAG:example_nested_branch_dag
+[2024-06-13T23:19:47.580+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:47.580+0200] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_nested_branch_dag
+[2024-06-13T23:19:47.580+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:47.580+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:19:47.629+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:47.629+0200] {dag.py:3118} INFO - Creating ORM DAG for example_nested_branch_dag
+[2024-06-13T23:19:47.632+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:47.632+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:19:47.648+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.147 seconds
+[2024-06-13T23:20:37.374+0200] {processor.py:161} INFO - Started process (PID=516) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:20:37.375+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:20:37.375+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:37.375+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:20:37.379+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:20:37.384+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:37.384+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:20:37.390+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:37.390+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:20:37.406+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.034 seconds
+[2024-06-13T23:21:32.648+0200] {processor.py:161} INFO - Started process (PID=575) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:21:32.650+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:21:32.651+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:32.650+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:21:32.654+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:21:32.659+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:32.659+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:21:32.666+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:32.666+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:21:32.681+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-13T23:22:33.014+0200] {processor.py:161} INFO - Started process (PID=638) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:22:33.015+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:22:33.015+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:33.015+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:22:33.019+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:22:33.025+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:33.025+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:22:33.031+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:33.031+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:22:33.045+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.034 seconds
+[2024-06-13T23:23:31.897+0200] {processor.py:161} INFO - Started process (PID=700) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:23:31.899+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:23:31.899+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:31.899+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:23:31.903+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:23:31.909+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:31.909+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:23:31.915+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:31.915+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:23:31.930+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-13T23:24:29.225+0200] {processor.py:161} INFO - Started process (PID=764) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:24:29.227+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:24:29.227+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:29.227+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:24:29.231+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:24:29.237+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:29.236+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:24:29.243+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:29.243+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:24:29.258+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-13T23:25:21.893+0200] {processor.py:161} INFO - Started process (PID=822) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:25:21.894+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:25:21.895+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:21.895+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:25:21.899+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:25:21.905+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:21.905+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:25:21.912+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:21.912+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:25:21.927+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-13T23:26:19.827+0200] {processor.py:161} INFO - Started process (PID=882) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:26:19.829+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:26:19.829+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:19.829+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:26:19.833+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:26:19.839+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:19.839+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:26:19.846+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:19.845+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:26:19.860+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-13T23:27:15.170+0200] {processor.py:161} INFO - Started process (PID=941) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:27:15.172+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:27:15.172+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:15.172+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:27:15.176+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:27:15.181+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:15.181+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:27:15.188+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:15.188+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:27:15.203+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-13T23:28:14.932+0200] {processor.py:161} INFO - Started process (PID=1003) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:28:14.934+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:28:14.935+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:14.935+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:28:14.938+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:28:14.944+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:14.944+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:28:14.951+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:14.950+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:28:14.965+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-13T23:29:14.544+0200] {processor.py:161} INFO - Started process (PID=1143) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:29:14.545+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:29:14.546+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:14.546+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:29:14.549+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:29:14.555+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:14.555+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:29:14.561+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:14.561+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:29:14.576+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-13T23:30:14.616+0200] {processor.py:161} INFO - Started process (PID=1205) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:30:14.617+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:30:14.618+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:14.618+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:30:14.621+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:30:14.627+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:14.627+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:30:14.633+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:14.633+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:30:14.648+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-13T23:31:13.896+0200] {processor.py:161} INFO - Started process (PID=1267) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:31:13.898+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:31:13.899+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:13.898+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:31:13.902+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:31:13.908+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:13.908+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:31:13.914+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:13.914+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:31:13.929+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-13T23:32:13.250+0200] {processor.py:161} INFO - Started process (PID=1329) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:32:13.251+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:32:13.252+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:13.252+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:32:13.255+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:32:13.261+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:13.261+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:32:13.268+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:13.268+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:32:13.283+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-13T23:33:10.196+0200] {processor.py:161} INFO - Started process (PID=1389) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:33:10.197+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:33:10.197+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:10.197+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:33:10.202+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:33:10.209+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:10.209+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:33:10.216+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:10.216+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:33:10.230+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-13T23:34:07.895+0200] {processor.py:161} INFO - Started process (PID=1461) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:34:07.895+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:34:07.896+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:07.896+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:34:07.900+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:34:07.906+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:07.906+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:34:07.913+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:07.913+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:34:07.928+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-13T23:35:08.388+0200] {processor.py:161} INFO - Started process (PID=1522) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:35:08.390+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:35:08.391+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:08.391+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:35:08.394+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:35:08.400+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:08.400+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:35:08.407+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:08.407+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:35:08.462+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.076 seconds
+[2024-06-13T23:36:10.477+0200] {processor.py:161} INFO - Started process (PID=1588) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:36:10.479+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:36:10.480+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:10.479+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:36:10.483+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:36:10.489+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:10.489+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:36:10.495+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:10.495+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:36:10.511+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-13T23:37:07.711+0200] {processor.py:161} INFO - Started process (PID=1648) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:37:07.713+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:37:07.714+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:07.713+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:37:07.717+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:37:07.723+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:07.723+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:37:07.729+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:07.729+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:37:07.745+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-13T23:38:05.294+0200] {processor.py:161} INFO - Started process (PID=1708) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:38:05.296+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:38:05.296+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:05.296+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:38:05.300+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:38:05.307+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:05.307+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:38:05.315+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:05.315+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:38:05.330+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.039 seconds
+[2024-06-13T23:39:04.649+0200] {processor.py:161} INFO - Started process (PID=1770) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:39:04.651+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:39:04.651+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:04.651+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:39:04.655+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:39:04.660+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:04.660+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:39:04.667+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:04.667+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:39:04.681+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.034 seconds
+[2024-06-13T23:40:01.597+0200] {processor.py:161} INFO - Started process (PID=1830) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:40:01.599+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:40:01.599+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:01.599+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:40:01.603+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:40:01.608+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:01.608+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:40:01.614+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:01.614+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:40:01.629+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.034 seconds
+[2024-06-13T23:40:59.660+0200] {processor.py:161} INFO - Started process (PID=1891) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:40:59.661+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:40:59.662+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:59.662+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:40:59.666+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:40:59.672+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:59.672+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:40:59.678+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:59.678+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:40:59.693+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-13T23:41:57.802+0200] {processor.py:161} INFO - Started process (PID=1951) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:41:57.802+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:41:57.803+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:57.803+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:41:57.806+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:41:57.812+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:57.812+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:41:57.818+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:57.818+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:41:57.833+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.033 seconds
+[2024-06-13T23:42:56.267+0200] {processor.py:161} INFO - Started process (PID=2012) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:42:56.269+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:42:56.269+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:56.269+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:42:56.273+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:42:56.279+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:56.279+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:42:56.286+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:56.285+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:42:56.300+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-13T23:43:52.739+0200] {processor.py:161} INFO - Started process (PID=2072) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:43:52.740+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:43:52.741+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:52.741+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:43:52.744+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:43:52.750+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:52.750+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:43:52.756+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:52.756+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:43:52.771+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.034 seconds
+[2024-06-13T23:44:49.946+0200] {processor.py:161} INFO - Started process (PID=2133) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:44:49.948+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:44:49.949+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:49.949+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:44:49.952+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:44:49.958+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:49.957+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:44:49.964+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:49.964+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:44:49.979+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.034 seconds
+[2024-06-13T23:45:48.388+0200] {processor.py:161} INFO - Started process (PID=2193) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:45:48.391+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:45:48.392+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:48.392+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:45:48.395+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:45:48.401+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:48.401+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:45:48.408+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:48.407+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:45:48.460+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.074 seconds
+[2024-06-13T23:46:49.855+0200] {processor.py:161} INFO - Started process (PID=2257) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:46:49.857+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:46:49.857+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:49.857+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:46:49.861+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:46:49.866+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:49.866+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:46:49.873+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:49.873+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:46:49.887+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.034 seconds
+[2024-06-13T23:47:47.516+0200] {processor.py:161} INFO - Started process (PID=2317) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:47:47.517+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:47:47.518+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:47.518+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:47:47.521+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:47:47.526+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:47.526+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:47:47.533+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:47.533+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:47:47.547+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.034 seconds
+[2024-06-13T23:48:43.376+0200] {processor.py:161} INFO - Started process (PID=2377) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:48:43.377+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:48:43.378+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:43.378+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:48:43.381+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:48:43.387+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:43.386+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:48:43.394+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:43.394+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:48:43.408+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-13T23:55:40.618+0200] {processor.py:161} INFO - Started process (PID=2477) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:55:40.620+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:55:40.620+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:40.620+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:55:40.624+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:55:40.629+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:40.629+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:55:40.635+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:40.635+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:55:40.661+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.045 seconds
+[2024-06-13T23:56:30.110+0200] {processor.py:161} INFO - Started process (PID=2528) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:56:30.112+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:56:30.112+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:30.112+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:56:30.116+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:56:30.121+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:30.121+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:56:30.127+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:30.127+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:56:30.143+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-13T23:57:26.917+0200] {processor.py:161} INFO - Started process (PID=2587) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:57:26.918+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:57:26.919+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:26.919+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:57:26.923+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:57:26.928+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:26.928+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:57:26.936+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:26.935+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:57:26.950+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-13T23:58:24.689+0200] {processor.py:161} INFO - Started process (PID=2647) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:58:24.693+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:58:24.694+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:24.694+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:58:24.698+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:58:24.704+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:24.704+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:58:24.711+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:24.711+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:58:24.758+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.072 seconds
+[2024-06-13T23:59:19.687+0200] {processor.py:161} INFO - Started process (PID=2705) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:59:19.688+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-13T23:59:19.688+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:19.688+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:59:19.692+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-13T23:59:19.698+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:19.698+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:59:19.704+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:19.704+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-13T23:59:19.747+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.062 seconds
+[2024-06-14T00:00:15.076+0200] {processor.py:161} INFO - Started process (PID=2821) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:00:15.078+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:00:15.079+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:15.078+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:00:15.082+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:00:15.088+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:15.088+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:00:15.094+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:15.094+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:00:15.109+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-14T00:01:09.292+0200] {processor.py:161} INFO - Started process (PID=2880) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:01:09.294+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:01:09.294+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:09.294+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:01:09.298+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:01:09.303+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:09.303+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:01:09.311+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:09.311+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:01:09.325+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-14T00:02:06.724+0200] {processor.py:161} INFO - Started process (PID=2940) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:02:06.725+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:02:06.726+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:06.726+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:02:06.729+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:02:06.735+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:06.735+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:02:06.742+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:06.741+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:02:06.758+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-14T00:03:03.739+0200] {processor.py:161} INFO - Started process (PID=3000) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:03:03.741+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:03:03.742+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:03.741+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:03:03.745+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:03:03.751+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:03.751+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:03:03.758+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:03.757+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:03:03.773+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-14T00:03:56.601+0200] {processor.py:161} INFO - Started process (PID=3057) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:03:56.602+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:03:56.603+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:56.603+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:03:56.607+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:03:56.612+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:56.612+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:03:56.619+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:56.619+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:03:56.634+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-14T00:04:53.484+0200] {processor.py:161} INFO - Started process (PID=3117) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:04:53.486+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:04:53.487+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:53.486+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:04:53.490+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:04:53.496+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:53.496+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:04:53.502+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:53.502+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:04:53.546+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.064 seconds
+[2024-06-14T00:05:48.957+0200] {processor.py:161} INFO - Started process (PID=3176) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:05:48.959+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:05:48.960+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:48.959+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:05:48.963+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:05:48.969+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:48.969+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:05:48.975+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:48.975+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:05:48.990+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-14T00:06:39.030+0200] {processor.py:161} INFO - Started process (PID=3231) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:06:39.031+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:06:39.032+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:39.032+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:06:39.035+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:06:39.041+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:39.041+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:06:39.048+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:39.048+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:06:39.063+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-14T00:07:36.950+0200] {processor.py:161} INFO - Started process (PID=3291) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:07:36.950+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:07:36.951+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:36.951+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:07:36.954+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:07:36.960+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:36.960+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:07:36.967+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:36.967+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:07:36.982+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.034 seconds
+[2024-06-14T00:08:34.861+0200] {processor.py:161} INFO - Started process (PID=3351) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:08:34.863+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:08:34.863+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:34.863+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:08:34.867+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:08:34.873+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:34.873+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:08:34.879+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:34.879+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:08:34.894+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-14T00:09:32.339+0200] {processor.py:161} INFO - Started process (PID=3411) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:09:32.340+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:09:32.341+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:32.341+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:09:32.345+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:09:32.351+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:32.351+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:09:32.358+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:32.357+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:09:32.373+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-14T00:10:36.096+0200] {processor.py:161} INFO - Started process (PID=3475) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:10:36.098+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:10:36.099+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:36.098+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:10:36.102+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:10:36.108+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:36.108+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:10:36.114+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:36.114+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:10:36.129+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-14T00:11:34.233+0200] {processor.py:161} INFO - Started process (PID=3536) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:11:34.235+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:11:34.236+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:34.235+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:11:34.239+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:11:34.245+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:34.245+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:11:34.251+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:34.251+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:11:34.267+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-14T00:12:27.690+0200] {processor.py:161} INFO - Started process (PID=3593) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:12:27.692+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:12:27.692+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:27.692+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:12:27.696+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:12:27.702+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:27.701+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:12:27.709+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:27.709+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:12:27.723+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-14T00:13:23.014+0200] {processor.py:161} INFO - Started process (PID=3651) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:13:23.016+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:13:23.016+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:23.016+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:13:23.020+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:13:23.026+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:23.026+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:13:23.032+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:23.032+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:13:23.047+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-14T00:14:23.481+0200] {processor.py:161} INFO - Started process (PID=3714) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:14:23.482+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:14:23.482+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:23.482+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:14:23.486+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:14:23.491+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:23.491+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:14:23.498+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:23.498+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:14:23.513+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-14T00:15:20.931+0200] {processor.py:161} INFO - Started process (PID=3775) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:15:20.931+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:15:20.932+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:20.932+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:15:20.936+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:15:20.942+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:20.941+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:15:20.948+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:20.948+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:15:20.976+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.047 seconds
+[2024-06-14T00:16:20.640+0200] {processor.py:161} INFO - Started process (PID=3836) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:16:20.640+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:16:20.641+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:20.641+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:16:20.645+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:16:20.651+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:20.651+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:16:20.658+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:20.658+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:16:20.674+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.037 seconds
+[2024-06-14T00:17:12.607+0200] {processor.py:161} INFO - Started process (PID=3896) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:17:12.609+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:17:12.610+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:12.609+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:17:12.613+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:17:12.619+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:12.619+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:17:12.625+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:12.625+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:17:12.640+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-14T00:18:08.315+0200] {processor.py:161} INFO - Started process (PID=3957) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:18:08.316+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:18:08.317+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:08.317+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:18:08.320+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:18:08.326+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:08.326+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:18:08.333+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:08.333+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:18:08.348+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.034 seconds
+[2024-06-14T00:19:03.656+0200] {processor.py:161} INFO - Started process (PID=4017) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:19:03.657+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:19:03.658+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:03.658+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:19:03.662+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:19:03.668+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:03.668+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:19:03.675+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:03.675+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:19:03.690+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-14T00:20:17.635+0200] {processor.py:161} INFO - Started process (PID=4147) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:20:17.636+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:20:17.636+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:17.636+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:20:17.640+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:20:17.646+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:17.646+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:20:17.653+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:17.653+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:20:17.668+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds
+[2024-06-14T00:21:17.189+0200] {processor.py:161} INFO - Started process (PID=4223) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:21:17.190+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:21:17.190+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:17.190+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:21:17.194+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:21:17.201+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:17.201+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:21:17.209+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:17.209+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:21:17.225+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.039 seconds
+[2024-06-14T00:22:20.941+0200] {processor.py:161} INFO - Started process (PID=4290) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:22:20.943+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:22:20.943+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:20.943+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:22:20.947+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:22:20.953+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:20.953+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:22:20.960+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:20.960+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:22:20.976+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.037 seconds
+[2024-06-14T00:23:18.864+0200] {processor.py:161} INFO - Started process (PID=4351) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:23:18.873+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:23:18.874+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:18.874+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:23:18.877+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:23:18.883+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:18.883+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:23:18.889+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:18.889+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:23:18.937+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.075 seconds
+[2024-06-14T00:24:18.312+0200] {processor.py:161} INFO - Started process (PID=4412) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:24:18.313+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:24:18.314+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:18.314+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:24:18.318+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:24:18.323+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:18.323+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:24:18.330+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:18.330+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:24:18.345+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-14T00:25:13.222+0200] {processor.py:161} INFO - Started process (PID=4471) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:25:13.222+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:25:13.223+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:13.223+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:25:13.227+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:25:13.235+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:13.235+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:25:13.243+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:13.243+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:25:13.259+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.040 seconds
+[2024-06-14T00:48:56.279+0200] {processor.py:161} INFO - Started process (PID=4559) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:48:56.280+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:48:56.281+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:56.281+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:48:56.285+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:48:56.315+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:56.315+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:48:56.370+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:56.370+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:48:56.405+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.128 seconds
+[2024-06-14T00:49:48.456+0200] {processor.py:161} INFO - Started process (PID=4610) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:49:48.458+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:49:48.459+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:48.459+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:49:48.462+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:49:48.468+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:48.468+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:49:48.475+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:48.475+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:49:48.517+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.064 seconds
+[2024-06-14T00:50:47.022+0200] {processor.py:161} INFO - Started process (PID=4672) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:50:47.023+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:50:47.024+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:47.024+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:50:47.028+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:50:47.034+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:47.034+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:50:47.041+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:47.041+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:50:47.057+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.037 seconds
+[2024-06-14T00:51:48.535+0200] {processor.py:161} INFO - Started process (PID=4789) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:51:48.536+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:51:48.537+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:48.537+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:51:48.540+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:51:48.546+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:48.546+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:51:48.552+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:48.552+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:51:48.567+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.034 seconds
+[2024-06-14T00:52:44.376+0200] {processor.py:161} INFO - Started process (PID=4865) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:52:44.377+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:52:44.378+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:44.378+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:52:44.382+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:52:44.387+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:44.387+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:52:44.394+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:44.394+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:52:44.410+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-14T00:53:37.351+0200] {processor.py:161} INFO - Started process (PID=11632) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:53:37.353+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:53:37.354+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:37.354+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:53:37.358+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:53:37.365+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:37.365+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:53:37.372+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:37.372+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:53:37.388+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.039 seconds
+[2024-06-14T00:54:33.711+0200] {processor.py:161} INFO - Started process (PID=11837) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:54:33.712+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:54:33.712+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:33.712+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:54:33.716+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:54:33.723+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:33.723+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:54:33.731+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:33.731+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:54:33.748+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.039 seconds
+[2024-06-14T00:55:32.360+0200] {processor.py:161} INFO - Started process (PID=12177) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:55:32.362+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:55:32.363+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:32.363+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:55:32.366+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:55:32.372+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:32.372+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:55:32.380+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:32.380+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:55:32.395+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.037 seconds
+[2024-06-14T00:56:34.934+0200] {processor.py:161} INFO - Started process (PID=15465) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:56:34.935+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T00:56:34.936+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:34.936+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:56:34.940+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T00:56:34.946+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:34.946+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:56:34.953+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:34.953+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T00:56:34.967+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.036 seconds
+[2024-06-14T01:02:45.357+0200] {processor.py:161} INFO - Started process (PID=6234) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T01:02:45.358+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T01:02:45.359+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:45.358+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T01:02:45.362+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T01:02:45.393+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:45.393+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:02:45.449+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:45.449+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T01:02:45.464+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.110 seconds
+[2024-06-14T01:03:36.950+0200] {processor.py:161} INFO - Started process (PID=6624) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T01:03:36.952+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-06-14T01:03:36.952+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:36.952+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T01:03:36.956+0200] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-06-14T01:03:36.961+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:36.961+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:03:36.967+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:36.967+0200] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-06-12 00:00:00+00:00, run_after=2024-06-13 00:00:00+00:00
+[2024-06-14T01:03:36.983+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.035 seconds

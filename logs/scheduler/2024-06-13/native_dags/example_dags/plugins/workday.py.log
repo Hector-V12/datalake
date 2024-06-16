@@ -1,0 +1,438 @@
+[2024-06-13T23:20:00.365+0200] {processor.py:161} INFO - Started process (PID=478) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:20:00.365+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:20:00.365+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:00.365+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:20:00.366+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:00.366+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:20:00.366+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:20:00.370+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.007 seconds
+[2024-06-13T23:21:01.852+0200] {processor.py:161} INFO - Started process (PID=543) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:21:01.854+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:21:01.855+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:01.855+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:21:01.856+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:01.856+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:21:01.856+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:21:01.859+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:22:00.957+0200] {processor.py:161} INFO - Started process (PID=603) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:22:00.958+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:22:00.959+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:00.959+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:22:00.960+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:00.960+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:22:00.960+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:22:00.963+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:22:59.812+0200] {processor.py:161} INFO - Started process (PID=664) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:22:59.814+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:22:59.814+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:59.814+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:22:59.815+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:59.815+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:22:59.815+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:22:59.819+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:23:56.182+0200] {processor.py:161} INFO - Started process (PID=728) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:23:56.183+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:23:56.184+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:56.184+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:23:56.185+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:56.185+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:23:56.185+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:23:56.189+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-13T23:24:52.650+0200] {processor.py:161} INFO - Started process (PID=789) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:24:52.652+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:24:52.652+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:52.652+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:24:52.653+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:52.653+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:24:52.653+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:24:52.657+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:25:45.101+0200] {processor.py:161} INFO - Started process (PID=846) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:25:45.102+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:25:45.103+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:45.103+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:25:45.104+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:45.104+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:25:45.104+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:25:45.108+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:26:43.925+0200] {processor.py:161} INFO - Started process (PID=908) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:26:43.927+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:26:43.927+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:43.927+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:26:43.928+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:43.928+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:26:43.928+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:26:43.932+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:27:41.415+0200] {processor.py:161} INFO - Started process (PID=967) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:27:41.416+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:27:41.416+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:41.416+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:27:41.417+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:41.417+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:27:41.417+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:27:41.421+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-13T23:28:39.474+0200] {processor.py:161} INFO - Started process (PID=1028) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:28:39.476+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:28:39.477+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:39.477+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:28:39.478+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:39.478+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:28:39.478+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:28:39.481+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:29:38.752+0200] {processor.py:161} INFO - Started process (PID=1169) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:29:38.754+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:29:38.755+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:38.754+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:29:38.755+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:38.755+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:29:38.756+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:29:38.759+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:30:40.272+0200] {processor.py:161} INFO - Started process (PID=1232) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:30:40.274+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:30:40.275+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:40.274+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:30:40.276+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:40.276+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:30:40.276+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:30:40.279+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:31:37.873+0200] {processor.py:161} INFO - Started process (PID=1293) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:31:37.874+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:31:37.875+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:37.875+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:31:37.876+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:37.876+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:31:37.876+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:31:37.880+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:32:38.253+0200] {processor.py:161} INFO - Started process (PID=1356) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:32:38.255+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:32:38.256+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:38.256+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:32:38.257+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:38.257+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:32:38.257+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:32:38.260+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:33:37.045+0200] {processor.py:161} INFO - Started process (PID=1420) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:33:37.045+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:33:37.046+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:37.046+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:33:37.047+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:37.047+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:33:37.047+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:33:37.051+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-13T23:34:32.265+0200] {processor.py:161} INFO - Started process (PID=1486) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:34:32.267+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:34:32.268+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:32.268+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:34:32.269+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:32.269+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:34:32.269+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:34:32.272+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:35:35.268+0200] {processor.py:161} INFO - Started process (PID=1551) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:35:35.271+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:35:35.272+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:35.272+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:35:35.273+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:35.273+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:35:35.273+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:35:35.276+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.011 seconds
+[2024-06-13T23:36:35.796+0200] {processor.py:161} INFO - Started process (PID=1614) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:36:35.797+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:36:35.798+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:35.798+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:36:35.799+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:35.799+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:36:35.799+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:36:35.803+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-13T23:37:31.119+0200] {processor.py:161} INFO - Started process (PID=1674) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:37:31.120+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:37:31.121+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:31.121+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:37:31.122+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:31.122+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:37:31.122+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:37:31.125+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:38:28.710+0200] {processor.py:161} INFO - Started process (PID=1734) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:38:28.712+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:38:28.713+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:28.712+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:38:28.714+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:28.713+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:38:28.714+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:38:28.717+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:39:30.229+0200] {processor.py:161} INFO - Started process (PID=1797) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:39:30.230+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:39:30.230+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:30.230+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:39:30.231+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:30.231+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:39:30.231+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:39:30.234+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.007 seconds
+[2024-06-13T23:40:26.699+0200] {processor.py:161} INFO - Started process (PID=1857) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:40:26.701+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:40:26.701+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:26.701+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:40:26.702+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:26.702+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:40:26.702+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:40:26.705+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:41:22.936+0200] {processor.py:161} INFO - Started process (PID=1916) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:41:22.938+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:41:22.939+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:22.939+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:41:22.940+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:22.940+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:41:22.940+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:41:22.943+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:42:21.716+0200] {processor.py:161} INFO - Started process (PID=1977) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:42:21.718+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:42:21.718+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:21.718+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:42:21.719+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:21.719+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:42:21.719+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:42:21.723+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:43:21.936+0200] {processor.py:161} INFO - Started process (PID=2040) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:43:21.937+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:43:21.938+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:21.938+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:43:21.939+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:21.939+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:43:21.939+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:43:21.943+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-13T23:44:18.576+0200] {processor.py:161} INFO - Started process (PID=2099) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:44:18.577+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:44:18.578+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:18.578+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:44:18.579+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:18.579+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:44:18.579+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:44:18.582+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:45:14.830+0200] {processor.py:161} INFO - Started process (PID=2159) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:45:14.832+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:45:14.833+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:14.833+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:45:14.834+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:14.834+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:45:14.834+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:45:14.837+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:46:15.669+0200] {processor.py:161} INFO - Started process (PID=2221) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:46:15.670+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:46:15.671+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:15.671+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:46:15.672+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:15.672+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:46:15.672+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:46:15.675+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-13T23:47:13.275+0200] {processor.py:161} INFO - Started process (PID=2282) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:47:13.277+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:47:13.278+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:13.278+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:47:13.279+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:13.279+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:47:13.279+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:47:13.282+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:48:11.859+0200] {processor.py:161} INFO - Started process (PID=2343) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:48:11.861+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:48:11.861+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:11.861+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:48:11.862+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:11.862+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:48:11.862+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:48:11.865+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:49:08.129+0200] {processor.py:161} INFO - Started process (PID=2403) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:49:08.130+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:49:08.131+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:49:08.130+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:49:08.131+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:49:08.131+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:49:08.132+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:49:08.135+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-13T23:55:53.615+0200] {processor.py:161} INFO - Started process (PID=2490) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:55:53.616+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:55:53.617+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:53.617+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:55:53.618+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:53.618+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:55:53.618+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:55:53.621+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:56:51.068+0200] {processor.py:161} INFO - Started process (PID=2551) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:56:51.069+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:56:51.069+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:51.069+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:56:51.070+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:51.070+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:56:51.070+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:56:51.074+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-13T23:57:49.701+0200] {processor.py:161} INFO - Started process (PID=2611) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:57:49.703+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:57:49.704+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:49.703+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:57:49.705+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:49.705+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:57:49.705+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:57:49.708+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-13T23:58:48.339+0200] {processor.py:161} INFO - Started process (PID=2672) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:58:48.342+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:58:48.343+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:48.343+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:58:48.344+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:48.344+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:58:48.344+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:58:48.347+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2024-06-13T23:59:43.574+0200] {processor.py:161} INFO - Started process (PID=2730) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:59:43.576+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-13T23:59:43.577+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:43.577+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:59:43.578+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:43.578+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-13T23:59:43.578+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-13T23:59:43.581+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:00:37.361+0200] {processor.py:161} INFO - Started process (PID=2845) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:00:37.361+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:00:37.362+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:37.362+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:00:37.363+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:37.363+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:00:37.363+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:00:37.367+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-14T00:01:32.690+0200] {processor.py:161} INFO - Started process (PID=2903) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:01:32.692+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:01:32.693+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:32.693+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:01:32.694+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:32.694+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:01:32.694+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:01:32.697+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:02:30.135+0200] {processor.py:161} INFO - Started process (PID=2964) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:02:30.137+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:02:30.137+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:30.137+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:02:30.138+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:30.138+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:02:30.138+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:02:30.142+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:03:25.108+0200] {processor.py:161} INFO - Started process (PID=3023) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:03:25.110+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:03:25.111+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:25.110+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:03:25.111+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:25.111+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:03:25.112+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:03:25.115+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:04:19.109+0200] {processor.py:161} INFO - Started process (PID=3080) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:04:19.111+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:04:19.112+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:19.111+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:04:19.113+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:19.113+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:04:19.113+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:04:19.116+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:05:16.341+0200] {processor.py:161} INFO - Started process (PID=3141) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:05:16.344+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:05:16.344+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:16.344+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:05:16.345+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:16.345+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:05:16.345+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:05:16.349+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2024-06-14T00:06:08.232+0200] {processor.py:161} INFO - Started process (PID=3198) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:06:08.233+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:06:08.234+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:08.234+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:06:08.235+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:08.235+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:06:08.235+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:06:08.239+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:07:01.803+0200] {processor.py:161} INFO - Started process (PID=3254) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:07:01.804+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:07:01.804+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:01.804+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:07:01.805+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:01.805+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:07:01.806+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:07:01.809+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-14T00:08:00.056+0200] {processor.py:161} INFO - Started process (PID=3316) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:08:00.056+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:08:00.057+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:00.057+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:08:00.059+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:00.059+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:08:00.059+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:08:00.064+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2024-06-14T00:08:59.022+0200] {processor.py:161} INFO - Started process (PID=3377) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:08:59.022+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:08:59.023+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:59.023+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:08:59.024+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:59.024+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:08:59.024+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:08:59.028+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-14T00:09:58.559+0200] {processor.py:161} INFO - Started process (PID=3437) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:09:58.561+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:09:58.561+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:58.561+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:09:58.562+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:58.562+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:09:58.563+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:09:58.566+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:10:59.090+0200] {processor.py:161} INFO - Started process (PID=3500) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:10:59.092+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:10:59.092+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:59.092+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:10:59.093+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:59.093+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:10:59.093+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:10:59.097+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:11:55.898+0200] {processor.py:161} INFO - Started process (PID=3560) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:11:55.900+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:11:55.900+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:55.900+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:11:55.901+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:55.901+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:11:55.901+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:11:55.905+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:12:50.212+0200] {processor.py:161} INFO - Started process (PID=3617) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:12:50.214+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:12:50.215+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:50.215+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:12:50.216+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:50.216+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:12:50.216+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:12:50.220+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:13:48.678+0200] {processor.py:161} INFO - Started process (PID=3678) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:13:48.680+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:13:48.681+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:48.680+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:13:48.682+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:48.681+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:13:48.682+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:13:48.685+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:14:50.340+0200] {processor.py:161} INFO - Started process (PID=3741) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:14:50.341+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:14:50.342+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:50.342+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:14:50.343+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:50.343+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:14:50.344+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:14:50.348+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.011 seconds
+[2024-06-14T00:15:45.361+0200] {processor.py:161} INFO - Started process (PID=3800) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:15:45.362+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:15:45.363+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:45.363+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:15:45.364+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:45.364+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:15:45.364+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:15:45.368+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2024-06-14T00:16:42.938+0200] {processor.py:161} INFO - Started process (PID=3861) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:16:42.939+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:16:42.939+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:42.939+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:16:42.940+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:42.940+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:16:42.940+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:16:42.944+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:17:36.916+0200] {processor.py:161} INFO - Started process (PID=3921) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:17:36.916+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:17:36.917+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:36.917+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:17:36.918+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:36.918+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:17:36.918+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:17:36.922+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:18:31.733+0200] {processor.py:161} INFO - Started process (PID=3982) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:18:31.735+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:18:31.736+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:31.735+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:18:31.737+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:31.737+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:18:31.737+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:18:31.742+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2024-06-14T00:19:41.923+0200] {processor.py:161} INFO - Started process (PID=4091) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:19:41.924+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:19:41.924+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:41.924+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:19:41.925+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:41.925+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:19:41.925+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:19:41.929+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-14T00:20:55.524+0200] {processor.py:161} INFO - Started process (PID=4200) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:20:55.525+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:20:55.526+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:55.526+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:20:55.527+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:55.527+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:20:55.527+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:20:55.531+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2024-06-14T00:22:04.422+0200] {processor.py:161} INFO - Started process (PID=4273) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:22:04.424+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:22:04.424+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:04.424+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:22:04.425+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:04.425+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:22:04.425+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:22:04.429+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:23:04.009+0200] {processor.py:161} INFO - Started process (PID=4336) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:23:04.010+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:23:04.011+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:04.010+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:23:04.012+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:04.011+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:23:04.012+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:23:04.015+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:24:02.485+0200] {processor.py:161} INFO - Started process (PID=4396) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:24:02.486+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:24:02.487+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:02.486+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:24:02.488+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:02.488+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:24:02.488+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:24:02.492+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:25:00.504+0200] {processor.py:161} INFO - Started process (PID=4458) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:25:00.506+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:25:00.507+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:00.506+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:25:00.508+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:00.507+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:25:00.508+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:25:00.511+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:49:09.427+0200] {processor.py:161} INFO - Started process (PID=4572) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:49:09.428+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:49:09.428+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:09.428+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:49:09.429+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:09.429+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:49:09.429+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:49:09.433+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-14T00:50:14.864+0200] {processor.py:161} INFO - Started process (PID=4637) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:50:14.865+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:50:14.866+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:14.866+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:50:14.867+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:14.867+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:50:14.867+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:50:14.870+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:51:13.823+0200] {processor.py:161} INFO - Started process (PID=4698) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:51:13.825+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:51:13.826+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:13.826+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:51:13.827+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:13.827+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:51:13.827+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:51:13.830+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:52:12.455+0200] {processor.py:161} INFO - Started process (PID=4817) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:52:12.456+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:52:12.457+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:12.456+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:52:12.457+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:12.457+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:52:12.458+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:52:12.461+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-14T00:53:05.551+0200] {processor.py:161} INFO - Started process (PID=11506) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:53:05.553+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:53:05.553+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:05.553+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:53:05.554+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:05.554+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:53:05.555+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:53:05.558+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:54:00.137+0200] {processor.py:161} INFO - Started process (PID=11705) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:54:00.139+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:54:00.140+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:00.139+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:54:00.141+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:00.140+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:54:00.141+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:54:00.144+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2024-06-14T00:54:59.322+0200] {processor.py:161} INFO - Started process (PID=11995) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:54:59.323+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:54:59.324+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:59.323+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:54:59.325+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:59.325+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:54:59.325+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:54:59.328+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-14T00:55:57.669+0200] {processor.py:161} INFO - Started process (PID=15068) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:55:57.669+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:55:57.670+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:57.670+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:55:57.671+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:57.671+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:55:57.671+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:55:57.675+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.008 seconds
+[2024-06-14T00:56:57.143+0200] {processor.py:161} INFO - Started process (PID=15540) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:56:57.145+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T00:56:57.145+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:57.145+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:56:57.147+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:57.146+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T00:56:57.147+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T00:56:57.151+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2024-06-14T01:02:58.413+0200] {processor.py:161} INFO - Started process (PID=6330) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T01:02:58.414+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T01:02:58.415+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:58.415+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T01:02:58.416+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:58.416+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T01:02:58.416+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T01:02:58.420+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2024-06-14T01:04:03.411+0200] {processor.py:161} INFO - Started process (PID=6822) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T01:04:03.417+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-14T01:04:03.417+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:03.417+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T01:04:03.418+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:03.418+0200] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-06-14T01:04:03.419+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-14T01:04:03.422+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.013 seconds

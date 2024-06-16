@@ -1,0 +1,585 @@
+[2024-06-13T23:19:33.125+0200] {processor.py:161} INFO - Started process (PID=451) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:19:33.126+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:19:33.126+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:33.126+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:19:33.131+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:19:33.190+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:33.189+0200] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2024-06-13T23:19:33.201+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:33.201+0200] {override.py:1829} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2024-06-13T23:19:33.211+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:33.211+0200] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2024-06-13T23:19:33.211+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:33.211+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:19:33.215+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:33.215+0200] {dag.py:3118} INFO - Creating ORM DAG for example_params_trigger_ui
+[2024-06-13T23:19:33.215+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:33.215+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:19:33.284+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.161 seconds
+[2024-06-13T23:20:24.220+0200] {processor.py:161} INFO - Started process (PID=502) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:20:24.222+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:20:24.223+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:24.223+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:20:24.227+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:20:24.240+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:24.240+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:20:24.244+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:24.244+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:20:24.259+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-13T23:21:10.339+0200] {processor.py:161} INFO - Started process (PID=553) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:21:10.340+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:21:10.341+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:10.341+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:21:10.345+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:21:10.402+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:10.402+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:21:10.406+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:10.406+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:21:10.420+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.084 seconds
+[2024-06-13T23:21:54.930+0200] {processor.py:161} INFO - Started process (PID=597) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:21:54.932+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:21:54.932+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:54.932+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:21:54.937+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:21:54.950+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:54.950+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:21:54.954+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:54.954+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:21:54.969+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-13T23:22:51.510+0200] {processor.py:161} INFO - Started process (PID=656) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:22:51.511+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:22:51.512+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:51.512+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:22:51.517+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:22:51.529+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:51.529+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:22:51.533+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:51.533+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:22:51.549+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-13T23:23:30.774+0200] {processor.py:161} INFO - Started process (PID=699) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:23:30.775+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:23:30.776+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:30.776+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:23:30.780+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:23:30.793+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:30.793+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:23:30.797+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:30.797+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:23:30.812+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-13T23:24:28.103+0200] {processor.py:161} INFO - Started process (PID=763) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:24:28.105+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:24:28.106+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:28.106+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:24:28.110+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:24:28.124+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:28.123+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:24:28.127+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:28.127+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:24:28.143+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.042 seconds
+[2024-06-13T23:25:21.679+0200] {processor.py:161} INFO - Started process (PID=821) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:25:21.681+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:25:21.682+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:21.681+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:25:21.686+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:25:21.699+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:21.699+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:25:21.703+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:21.703+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:25:21.719+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.042 seconds
+[2024-06-13T23:26:18.691+0200] {processor.py:161} INFO - Started process (PID=881) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:26:18.692+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:26:18.693+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:18.693+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:26:18.698+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:26:18.711+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:18.711+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:26:18.715+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:18.715+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:26:18.730+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-13T23:27:14.254+0200] {processor.py:161} INFO - Started process (PID=940) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:27:14.255+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:27:14.255+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:14.255+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:27:14.260+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:27:14.275+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:14.274+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:27:14.279+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:14.279+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:27:14.295+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.044 seconds
+[2024-06-13T23:28:12.684+0200] {processor.py:161} INFO - Started process (PID=1001) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:28:12.686+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:28:12.687+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:12.686+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:28:12.691+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:28:12.704+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:12.704+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:28:12.708+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:12.708+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:28:12.723+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-13T23:29:11.964+0200] {processor.py:161} INFO - Started process (PID=1140) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:29:11.966+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:29:11.967+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:11.966+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:29:11.971+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:29:11.984+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:11.984+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:29:11.988+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:11.988+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:29:12.004+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-13T23:30:11.809+0200] {processor.py:161} INFO - Started process (PID=1202) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:30:11.810+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:30:11.811+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:11.811+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:30:11.815+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:30:11.828+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:11.828+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:30:11.832+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:11.832+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:30:11.847+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-13T23:30:52.796+0200] {processor.py:161} INFO - Started process (PID=1245) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:30:52.798+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:30:52.799+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:52.798+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:30:52.803+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:30:52.816+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:52.816+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:30:52.820+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:52.820+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:30:52.834+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-13T23:31:50.382+0200] {processor.py:161} INFO - Started process (PID=1305) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:31:50.383+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:31:50.383+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:50.383+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:31:50.388+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:31:50.401+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:50.401+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:31:50.405+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:50.404+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:31:50.419+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.039 seconds
+[2024-06-13T23:32:30.617+0200] {processor.py:161} INFO - Started process (PID=1347) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:32:30.618+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:32:30.619+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:30.619+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:32:30.623+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:32:30.637+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:30.637+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:32:30.640+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:30.640+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:32:30.655+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-13T23:33:28.524+0200] {processor.py:161} INFO - Started process (PID=1411) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:33:28.526+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:33:28.527+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:28.526+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:33:28.531+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:33:28.545+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:28.544+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:33:28.548+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:28.548+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:33:28.563+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-13T23:34:23.123+0200] {processor.py:161} INFO - Started process (PID=1477) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:34:23.125+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:34:23.125+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:23.125+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:34:23.130+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:34:23.143+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:23.143+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:34:23.147+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:23.147+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:34:23.161+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-13T23:35:05.518+0200] {processor.py:161} INFO - Started process (PID=1519) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:35:05.523+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:35:05.524+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:05.523+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:35:05.528+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:35:05.542+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:05.542+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:35:05.545+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:05.545+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:35:05.599+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.084 seconds
+[2024-06-13T23:35:48.200+0200] {processor.py:161} INFO - Started process (PID=1564) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:35:48.201+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:35:48.202+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:48.202+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:35:48.206+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:35:48.219+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:48.219+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:35:48.223+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:48.223+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:35:48.267+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.069 seconds
+[2024-06-13T23:36:28.895+0200] {processor.py:161} INFO - Started process (PID=1607) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:36:28.897+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:36:28.897+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:28.897+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:36:28.902+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:36:28.915+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:28.915+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:36:28.919+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:28.919+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:36:28.933+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-13T23:37:25.353+0200] {processor.py:161} INFO - Started process (PID=1667) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:37:25.355+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:37:25.356+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:25.356+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:37:25.361+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:37:25.378+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:25.377+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:37:25.382+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:25.382+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:37:25.397+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.046 seconds
+[2024-06-13T23:38:21.967+0200] {processor.py:161} INFO - Started process (PID=1727) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:38:21.968+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:38:21.968+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:21.968+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:38:21.973+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:38:21.986+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:21.986+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:38:21.990+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:21.990+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:38:22.005+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-13T23:39:21.571+0200] {processor.py:161} INFO - Started process (PID=1788) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:39:21.573+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:39:21.574+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:21.574+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:39:21.579+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:39:21.592+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:21.592+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:39:21.596+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:21.595+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:39:21.611+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.042 seconds
+[2024-06-13T23:40:17.842+0200] {processor.py:161} INFO - Started process (PID=1848) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:40:17.843+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:40:17.843+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:17.843+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:40:17.848+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:40:17.863+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:17.862+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:40:17.867+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:17.867+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:40:17.882+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.042 seconds
+[2024-06-13T23:41:15.059+0200] {processor.py:161} INFO - Started process (PID=1907) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:41:15.059+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:41:15.060+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:15.060+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:41:15.065+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:41:15.077+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:15.077+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:41:15.081+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:15.081+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:41:15.096+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.039 seconds
+[2024-06-13T23:41:54.435+0200] {processor.py:161} INFO - Started process (PID=1948) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:41:54.436+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:41:54.437+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:54.437+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:41:54.441+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:41:54.454+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:54.454+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:41:54.458+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:54.458+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:41:54.473+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-13T23:42:53.468+0200] {processor.py:161} INFO - Started process (PID=2009) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:42:53.470+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:42:53.470+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:53.470+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:42:53.474+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:42:53.487+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:53.487+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:42:53.491+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:53.490+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:42:53.505+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.039 seconds
+[2024-06-13T23:43:33.208+0200] {processor.py:161} INFO - Started process (PID=2052) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:43:33.210+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:43:33.211+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:33.211+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:43:33.215+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:43:33.228+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:33.228+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:43:33.232+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:33.231+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:43:33.246+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.039 seconds
+[2024-06-13T23:44:30.874+0200] {processor.py:161} INFO - Started process (PID=2112) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:44:30.876+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:44:30.877+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:30.877+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:44:30.881+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:44:30.894+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:30.894+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:44:30.898+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:30.898+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:44:30.913+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-13T23:45:25.795+0200] {processor.py:161} INFO - Started process (PID=2171) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:45:25.799+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:45:25.800+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:25.799+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:45:25.804+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:45:25.817+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:25.817+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:45:25.821+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:25.821+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:45:25.927+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.134 seconds
+[2024-06-13T23:46:06.312+0200] {processor.py:161} INFO - Started process (PID=2212) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:46:06.314+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:46:06.315+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:06.315+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:46:06.320+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:46:06.333+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:06.333+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:46:06.337+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:06.337+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:46:06.386+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.076 seconds
+[2024-06-13T23:46:47.963+0200] {processor.py:161} INFO - Started process (PID=2255) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:46:47.964+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:46:47.965+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:47.964+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:46:47.969+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:46:47.982+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:47.982+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:46:47.986+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:47.986+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:46:48.001+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-13T23:47:46.260+0200] {processor.py:161} INFO - Started process (PID=2315) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:47:46.261+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:47:46.262+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:46.262+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:47:46.266+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:47:46.279+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:46.279+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:47:46.283+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:46.283+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:47:46.298+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-13T23:48:41.619+0200] {processor.py:161} INFO - Started process (PID=2375) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:48:41.620+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:48:41.621+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:41.620+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:48:41.625+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:48:41.638+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:41.638+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:48:41.641+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:41.641+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:48:41.656+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.039 seconds
+[2024-06-13T23:55:29.270+0200] {processor.py:161} INFO - Started process (PID=2465) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:55:29.272+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:55:29.273+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:29.272+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:55:29.277+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:55:29.290+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:29.290+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:55:29.294+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:29.294+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:55:29.309+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-13T23:56:18.866+0200] {processor.py:161} INFO - Started process (PID=2516) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:56:18.867+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:56:18.868+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:18.868+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:56:18.872+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:56:18.885+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:18.885+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:56:18.889+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:18.889+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:56:18.904+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-13T23:57:05.751+0200] {processor.py:161} INFO - Started process (PID=2565) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:57:05.753+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:57:05.753+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:05.753+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:57:05.758+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:57:05.771+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:05.771+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:57:05.775+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:05.775+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:57:05.790+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.042 seconds
+[2024-06-13T23:58:01.751+0200] {processor.py:161} INFO - Started process (PID=2624) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:58:01.752+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:58:01.752+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:01.752+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:58:01.757+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:58:01.771+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:01.771+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:58:01.775+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:01.775+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:58:01.826+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.077 seconds
+[2024-06-13T23:58:59.037+0200] {processor.py:161} INFO - Started process (PID=2684) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:58:59.043+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:58:59.044+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:59.044+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:58:59.049+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:58:59.063+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:59.063+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:58:59.067+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:59.067+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:58:59.133+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.098 seconds
+[2024-06-13T23:59:52.575+0200] {processor.py:161} INFO - Started process (PID=2742) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:59:52.577+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-13T23:59:52.577+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:52.577+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:59:52.582+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-13T23:59:52.595+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:52.595+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:59:52.599+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:52.598+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-13T23:59:52.613+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-14T00:00:47.626+0200] {processor.py:161} INFO - Started process (PID=2856) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:00:47.627+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:00:47.628+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:47.628+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:00:47.633+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:00:47.646+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:47.646+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:00:47.650+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:47.650+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:00:47.664+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-14T00:01:43.939+0200] {processor.py:161} INFO - Started process (PID=2915) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:01:43.941+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:01:43.942+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:43.942+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:01:43.947+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:01:43.960+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:43.960+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:01:43.964+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:43.964+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:01:43.978+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-14T00:02:40.399+0200] {processor.py:161} INFO - Started process (PID=2975) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:02:40.401+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:02:40.401+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:40.401+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:02:40.406+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:02:40.419+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:40.419+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:02:40.423+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:40.422+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:02:40.437+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-14T00:03:34.106+0200] {processor.py:161} INFO - Started process (PID=3033) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:03:34.107+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:03:34.108+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:34.108+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:03:34.113+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:03:34.127+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:34.127+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:03:34.131+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:34.131+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:03:34.146+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-14T00:04:30.565+0200] {processor.py:161} INFO - Started process (PID=3092) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:04:30.574+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:04:30.575+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:30.575+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:04:30.580+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:04:30.593+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:30.593+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:04:30.596+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:30.596+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:04:30.645+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.082 seconds
+[2024-06-14T00:05:25.340+0200] {processor.py:161} INFO - Started process (PID=3152) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:05:25.341+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:05:25.341+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:25.341+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:05:25.346+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:05:25.360+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:25.360+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:05:25.364+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:25.364+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:05:25.380+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.042 seconds
+[2024-06-14T00:06:17.376+0200] {processor.py:161} INFO - Started process (PID=3208) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:06:17.378+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:06:17.378+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:17.378+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:06:17.383+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:06:17.396+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:17.396+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:06:17.400+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:17.400+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:06:17.414+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-14T00:07:12.069+0200] {processor.py:161} INFO - Started process (PID=3265) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:07:12.070+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:07:12.071+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:12.071+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:07:12.076+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:07:12.089+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:12.089+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:07:12.093+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:12.093+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:07:12.108+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.042 seconds
+[2024-06-14T00:07:51.424+0200] {processor.py:161} INFO - Started process (PID=3307) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:07:51.426+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:07:51.426+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:51.426+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:07:51.432+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:07:51.446+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:51.446+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:07:51.450+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:51.450+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:07:51.466+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.045 seconds
+[2024-06-14T00:08:51.306+0200] {processor.py:161} INFO - Started process (PID=3368) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:08:51.308+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:08:51.308+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:51.308+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:08:51.313+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:08:51.326+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:51.326+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:08:51.330+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:51.330+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:08:51.345+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-14T00:09:49.559+0200] {processor.py:161} INFO - Started process (PID=3428) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:09:49.560+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:09:49.561+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:49.561+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:09:49.566+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:09:49.579+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:49.579+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:09:49.583+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:49.583+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:09:49.598+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-14T00:10:32.719+0200] {processor.py:161} INFO - Started process (PID=3472) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:10:32.721+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:10:32.721+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:32.721+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:10:32.726+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:10:32.739+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:32.739+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:10:32.743+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:32.743+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:10:32.758+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-14T00:11:31.707+0200] {processor.py:161} INFO - Started process (PID=3533) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:11:31.708+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:11:31.708+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:31.708+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:11:31.713+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:11:31.726+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:31.726+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:11:31.729+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:31.729+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:11:31.745+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-14T00:12:24.523+0200] {processor.py:161} INFO - Started process (PID=3590) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:12:24.524+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:12:24.525+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:24.525+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:12:24.530+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:12:24.543+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:24.543+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:12:24.547+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:24.547+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:12:24.562+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-14T00:13:20.157+0200] {processor.py:161} INFO - Started process (PID=3648) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:13:20.159+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:13:20.159+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:20.159+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:13:20.164+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:13:20.177+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:20.177+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:13:20.180+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:20.180+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:13:20.195+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-14T00:13:58.944+0200] {processor.py:161} INFO - Started process (PID=3690) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:13:58.945+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:13:58.946+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:58.946+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:13:58.950+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:13:58.963+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:58.963+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:13:58.967+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:58.967+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:13:58.983+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-14T00:14:40.580+0200] {processor.py:161} INFO - Started process (PID=3731) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:14:40.582+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:14:40.583+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:40.583+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:14:40.587+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:14:40.601+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:40.600+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:14:40.604+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:40.604+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:14:40.619+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-14T00:15:36.227+0200] {processor.py:161} INFO - Started process (PID=3790) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:15:36.228+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:15:36.229+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:36.229+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:15:36.234+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:15:36.248+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:36.248+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:15:36.252+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:36.252+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:15:36.267+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.042 seconds
+[2024-06-14T00:16:17.273+0200] {processor.py:161} INFO - Started process (PID=3833) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:16:17.274+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:16:17.275+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:17.275+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:16:17.280+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:16:17.302+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:17.302+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:16:17.306+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:17.306+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:16:17.321+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.050 seconds
+[2024-06-14T00:17:09.729+0200] {processor.py:161} INFO - Started process (PID=3893) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:17:09.730+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:17:09.731+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:09.731+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:17:09.736+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:17:09.750+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:09.749+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:17:09.753+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:09.753+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:17:09.768+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-14T00:18:04.950+0200] {processor.py:161} INFO - Started process (PID=3954) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:18:04.952+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:18:04.952+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:04.952+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:18:04.957+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:18:04.970+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:04.970+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:18:04.973+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:04.973+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:18:04.989+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-14T00:19:00.278+0200] {processor.py:161} INFO - Started process (PID=4014) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:19:00.279+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:19:00.280+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:00.279+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:19:00.284+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:19:00.297+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:00.297+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:19:00.301+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:00.301+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:19:00.316+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-14T00:20:06.369+0200] {processor.py:161} INFO - Started process (PID=4129) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:20:06.370+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:20:06.370+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:06.370+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:20:06.375+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:20:06.390+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:06.389+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:20:06.394+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:06.394+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:20:06.415+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.048 seconds
+[2024-06-14T00:21:05.789+0200] {processor.py:161} INFO - Started process (PID=4211) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:21:05.790+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:21:05.791+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:05.791+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:21:05.796+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:21:05.810+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:05.810+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:21:05.814+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:05.814+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:21:05.830+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.044 seconds
+[2024-06-14T00:21:53.117+0200] {processor.py:161} INFO - Started process (PID=4261) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:21:53.119+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:21:53.120+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:53.120+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:21:53.124+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:21:53.138+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:53.137+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:21:53.142+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:53.141+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:21:53.157+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.042 seconds
+[2024-06-14T00:22:35.306+0200] {processor.py:161} INFO - Started process (PID=4306) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:22:35.309+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:22:35.309+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:35.309+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:22:35.315+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:22:35.330+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:35.330+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:22:35.335+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:35.335+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:22:35.390+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.087 seconds
+[2024-06-14T00:23:15.500+0200] {processor.py:161} INFO - Started process (PID=4348) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:23:15.505+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:23:15.506+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:15.506+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:23:15.510+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:23:15.524+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:15.524+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:23:15.528+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:15.528+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:23:15.575+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.078 seconds
+[2024-06-14T00:24:14.028+0200] {processor.py:161} INFO - Started process (PID=4408) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:24:14.029+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:24:14.030+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:14.030+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:24:14.034+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:24:14.047+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:14.047+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:24:14.051+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:14.051+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:24:14.065+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-14T00:24:52.977+0200] {processor.py:161} INFO - Started process (PID=4450) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:24:52.978+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:24:52.978+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:52.978+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:24:52.983+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:24:52.996+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:52.996+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:24:53.000+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:53.000+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:24:53.014+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-14T00:48:42.056+0200] {processor.py:161} INFO - Started process (PID=4545) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:48:42.058+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:48:42.058+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:42.058+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:48:42.063+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:48:42.065+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:42.065+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:48:42.069+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:42.069+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:48:42.087+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.033 seconds
+[2024-06-14T00:49:34.173+0200] {processor.py:161} INFO - Started process (PID=4596) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:49:34.179+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:49:34.179+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:34.179+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:49:34.184+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:49:34.267+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:34.267+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:49:34.270+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:34.270+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:49:34.324+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.153 seconds
+[2024-06-14T00:50:23.027+0200] {processor.py:161} INFO - Started process (PID=4647) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:50:23.028+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:50:23.029+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:23.029+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:50:23.033+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:50:23.093+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:23.093+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:50:23.096+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:23.096+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:50:23.111+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.086 seconds
+[2024-06-14T00:51:05.371+0200] {processor.py:161} INFO - Started process (PID=4690) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:51:05.373+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:51:05.373+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:05.373+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:51:05.378+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:51:05.390+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:05.390+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:51:05.394+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:05.394+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:51:05.409+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-14T00:51:45.860+0200] {processor.py:161} INFO - Started process (PID=4786) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:51:45.861+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:51:45.862+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:45.862+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:51:45.866+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:51:45.880+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:45.880+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:51:45.883+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:45.883+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:51:45.898+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.040 seconds
+[2024-06-14T00:52:41.009+0200] {processor.py:161} INFO - Started process (PID=4856) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:52:41.011+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:52:41.012+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:41.011+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:52:41.016+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:52:41.030+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:41.030+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:52:41.033+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:41.033+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:52:41.049+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.042 seconds
+[2024-06-14T00:53:35.585+0200] {processor.py:161} INFO - Started process (PID=11629) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:53:35.586+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:53:35.587+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:35.587+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:53:35.592+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:53:35.605+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:35.605+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:53:35.609+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:35.609+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:53:35.625+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.042 seconds
+[2024-06-14T00:54:30.821+0200] {processor.py:161} INFO - Started process (PID=11810) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:54:30.822+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:54:30.823+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:30.823+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:54:30.827+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:54:30.841+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:30.841+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:54:30.844+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:30.844+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:54:30.860+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-14T00:55:11.339+0200] {processor.py:161} INFO - Started process (PID=12038) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:55:11.341+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:55:11.341+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:11.341+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:55:11.346+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:55:11.359+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:11.359+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:55:11.363+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:11.363+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:55:11.378+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-14T00:56:11.753+0200] {processor.py:161} INFO - Started process (PID=15387) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:56:11.754+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T00:56:11.754+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:11.754+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:56:11.759+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T00:56:11.772+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:11.772+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:56:11.776+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:11.776+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T00:56:11.792+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.041 seconds
+[2024-06-14T01:02:31.121+0200] {processor.py:161} INFO - Started process (PID=6115) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T01:02:31.122+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T01:02:31.123+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:31.123+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T01:02:31.127+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T01:02:31.130+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:31.129+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:02:31.133+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:31.133+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T01:02:31.148+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.029 seconds
+[2024-06-14T01:03:22.881+0200] {processor.py:161} INFO - Started process (PID=6506) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T01:03:22.883+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T01:03:22.883+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:22.883+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T01:03:22.887+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T01:03:22.967+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:22.967+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:03:22.970+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:22.970+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T01:03:22.985+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.107 seconds
+[2024-06-14T01:04:12.410+0200] {processor.py:161} INFO - Started process (PID=6891) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T01:04:12.412+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-06-14T01:04:12.413+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:12.413+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T01:04:12.417+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-06-14T01:04:12.484+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:12.484+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:04:12.488+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:12.487+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-06-14T01:04:12.538+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.129 seconds

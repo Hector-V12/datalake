@@ -1,0 +1,529 @@
+[2024-06-13T23:19:45.058+0200] {processor.py:161} INFO - Started process (PID=463) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:19:45.058+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:19:45.059+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:45.058+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:19:45.060+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:19:45.110+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:45.109+0200] {override.py:1829} INFO - Created Permission View: can delete on DAG:latest_only
+[2024-06-13T23:19:45.122+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:45.121+0200] {override.py:1829} INFO - Created Permission View: can read on DAG:latest_only
+[2024-06-13T23:19:45.133+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:45.133+0200] {override.py:1829} INFO - Created Permission View: can edit on DAG:latest_only
+[2024-06-13T23:19:45.133+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:45.133+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:19:45.181+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:45.181+0200] {dag.py:3118} INFO - Creating ORM DAG for latest_only
+[2024-06-13T23:19:45.184+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:45.184+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:19:45.201+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.145 seconds
+[2024-06-13T23:20:35.119+0200] {processor.py:161} INFO - Started process (PID=514) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:20:35.120+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:20:35.120+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:35.120+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:20:35.122+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:20:35.127+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:35.127+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:20:35.133+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:35.133+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:20:35.147+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.031 seconds
+[2024-06-13T23:21:30.585+0200] {processor.py:161} INFO - Started process (PID=573) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:21:30.586+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:21:30.586+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:30.586+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:21:30.588+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:21:30.593+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:30.593+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:21:30.599+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:30.599+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:21:30.613+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.031 seconds
+[2024-06-13T23:22:20.081+0200] {processor.py:161} INFO - Started process (PID=624) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:22:20.083+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:22:20.083+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:20.083+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:22:20.085+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:22:20.090+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:20.090+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:22:20.096+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:20.096+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:22:20.111+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-13T23:23:20.347+0200] {processor.py:161} INFO - Started process (PID=686) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:23:20.348+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:23:20.349+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:20.349+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:23:20.351+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:23:20.356+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:20.356+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:23:20.362+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:20.362+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:23:20.378+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.034 seconds
+[2024-06-13T23:24:15.582+0200] {processor.py:161} INFO - Started process (PID=748) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:24:15.588+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:24:15.588+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:15.588+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:24:15.590+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:24:15.595+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:15.595+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:24:15.601+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:15.601+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:24:15.616+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.036 seconds
+[2024-06-13T23:25:10.377+0200] {processor.py:161} INFO - Started process (PID=809) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:25:10.379+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:25:10.380+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:10.380+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:25:10.382+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:25:10.387+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:10.387+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:25:10.394+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:10.394+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:25:10.410+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.034 seconds
+[2024-06-13T23:26:05.631+0200] {processor.py:161} INFO - Started process (PID=867) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:26:05.632+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:26:05.633+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:05.633+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:26:05.635+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:26:05.640+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:05.640+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:26:05.647+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:05.647+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:26:05.661+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-13T23:27:02.026+0200] {processor.py:161} INFO - Started process (PID=927) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:27:02.028+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:27:02.029+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:02.029+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:27:02.030+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:27:02.035+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:02.035+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:27:02.042+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:02.042+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:27:02.057+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2024-06-13T23:28:01.282+0200] {processor.py:161} INFO - Started process (PID=989) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:28:01.284+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:28:01.284+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:01.284+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:28:01.286+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:28:01.291+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:01.291+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:28:01.298+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:01.298+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:28:01.312+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-13T23:29:01.127+0200] {processor.py:161} INFO - Started process (PID=1128) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:29:01.129+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:29:01.129+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:01.129+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:29:01.131+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:29:01.136+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:01.136+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:29:01.142+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:01.142+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:29:01.157+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-13T23:29:59.287+0200] {processor.py:161} INFO - Started process (PID=1189) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:29:59.288+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:29:59.288+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:59.288+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:29:59.290+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:29:59.296+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:59.295+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:29:59.302+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:59.302+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:29:59.318+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2024-06-13T23:31:00.807+0200] {processor.py:161} INFO - Started process (PID=1253) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:31:00.808+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:31:00.808+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:00.808+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:31:00.810+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:31:00.815+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:00.815+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:31:00.822+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:00.822+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:31:00.837+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-13T23:31:58.128+0200] {processor.py:161} INFO - Started process (PID=1313) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:31:58.129+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:31:58.130+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:58.130+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:31:58.132+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:31:58.137+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:58.137+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:31:58.143+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:58.143+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:31:58.158+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-13T23:32:57.030+0200] {processor.py:161} INFO - Started process (PID=1375) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:32:57.031+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:32:57.031+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:57.031+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:32:57.033+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:32:57.038+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:57.038+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:32:57.044+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:57.044+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:32:57.059+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.031 seconds
+[2024-06-13T23:33:56.335+0200] {processor.py:161} INFO - Started process (PID=1447) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:33:56.336+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:33:56.336+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:56.336+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:33:56.338+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:33:56.343+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:56.343+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:33:56.349+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:56.349+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:33:56.364+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.031 seconds
+[2024-06-13T23:34:52.831+0200] {processor.py:161} INFO - Started process (PID=1506) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:34:52.833+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:34:52.834+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:52.834+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:34:52.836+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:34:52.841+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:52.841+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:34:52.847+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:52.847+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:34:52.900+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.071 seconds
+[2024-06-13T23:35:56.973+0200] {processor.py:161} INFO - Started process (PID=1573) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:35:56.975+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:35:56.976+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:56.975+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:35:56.977+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:35:56.982+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:56.982+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:35:56.989+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:56.989+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:35:57.005+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.034 seconds
+[2024-06-13T23:36:54.557+0200] {processor.py:161} INFO - Started process (PID=1634) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:36:54.558+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:36:54.559+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:54.559+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:36:54.561+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:36:54.566+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:54.566+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:36:54.572+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:54.572+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:36:54.588+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2024-06-13T23:37:50.530+0200] {processor.py:161} INFO - Started process (PID=1693) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:37:50.532+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:37:50.532+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:50.532+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:37:50.534+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:37:50.539+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:50.539+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:37:50.545+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:50.545+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:37:50.559+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.031 seconds
+[2024-06-13T23:38:49.246+0200] {processor.py:161} INFO - Started process (PID=1754) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:38:49.246+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:38:49.247+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:49.247+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:38:49.249+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:38:49.254+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:49.254+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:38:49.261+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:49.260+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:38:49.276+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-13T23:39:48.720+0200] {processor.py:161} INFO - Started process (PID=1817) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:39:48.722+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:39:48.722+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:48.722+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:39:48.724+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:39:48.729+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:48.729+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:39:48.735+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:48.735+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:39:48.749+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.031 seconds
+[2024-06-13T23:40:45.874+0200] {processor.py:161} INFO - Started process (PID=1876) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:40:45.876+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:40:45.877+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:45.876+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:40:45.878+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:40:45.883+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:45.883+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:40:45.889+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:45.889+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:40:45.903+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.031 seconds
+[2024-06-13T23:41:43.186+0200] {processor.py:161} INFO - Started process (PID=1936) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:41:43.187+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:41:43.188+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:43.188+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:41:43.189+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:41:43.194+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:43.194+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:41:43.201+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:43.200+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:41:43.216+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-13T23:42:41.130+0200] {processor.py:161} INFO - Started process (PID=1997) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:42:41.132+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:42:41.133+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:41.132+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:42:41.134+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:42:41.139+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:41.139+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:42:41.145+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:41.145+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:42:41.160+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-13T23:43:40.213+0200] {processor.py:161} INFO - Started process (PID=2060) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:43:40.214+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:43:40.215+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:40.215+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:43:40.216+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:43:40.221+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:40.221+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:43:40.227+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:40.227+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:43:40.242+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.031 seconds
+[2024-06-13T23:44:37.773+0200] {processor.py:161} INFO - Started process (PID=2120) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:44:37.775+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:44:37.776+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:37.776+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:44:37.777+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:44:37.782+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:37.782+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:44:37.789+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:37.789+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:44:37.803+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-13T23:45:34.190+0200] {processor.py:161} INFO - Started process (PID=2179) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:45:34.194+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:45:34.194+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:34.194+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:45:34.196+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:45:34.201+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:34.201+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:45:34.208+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:34.208+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:45:34.259+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.071 seconds
+[2024-06-13T23:46:36.227+0200] {processor.py:161} INFO - Started process (PID=2242) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:46:36.229+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:46:36.229+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:36.229+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:46:36.231+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:46:36.236+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:36.236+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:46:36.243+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:36.242+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:46:36.258+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2024-06-13T23:47:33.748+0200] {processor.py:161} INFO - Started process (PID=2302) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:47:33.750+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:47:33.750+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:33.750+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:47:33.752+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:47:33.757+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:33.757+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:47:33.763+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:33.763+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:47:33.777+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-13T23:48:30.231+0200] {processor.py:161} INFO - Started process (PID=2362) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:48:30.233+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:48:30.234+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:30.234+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:48:30.236+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:48:30.240+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:30.240+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:48:30.247+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:30.247+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:48:30.262+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-13T23:55:05.910+0200] {processor.py:161} INFO - Started process (PID=2430) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:55:05.911+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:55:05.911+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:05.911+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:55:05.913+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:55:05.918+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:05.918+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:55:05.925+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:05.925+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:55:05.942+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.034 seconds
+[2024-06-13T23:56:14.501+0200] {processor.py:161} INFO - Started process (PID=2511) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:56:14.502+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:56:14.503+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:14.503+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:56:14.505+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:56:14.510+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:14.510+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:56:14.516+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:14.516+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:56:14.531+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2024-06-13T23:57:10.544+0200] {processor.py:161} INFO - Started process (PID=2570) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:57:10.545+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:57:10.546+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:10.546+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:57:10.548+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:57:10.553+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:10.553+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:57:10.559+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:10.559+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:57:10.573+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-13T23:58:08.052+0200] {processor.py:161} INFO - Started process (PID=2630) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:58:08.057+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:58:08.057+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:08.057+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:58:08.059+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:58:08.064+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:08.064+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:58:08.071+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:08.071+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:58:08.108+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.059 seconds
+[2024-06-13T23:59:04.834+0200] {processor.py:161} INFO - Started process (PID=2691) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:59:04.839+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-13T23:59:04.840+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:04.840+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:59:04.842+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-13T23:59:04.847+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:04.847+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:59:04.854+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:04.854+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-13T23:59:04.900+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.068 seconds
+[2024-06-14T00:00:01.429+0200] {processor.py:161} INFO - Started process (PID=2751) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:00:01.430+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:00:01.431+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:01.431+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:00:01.433+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:00:01.438+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:01.438+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:00:01.444+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:01.444+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:00:01.458+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-14T00:00:55.014+0200] {processor.py:161} INFO - Started process (PID=2865) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:00:55.015+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:00:55.016+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:55.016+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:00:55.018+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:00:55.023+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:55.023+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:00:55.029+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:55.029+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:00:55.043+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.031 seconds
+[2024-06-14T00:01:51.998+0200] {processor.py:161} INFO - Started process (PID=2924) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:01:52.000+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:01:52.000+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:52.000+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:01:52.002+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:01:52.007+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:52.007+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:01:52.014+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:52.014+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:01:52.029+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2024-06-14T00:02:49.047+0200] {processor.py:161} INFO - Started process (PID=2984) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:02:49.048+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:02:49.049+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:49.048+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:02:49.050+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:02:49.055+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:49.055+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:02:49.061+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:49.061+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:02:49.076+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.030 seconds
+[2024-06-14T00:03:41.990+0200] {processor.py:161} INFO - Started process (PID=3042) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:03:41.991+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:03:41.992+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:41.992+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:03:41.994+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:03:41.999+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:41.999+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:03:42.005+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:42.005+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:03:42.020+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2024-06-14T00:04:38.603+0200] {processor.py:161} INFO - Started process (PID=3101) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:04:38.604+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:04:38.605+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:38.605+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:04:38.606+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:04:38.612+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:38.612+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:04:38.618+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:38.618+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:04:38.669+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2024-06-14T00:05:34.676+0200] {processor.py:161} INFO - Started process (PID=3161) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:05:34.678+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:05:34.679+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:34.679+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:05:34.681+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:05:34.686+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:34.686+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:05:34.692+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:34.692+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:05:34.708+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.034 seconds
+[2024-06-14T00:06:26.087+0200] {processor.py:161} INFO - Started process (PID=3217) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:06:26.088+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:06:26.089+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:26.088+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:06:26.090+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:06:26.096+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:26.096+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:06:26.102+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:26.102+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:06:26.116+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.031 seconds
+[2024-06-14T00:07:21.178+0200] {processor.py:161} INFO - Started process (PID=3274) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:07:21.180+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:07:21.181+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:21.181+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:07:21.182+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:07:21.187+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:21.187+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:07:21.194+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:21.194+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:07:21.209+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2024-06-14T00:08:18.530+0200] {processor.py:161} INFO - Started process (PID=3335) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:08:18.532+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:08:18.532+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:18.532+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:08:18.534+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:08:18.539+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:18.539+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:08:18.546+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:18.546+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:08:18.560+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-14T00:09:16.941+0200] {processor.py:161} INFO - Started process (PID=3396) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:09:16.943+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:09:16.943+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:16.943+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:09:16.945+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:09:16.950+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:16.950+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:09:16.957+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:16.957+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:09:16.972+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2024-06-14T00:10:19.806+0200] {processor.py:161} INFO - Started process (PID=3459) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:10:19.807+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:10:19.807+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:19.807+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:10:19.809+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:10:19.814+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:19.814+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:10:19.821+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:19.821+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:10:19.835+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.031 seconds
+[2024-06-14T00:11:19.336+0200] {processor.py:161} INFO - Started process (PID=3520) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:11:19.342+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:11:19.343+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:19.343+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:11:19.345+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:11:19.350+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:19.350+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:11:19.356+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:19.356+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:11:19.371+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.037 seconds
+[2024-06-14T00:12:13.407+0200] {processor.py:161} INFO - Started process (PID=3578) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:12:13.408+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:12:13.409+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:13.409+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:12:13.411+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:12:13.416+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:13.416+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:12:13.422+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:13.422+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:12:13.438+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2024-06-14T00:13:07.645+0200] {processor.py:161} INFO - Started process (PID=3636) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:13:07.646+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:13:07.647+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:07.647+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:13:07.649+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:13:07.654+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:07.654+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:13:07.660+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:07.660+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:13:07.675+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-14T00:14:08.077+0200] {processor.py:161} INFO - Started process (PID=3699) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:14:08.079+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:14:08.079+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:08.079+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:14:08.081+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:14:08.086+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:08.086+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:14:08.092+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:08.092+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:14:08.107+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2024-06-14T00:15:08.903+0200] {processor.py:161} INFO - Started process (PID=3762) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:15:08.903+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:15:08.904+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:08.904+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:15:08.906+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:15:08.912+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:08.912+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:15:08.920+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:08.920+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:15:08.935+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.035 seconds
+[2024-06-14T00:16:05.873+0200] {processor.py:161} INFO - Started process (PID=3821) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:16:05.875+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:16:05.876+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:05.876+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:16:05.878+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:16:05.883+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:05.883+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:16:05.890+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:05.890+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:16:05.905+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.034 seconds
+[2024-06-14T00:16:59.463+0200] {processor.py:161} INFO - Started process (PID=3880) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:16:59.465+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:16:59.466+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:59.466+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:16:59.469+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:16:59.479+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:59.478+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:16:59.488+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:59.488+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:16:59.506+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.044 seconds
+[2024-06-14T00:17:54.817+0200] {processor.py:161} INFO - Started process (PID=3943) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:17:54.818+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:17:54.818+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:54.818+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:17:54.820+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:17:54.825+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:54.825+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:17:54.831+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:54.831+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:17:54.846+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-14T00:18:51.146+0200] {processor.py:161} INFO - Started process (PID=4003) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:18:51.148+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:18:51.148+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:51.148+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:18:51.150+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:18:51.155+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:51.155+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:18:51.161+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:51.161+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:18:51.177+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.034 seconds
+[2024-06-14T00:20:16.369+0200] {processor.py:161} INFO - Started process (PID=4143) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:20:16.370+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:20:16.370+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:16.370+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:20:16.372+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:20:16.378+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:16.378+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:20:16.385+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:16.385+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:20:16.400+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.034 seconds
+[2024-06-14T00:21:14.959+0200] {processor.py:161} INFO - Started process (PID=4221) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:21:14.960+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:21:14.961+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:14.961+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:21:14.963+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:21:14.968+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:14.968+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:21:14.976+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:14.976+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:21:14.994+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.036 seconds
+[2024-06-14T00:22:18.698+0200] {processor.py:161} INFO - Started process (PID=4288) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:22:18.699+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:22:18.700+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:18.700+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:22:18.702+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:22:18.707+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:18.707+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:22:18.714+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:18.714+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:22:18.729+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.034 seconds
+[2024-06-14T00:23:16.621+0200] {processor.py:161} INFO - Started process (PID=4349) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:23:16.627+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:23:16.627+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:16.627+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:23:16.629+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:23:16.634+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:16.634+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:23:16.641+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:16.641+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:23:16.687+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2024-06-14T00:24:16.058+0200] {processor.py:161} INFO - Started process (PID=4410) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:24:16.059+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:24:16.059+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:16.059+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:24:16.061+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:24:16.066+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:16.066+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:24:16.072+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:16.072+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:24:16.088+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2024-06-14T00:25:11.995+0200] {processor.py:161} INFO - Started process (PID=4469) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:25:11.996+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:25:11.996+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:11.996+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:25:11.999+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:25:12.006+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:12.006+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:25:12.014+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:12.014+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:25:12.030+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.037 seconds
+[2024-06-14T00:48:53.834+0200] {processor.py:161} INFO - Started process (PID=4557) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:48:53.836+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:48:53.837+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:53.836+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:48:53.839+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:48:53.869+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:53.869+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:48:53.925+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:53.925+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:48:53.940+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.108 seconds
+[2024-06-14T00:49:46.212+0200] {processor.py:161} INFO - Started process (PID=4608) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:49:46.214+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:49:46.214+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:46.214+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:49:46.216+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:49:46.221+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:46.221+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:49:46.227+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:46.227+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:49:46.274+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds
+[2024-06-14T00:50:45.125+0200] {processor.py:161} INFO - Started process (PID=4670) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:50:45.127+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:50:45.127+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:45.127+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:50:45.129+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:50:45.135+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:45.135+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:50:45.142+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:45.142+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:50:45.158+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.036 seconds
+[2024-06-14T00:51:35.738+0200] {processor.py:161} INFO - Started process (PID=4759) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:51:35.740+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:51:35.740+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:35.740+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:51:35.742+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:51:35.747+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:35.747+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:51:35.753+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:35.753+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:51:35.769+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2024-06-14T00:52:31.865+0200] {processor.py:161} INFO - Started process (PID=4838) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:52:31.867+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:52:31.867+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:31.867+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:52:31.869+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:52:31.874+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:31.874+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:52:31.880+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:31.880+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:52:31.895+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-14T00:53:25.552+0200] {processor.py:161} INFO - Started process (PID=11594) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:53:25.554+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:53:25.554+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:25.554+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:53:25.556+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:53:25.562+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:25.561+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:53:25.568+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:25.568+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:53:25.584+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.034 seconds
+[2024-06-14T00:54:20.557+0200] {processor.py:161} INFO - Started process (PID=11773) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:54:20.561+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:54:20.562+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:20.562+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:54:20.564+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:54:20.568+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:20.568+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:54:20.575+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:20.575+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:54:20.590+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.034 seconds
+[2024-06-14T00:55:19.848+0200] {processor.py:161} INFO - Started process (PID=12071) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:55:19.849+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:55:19.849+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:19.849+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:55:19.851+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:55:19.857+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:19.857+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:55:19.863+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:19.863+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:55:19.878+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-14T00:56:21.301+0200] {processor.py:161} INFO - Started process (PID=15399) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:56:21.302+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T00:56:21.302+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:21.302+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:56:21.304+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T00:56:21.309+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:21.309+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:56:21.316+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:21.316+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T00:56:21.331+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.032 seconds
+[2024-06-14T01:02:42.912+0200] {processor.py:161} INFO - Started process (PID=6199) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T01:02:42.914+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T01:02:42.914+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:42.914+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T01:02:42.916+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T01:02:42.945+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:42.945+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:02:42.997+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:42.997+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T01:02:43.012+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.103 seconds
+[2024-06-14T01:03:34.707+0200] {processor.py:161} INFO - Started process (PID=6613) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T01:03:34.708+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T01:03:34.709+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:34.708+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T01:03:34.710+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T01:03:34.715+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:34.715+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:03:34.721+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:34.721+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T01:03:34.736+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.031 seconds
+[2024-06-14T01:04:24.879+0200] {processor.py:161} INFO - Started process (PID=7001) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T01:04:24.880+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-06-14T01:04:24.880+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:24.880+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T01:04:24.926+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-06-14T01:04:24.930+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:24.930+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:04:24.936+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:24.936+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-06-13 16:00:00+00:00, run_after=2024-06-13 20:00:00+00:00
+[2024-06-14T01:04:24.950+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.074 seconds

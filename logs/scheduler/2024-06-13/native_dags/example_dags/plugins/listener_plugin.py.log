@@ -1,0 +1,365 @@
+[2024-06-13T23:19:59.230+0200] {processor.py:161} INFO - Started process (PID=477) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:19:59.230+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:19:59.230+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:59.230+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:19:59.231+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:19:59.235+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.007 seconds
+[2024-06-13T23:21:00.718+0200] {processor.py:161} INFO - Started process (PID=542) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:21:00.719+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:21:00.720+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:00.720+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:21:00.721+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:21:00.724+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-13T23:21:59.833+0200] {processor.py:161} INFO - Started process (PID=602) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:21:59.835+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:21:59.835+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:59.835+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:21:59.836+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:21:59.839+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:22:58.677+0200] {processor.py:161} INFO - Started process (PID=663) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:22:58.678+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:22:58.679+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:58.679+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:22:58.680+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:22:58.684+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:23:55.049+0200] {processor.py:161} INFO - Started process (PID=726) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:23:55.050+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:23:55.050+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:55.050+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:23:55.051+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:23:55.055+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-13T23:24:51.516+0200] {processor.py:161} INFO - Started process (PID=788) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:24:51.517+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:24:51.518+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:51.518+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:24:51.519+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:24:51.523+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:25:43.978+0200] {processor.py:161} INFO - Started process (PID=845) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:25:43.980+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:25:43.980+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:43.980+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:25:43.981+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:25:43.985+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:26:42.802+0200] {processor.py:161} INFO - Started process (PID=907) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:26:42.803+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:26:42.804+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:42.804+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:26:42.805+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:26:42.808+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-13T23:27:40.753+0200] {processor.py:161} INFO - Started process (PID=966) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:27:40.754+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:27:40.754+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:40.754+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:27:40.755+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:27:40.759+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-13T23:28:38.352+0200] {processor.py:161} INFO - Started process (PID=1027) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:28:38.354+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:28:38.354+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:38.354+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:28:38.355+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:28:38.359+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:29:38.119+0200] {processor.py:161} INFO - Started process (PID=1168) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:29:38.121+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:29:38.122+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:38.121+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:29:38.123+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:29:38.126+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:30:39.984+0200] {processor.py:161} INFO - Started process (PID=1231) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:30:39.985+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:30:39.986+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:39.986+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:30:39.987+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:30:39.991+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-13T23:31:36.739+0200] {processor.py:161} INFO - Started process (PID=1292) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:31:36.741+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:31:36.741+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:36.741+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:31:36.742+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:31:36.746+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:32:37.969+0200] {processor.py:161} INFO - Started process (PID=1355) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:32:37.971+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:32:37.972+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:37.972+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:32:37.973+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:32:37.976+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:33:35.923+0200] {processor.py:161} INFO - Started process (PID=1419) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:33:35.925+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:33:35.925+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:35.925+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:33:35.926+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:33:35.930+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:34:31.132+0200] {processor.py:161} INFO - Started process (PID=1485) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:34:31.133+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:34:31.133+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:31.133+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:34:31.134+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:34:31.138+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-13T23:35:34.145+0200] {processor.py:161} INFO - Started process (PID=1550) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:35:34.152+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:35:34.152+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:34.152+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:35:34.153+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:35:34.156+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.013 seconds
+[2024-06-13T23:36:34.663+0200] {processor.py:161} INFO - Started process (PID=1613) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:36:34.665+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:36:34.665+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:34.665+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:36:34.666+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:36:34.670+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:37:30.577+0200] {processor.py:161} INFO - Started process (PID=1673) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:37:30.579+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:37:30.579+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:30.579+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:37:30.580+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:37:30.584+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:38:27.577+0200] {processor.py:161} INFO - Started process (PID=1733) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:38:27.579+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:38:27.579+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:27.579+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:38:27.580+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:38:27.584+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:39:29.095+0200] {processor.py:161} INFO - Started process (PID=1796) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:39:29.101+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:39:29.101+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:29.101+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:39:29.102+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:39:29.105+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.012 seconds
+[2024-06-13T23:40:25.565+0200] {processor.py:161} INFO - Started process (PID=1856) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:40:25.566+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:40:25.567+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:25.566+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:40:25.567+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:40:25.571+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-13T23:41:21.945+0200] {processor.py:161} INFO - Started process (PID=1915) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:41:21.947+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:41:21.948+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:21.948+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:41:21.949+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:41:21.953+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:42:20.594+0200] {processor.py:161} INFO - Started process (PID=1976) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:42:20.595+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:42:20.595+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:20.595+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:42:20.596+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:42:20.599+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-13T23:43:20.814+0200] {processor.py:161} INFO - Started process (PID=2039) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:43:20.815+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:43:20.816+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:20.815+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:43:20.817+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:43:20.820+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-13T23:44:18.364+0200] {processor.py:161} INFO - Started process (PID=2098) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:44:18.366+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:44:18.367+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:18.367+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:44:18.368+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:44:18.371+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:45:13.709+0200] {processor.py:161} INFO - Started process (PID=2158) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:45:13.710+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:45:13.710+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:13.710+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:45:13.711+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:45:13.715+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-13T23:46:14.500+0200] {processor.py:161} INFO - Started process (PID=2220) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:46:14.503+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:46:14.503+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:14.503+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:46:14.504+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:46:14.508+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.010 seconds
+[2024-06-13T23:47:12.154+0200] {processor.py:161} INFO - Started process (PID=2281) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:47:12.156+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:47:12.156+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:12.156+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:47:12.157+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:47:12.161+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:48:10.735+0200] {processor.py:161} INFO - Started process (PID=2342) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:48:10.737+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:48:10.737+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:10.737+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:48:10.738+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:48:10.742+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:49:07.008+0200] {processor.py:161} INFO - Started process (PID=2402) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:49:07.010+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:49:07.010+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:49:07.010+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:49:07.011+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:49:07.015+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:55:52.493+0200] {processor.py:161} INFO - Started process (PID=2489) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:55:52.495+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:55:52.496+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:52.496+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:55:52.497+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:55:52.500+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:56:50.293+0200] {processor.py:161} INFO - Started process (PID=2550) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:56:50.295+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:56:50.295+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:50.295+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:56:50.296+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:56:50.300+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:57:48.579+0200] {processor.py:161} INFO - Started process (PID=2610) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:57:48.581+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:57:48.581+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:48.581+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:57:48.582+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:57:48.586+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-13T23:58:47.217+0200] {processor.py:161} INFO - Started process (PID=2671) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:58:47.221+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:58:47.222+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:47.222+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:58:47.223+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:58:47.229+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.014 seconds
+[2024-06-13T23:59:42.452+0200] {processor.py:161} INFO - Started process (PID=2729) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:59:42.454+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-13T23:59:42.455+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:42.454+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:59:42.455+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-13T23:59:42.459+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:00:36.307+0200] {processor.py:161} INFO - Started process (PID=2844) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:00:36.308+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:00:36.308+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:36.308+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:00:36.309+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:00:36.313+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-14T00:01:31.947+0200] {processor.py:161} INFO - Started process (PID=2902) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:01:31.949+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:01:31.950+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:31.949+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:01:31.950+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:01:31.954+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:02:29.500+0200] {processor.py:161} INFO - Started process (PID=2963) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:02:29.501+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:02:29.502+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:29.502+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:02:29.503+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:02:29.506+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-14T00:03:23.985+0200] {processor.py:161} INFO - Started process (PID=3022) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:03:23.987+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:03:23.988+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:23.988+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:03:23.989+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:03:23.992+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:04:17.933+0200] {processor.py:161} INFO - Started process (PID=3079) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:04:17.937+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:04:17.938+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:17.938+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:04:17.939+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:04:17.942+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.011 seconds
+[2024-06-14T00:05:15.215+0200] {processor.py:161} INFO - Started process (PID=3140) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:05:15.221+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:05:15.221+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:15.221+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:05:15.222+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:05:15.226+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.013 seconds
+[2024-06-14T00:06:07.110+0200] {processor.py:161} INFO - Started process (PID=3197) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:06:07.112+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:06:07.113+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:07.112+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:06:07.114+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:06:07.117+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:07:00.681+0200] {processor.py:161} INFO - Started process (PID=3253) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:07:00.682+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:07:00.683+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:00.683+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:07:00.684+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:07:00.688+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:07:58.911+0200] {processor.py:161} INFO - Started process (PID=3315) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:07:58.913+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:07:58.914+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:58.914+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:07:58.915+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:07:58.920+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.011 seconds
+[2024-06-14T00:08:57.899+0200] {processor.py:161} INFO - Started process (PID=3376) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:08:57.901+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:08:57.901+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:57.901+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:08:57.902+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:08:57.906+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:09:57.938+0200] {processor.py:161} INFO - Started process (PID=3436) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:09:57.938+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:09:57.939+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:57.939+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:09:57.940+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:09:57.944+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-14T00:10:58.385+0200] {processor.py:161} INFO - Started process (PID=3499) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:10:58.386+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:10:58.387+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:58.387+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:10:58.388+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:10:58.391+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:11:54.766+0200] {processor.py:161} INFO - Started process (PID=3559) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:11:54.767+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:11:54.768+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:54.768+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:11:54.769+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:11:54.773+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:12:49.090+0200] {processor.py:161} INFO - Started process (PID=3616) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:12:49.091+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:12:49.091+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:49.091+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:12:49.092+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:12:49.096+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-14T00:13:47.544+0200] {processor.py:161} INFO - Started process (PID=3677) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:13:47.545+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:13:47.546+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:47.546+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:13:47.547+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:13:47.551+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:14:49.212+0200] {processor.py:161} INFO - Started process (PID=3740) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:14:49.213+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:14:49.214+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:49.214+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:14:49.215+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:14:49.220+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.010 seconds
+[2024-06-14T00:15:44.560+0200] {processor.py:161} INFO - Started process (PID=3799) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:15:44.561+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:15:44.562+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:44.562+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:15:44.563+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:15:44.568+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.011 seconds
+[2024-06-14T00:16:41.805+0200] {processor.py:161} INFO - Started process (PID=3860) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:16:41.806+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:16:41.806+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:41.806+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:16:41.807+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:16:41.811+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:17:35.794+0200] {processor.py:161} INFO - Started process (PID=3920) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:17:35.795+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:17:35.796+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:35.795+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:17:35.797+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:17:35.800+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-14T00:18:30.611+0200] {processor.py:161} INFO - Started process (PID=3981) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:18:30.613+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:18:30.614+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:30.614+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:18:30.615+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:18:30.618+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:19:41.771+0200] {processor.py:161} INFO - Started process (PID=4090) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:19:41.772+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:19:41.772+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:41.772+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:19:41.773+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:19:41.777+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-14T00:20:55.244+0200] {processor.py:161} INFO - Started process (PID=4199) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:20:55.246+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:20:55.247+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:55.247+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:20:55.248+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:20:55.252+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.010 seconds
+[2024-06-14T00:22:03.300+0200] {processor.py:161} INFO - Started process (PID=4272) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:22:03.302+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:22:03.302+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:03.302+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:22:03.303+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:22:03.307+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:23:02.903+0200] {processor.py:161} INFO - Started process (PID=4335) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:23:02.906+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:23:02.906+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:02.906+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:23:02.908+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:23:02.912+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.011 seconds
+[2024-06-14T00:24:01.791+0200] {processor.py:161} INFO - Started process (PID=4395) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:24:01.793+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:24:01.794+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:01.794+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:24:01.795+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:24:01.799+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:24:59.378+0200] {processor.py:161} INFO - Started process (PID=4457) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:24:59.379+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:24:59.380+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:59.380+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:24:59.381+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:24:59.384+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-14T00:49:08.264+0200] {processor.py:161} INFO - Started process (PID=4571) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:49:08.273+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:49:08.273+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:08.273+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:49:08.274+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:49:08.278+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2024-06-14T00:50:13.741+0200] {processor.py:161} INFO - Started process (PID=4636) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:50:13.742+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:50:13.743+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:13.743+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:50:13.744+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:50:13.747+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:51:12.690+0200] {processor.py:161} INFO - Started process (PID=4697) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:51:12.696+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:51:12.697+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:12.696+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:51:12.697+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:51:12.701+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.013 seconds
+[2024-06-14T00:52:11.332+0200] {processor.py:161} INFO - Started process (PID=4816) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:52:11.334+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:52:11.335+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:11.335+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:52:11.336+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:52:11.339+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:53:04.929+0200] {processor.py:161} INFO - Started process (PID=11505) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:53:04.930+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:53:04.931+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:04.931+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:53:04.932+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:53:04.935+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-14T00:53:59.015+0200] {processor.py:161} INFO - Started process (PID=11704) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:53:59.017+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:53:59.018+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:59.017+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:53:59.019+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:53:59.022+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T00:54:58.188+0200] {processor.py:161} INFO - Started process (PID=11994) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:54:58.189+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:54:58.190+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:58.190+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:54:58.191+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:54:58.194+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-14T00:55:56.629+0200] {processor.py:161} INFO - Started process (PID=15057) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:55:56.630+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:55:56.631+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:56.630+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:55:56.632+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:55:56.635+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.008 seconds
+[2024-06-14T00:56:56.001+0200] {processor.py:161} INFO - Started process (PID=15539) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:56:56.003+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T00:56:56.004+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:56.003+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:56:56.005+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T00:56:56.008+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds
+[2024-06-14T01:02:57.278+0200] {processor.py:161} INFO - Started process (PID=6325) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T01:02:57.280+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T01:02:57.280+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:57.280+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T01:02:57.281+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T01:02:57.286+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.010 seconds
+[2024-06-14T01:04:02.288+0200] {processor.py:161} INFO - Started process (PID=6816) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T01:04:02.290+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-06-14T01:04:02.290+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:02.290+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T01:04:02.291+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-06-14T01:04:02.295+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.009 seconds

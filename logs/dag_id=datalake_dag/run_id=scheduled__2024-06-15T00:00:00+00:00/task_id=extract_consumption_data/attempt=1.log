@@ -1,0 +1,40 @@
+[2024-06-16T02:00:22.391+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-16T02:00:22.413+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: datalake_dag.extract_consumption_data scheduled__2024-06-15T00:00:00+00:00 [queued]>
+[2024-06-16T02:00:22.415+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: datalake_dag.extract_consumption_data scheduled__2024-06-15T00:00:00+00:00 [queued]>
+[2024-06-16T02:00:22.416+0200] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-06-16T02:00:22.430+0200] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): extract_consumption_data> on 2024-06-15 00:00:00+00:00
+[2024-06-16T02:00:22.431+0200] {standard_task_runner.py:63} INFO - Started process 62121 to run task
+[2024-06-16T02:00:22.431+0200] {clientserver.py:543} INFO - Closing down clientserver connection
+[2024-06-16T02:00:22.433+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'datalake_dag', 'extract_consumption_data', 'scheduled__2024-06-15T00:00:00+00:00', '--job-id', '99', '--raw', '--subdir', 'DAGS_FOLDER/datalake_dag.py', '--cfg-path', '/tmp/tmps_ycm3fd']
+[2024-06-16T02:00:22.434+0200] {standard_task_runner.py:91} INFO - Job 99: Subtask extract_consumption_data
+[2024-06-16T02:00:22.456+0200] {task_command.py:426} INFO - Running <TaskInstance: datalake_dag.extract_consumption_data scheduled__2024-06-15T00:00:00+00:00 [running]> on host Desktop-Hector.
+[2024-06-16T02:00:22.494+0200] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='datalake_dag' AIRFLOW_CTX_TASK_ID='extract_consumption_data' AIRFLOW_CTX_EXECUTION_DATE='2024-06-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-15T00:00:00+00:00'
+[2024-06-16T02:00:22.494+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-16T02:00:22.587+0200] {clientserver.py:505} INFO - Error while sending or receiving.
+Traceback (most recent call last):
+  File "/home/hectorv/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [Errno 104] Connection reset by peer
+[2024-06-16T02:00:22.588+0200] {clientserver.py:543} INFO - Closing down clientserver connection
+[2024-06-16T02:00:22.588+0200] {java_gateway.py:1052} INFO - Exception while sending command.
+Traceback (most recent call last):
+  File "/home/hectorv/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hectorv/.local/lib/python3.10/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/home/hectorv/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 506, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+[2024-06-16T02:00:22.589+0200] {clientserver.py:543} INFO - Closing down clientserver connection
+[2024-06-16T02:00:23.369+0200] {logging_mixin.py:188} INFO - Json saved
+[2024-06-16T02:00:23.400+0200] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-16T02:00:23.400+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-16T02:00:23.403+0200] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=datalake_dag, task_id=extract_consumption_data, execution_date=20240615T000000, start_date=20240616T000022, end_date=20240616T000023
+[2024-06-16T02:00:23.447+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-16T02:00:23.456+0200] {taskinstance.py:3482} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2024-06-16T02:00:23.465+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,370 @@
+[2024-06-13T23:19:50.192+0200] {processor.py:161} INFO - Started process (PID=468) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:19:50.192+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:19:50.192+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:50.192+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:19:50.205+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:19:50.208+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-13T23:20:39.967+0200] {processor.py:161} INFO - Started process (PID=519) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:20:39.969+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:20:39.970+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:39.970+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:20:39.982+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:20:39.986+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.021 seconds
+[2024-06-13T23:21:36.014+0200] {processor.py:161} INFO - Started process (PID=578) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:21:36.015+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:21:36.016+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:36.016+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:21:36.028+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:21:36.031+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-13T23:22:36.390+0200] {processor.py:161} INFO - Started process (PID=641) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:22:36.392+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:22:36.393+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:36.392+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:22:36.405+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:22:36.408+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.021 seconds
+[2024-06-13T23:23:34.612+0200] {processor.py:161} INFO - Started process (PID=703) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:23:34.613+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:23:34.614+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:34.614+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:23:34.626+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:23:34.629+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-13T23:24:31.403+0200] {processor.py:161} INFO - Started process (PID=767) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:24:31.405+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:24:31.405+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:31.405+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:24:31.418+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:24:31.421+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-13T23:25:24.568+0200] {processor.py:161} INFO - Started process (PID=825) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:25:24.570+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:25:24.571+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:24.570+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:25:24.583+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:25:24.586+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-13T23:26:22.558+0200] {processor.py:161} INFO - Started process (PID=885) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:26:22.559+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:26:22.560+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:22.560+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:26:22.572+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:26:22.575+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-13T23:27:18.547+0200] {processor.py:161} INFO - Started process (PID=944) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:27:18.549+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:27:18.550+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:18.550+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:27:18.563+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:27:18.567+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-06-13T23:28:17.819+0200] {processor.py:161} INFO - Started process (PID=1006) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:28:17.821+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:28:17.822+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:17.822+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:28:17.833+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:28:17.837+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-13T23:29:17.911+0200] {processor.py:161} INFO - Started process (PID=1146) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:29:17.913+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:29:17.914+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:17.914+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:29:17.925+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:29:17.929+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-13T23:30:17.496+0200] {processor.py:161} INFO - Started process (PID=1208) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:30:17.497+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:30:17.498+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:17.498+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:30:17.510+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:30:17.513+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-13T23:31:16.206+0200] {processor.py:161} INFO - Started process (PID=1270) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:31:16.207+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:31:16.207+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:16.207+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:31:16.220+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:31:16.223+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-13T23:32:16.600+0200] {processor.py:161} INFO - Started process (PID=1332) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:32:16.600+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:32:16.601+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:16.601+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:32:16.612+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:32:16.616+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.018 seconds
+[2024-06-13T23:33:13.567+0200] {processor.py:161} INFO - Started process (PID=1392) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:33:13.569+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:33:13.569+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:13.569+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:33:13.581+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:33:13.585+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-13T23:34:10.318+0200] {processor.py:161} INFO - Started process (PID=1464) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:34:10.320+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:34:10.320+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:10.320+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:34:10.332+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:34:10.335+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-13T23:35:10.440+0200] {processor.py:161} INFO - Started process (PID=1525) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:35:10.443+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:35:10.443+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:10.443+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:35:10.453+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:35:10.456+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-13T23:36:13.844+0200] {processor.py:161} INFO - Started process (PID=1591) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:36:13.845+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:36:13.846+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:13.846+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:36:13.856+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:36:13.859+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.017 seconds
+[2024-06-13T23:37:10.035+0200] {processor.py:161} INFO - Started process (PID=1651) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:37:10.037+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:37:10.038+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:10.038+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:37:10.047+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:37:10.050+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.017 seconds
+[2024-06-13T23:38:08.182+0200] {processor.py:161} INFO - Started process (PID=1711) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:38:08.184+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:38:08.185+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:08.184+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:38:08.196+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:38:08.200+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-13T23:39:07.865+0200] {processor.py:161} INFO - Started process (PID=1773) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:39:07.866+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:39:07.867+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:07.867+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:39:07.879+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:39:07.883+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-13T23:40:04.256+0200] {processor.py:161} INFO - Started process (PID=1833) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:40:04.257+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:40:04.258+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:04.258+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:40:04.269+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:40:04.273+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.018 seconds
+[2024-06-13T23:41:02.080+0200] {processor.py:161} INFO - Started process (PID=1894) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:41:02.082+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:41:02.082+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:02.082+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:41:02.093+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:41:02.097+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-13T23:42:01.181+0200] {processor.py:161} INFO - Started process (PID=1954) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:42:01.182+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:42:01.183+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:01.183+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:42:01.194+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:42:01.197+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-13T23:42:59.145+0200] {processor.py:161} INFO - Started process (PID=2015) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:42:59.146+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:42:59.147+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:59.147+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:42:59.159+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:42:59.162+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-13T23:43:55.616+0200] {processor.py:161} INFO - Started process (PID=2075) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:43:55.617+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:43:55.617+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:55.617+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:43:55.629+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:43:55.633+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-13T23:44:53.177+0200] {processor.py:161} INFO - Started process (PID=2136) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:44:53.178+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:44:53.178+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:53.178+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:44:53.190+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:44:53.193+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.018 seconds
+[2024-06-13T23:45:50.437+0200] {processor.py:161} INFO - Started process (PID=2196) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:45:50.442+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:45:50.442+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:50.442+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:45:50.454+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:45:50.457+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.023 seconds
+[2024-06-13T23:46:52.747+0200] {processor.py:161} INFO - Started process (PID=2260) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:46:52.749+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:46:52.749+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:52.749+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:46:52.761+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:46:52.765+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-13T23:47:50.347+0200] {processor.py:161} INFO - Started process (PID=2320) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:47:50.349+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:47:50.349+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:50.349+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:47:50.361+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:47:50.364+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-13T23:48:46.755+0200] {processor.py:161} INFO - Started process (PID=2380) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:48:46.757+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:48:46.757+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:46.757+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:48:46.768+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:48:46.772+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-13T23:55:43.983+0200] {processor.py:161} INFO - Started process (PID=2480) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:55:43.984+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:55:43.985+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:43.985+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:55:43.996+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:55:44.000+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-13T23:56:32.129+0200] {processor.py:161} INFO - Started process (PID=2531) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:56:32.131+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:56:32.131+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:32.131+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:56:32.142+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:56:32.146+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-13T23:57:29.665+0200] {processor.py:161} INFO - Started process (PID=2590) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:57:29.666+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:57:29.666+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:29.666+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:57:29.678+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:57:29.682+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-13T23:58:28.056+0200] {processor.py:161} INFO - Started process (PID=2650) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:58:28.058+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:58:28.059+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:28.059+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:58:28.071+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:58:28.075+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.021 seconds
+[2024-06-13T23:59:22.206+0200] {processor.py:161} INFO - Started process (PID=2708) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:59:22.208+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-13T23:59:22.208+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:22.208+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:59:22.221+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-13T23:59:22.224+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.021 seconds
+[2024-06-14T00:00:17.819+0200] {processor.py:161} INFO - Started process (PID=2824) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:00:17.820+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:00:17.821+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:17.821+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:00:17.833+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:00:17.837+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.021 seconds
+[2024-06-14T00:01:12.442+0200] {processor.py:161} INFO - Started process (PID=2883) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:01:12.444+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:01:12.445+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:12.444+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:01:12.456+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:01:12.460+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:02:09.601+0200] {processor.py:161} INFO - Started process (PID=2943) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:02:09.602+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:02:09.603+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:09.603+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:02:09.614+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:02:09.618+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-14T00:03:06.064+0200] {processor.py:161} INFO - Started process (PID=3003) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:03:06.065+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:03:06.066+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:06.066+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:03:06.077+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:03:06.081+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-14T00:03:59.629+0200] {processor.py:161} INFO - Started process (PID=3060) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:03:59.630+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:03:59.631+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:59.631+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:03:59.643+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:03:59.647+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:04:56.188+0200] {processor.py:161} INFO - Started process (PID=3120) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:04:56.193+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:04:56.194+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:56.194+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:04:56.206+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:04:56.210+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.025 seconds
+[2024-06-14T00:05:50.711+0200] {processor.py:161} INFO - Started process (PID=3179) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:05:50.713+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:05:50.713+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:50.713+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:05:50.725+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:05:50.729+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:06:41.907+0200] {processor.py:161} INFO - Started process (PID=3234) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:06:41.909+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:06:41.909+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:41.909+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:06:41.921+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:06:41.925+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:07:39.507+0200] {processor.py:161} INFO - Started process (PID=3294) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:07:39.509+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:07:39.509+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:39.509+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:07:39.521+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:07:39.525+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:08:37.652+0200] {processor.py:161} INFO - Started process (PID=3354) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:08:37.653+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:08:37.654+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:37.654+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:08:37.665+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:08:37.669+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-14T00:09:35.704+0200] {processor.py:161} INFO - Started process (PID=3414) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:09:35.705+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:09:35.706+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:35.706+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:09:35.718+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:09:35.722+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:10:37.852+0200] {processor.py:161} INFO - Started process (PID=3478) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:10:37.854+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:10:37.854+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:37.854+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:10:37.866+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:10:37.870+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:11:37.609+0200] {processor.py:161} INFO - Started process (PID=3539) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:11:37.611+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:11:37.612+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:37.611+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:11:37.624+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:11:37.627+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:12:30.143+0200] {processor.py:161} INFO - Started process (PID=3596) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:12:30.144+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:12:30.145+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:30.145+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:12:30.157+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:12:30.160+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:13:26.133+0200] {processor.py:161} INFO - Started process (PID=3654) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:13:26.134+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:13:26.135+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:26.134+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:13:26.144+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:13:26.147+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.016 seconds
+[2024-06-14T00:14:26.581+0200] {processor.py:161} INFO - Started process (PID=3717) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:14:26.582+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:14:26.582+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:26.582+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:14:26.594+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:14:26.598+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:15:24.308+0200] {processor.py:161} INFO - Started process (PID=3778) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:15:24.311+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:15:24.311+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:24.311+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:15:24.324+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:15:24.330+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.024 seconds
+[2024-06-14T00:16:22.751+0200] {processor.py:161} INFO - Started process (PID=3839) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:16:22.753+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:16:22.754+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:22.754+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:16:22.765+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:16:22.769+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-14T00:17:15.551+0200] {processor.py:161} INFO - Started process (PID=3899) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:17:15.553+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:17:15.553+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:15.553+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:17:15.562+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:17:15.566+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.017 seconds
+[2024-06-14T00:18:11.204+0200] {processor.py:161} INFO - Started process (PID=3960) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:18:11.204+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:18:11.205+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:11.205+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:18:11.216+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:18:11.219+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.018 seconds
+[2024-06-14T00:19:06.545+0200] {processor.py:161} INFO - Started process (PID=4020) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:19:06.546+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:19:06.547+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:06.547+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:19:06.559+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:19:06.563+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:20:21.003+0200] {processor.py:161} INFO - Started process (PID=4151) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:20:21.005+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:20:21.005+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:21.005+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:20:21.017+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:20:21.021+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:21:20.555+0200] {processor.py:161} INFO - Started process (PID=4228) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:21:20.556+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:21:20.557+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:20.556+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:21:20.568+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:21:20.572+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-14T00:22:22.697+0200] {processor.py:161} INFO - Started process (PID=4293) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:22:22.697+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:22:22.698+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:22.698+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:22:22.710+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:22:22.715+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:23:21.788+0200] {processor.py:161} INFO - Started process (PID=4354) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:23:21.789+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:23:21.789+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:21.789+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:23:21.802+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:23:21.806+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:24:21.190+0200] {processor.py:161} INFO - Started process (PID=4415) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:24:21.191+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:24:21.192+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:21.191+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:24:21.203+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:24:21.207+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-14T00:25:15.627+0200] {processor.py:161} INFO - Started process (PID=4474) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:25:15.629+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:25:15.629+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:15.629+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:25:15.639+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:25:15.643+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-06-14T00:48:58.999+0200] {processor.py:161} INFO - Started process (PID=4562) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:48:59.006+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:48:59.007+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:59.007+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:48:59.020+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:48:59.025+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.028 seconds
+[2024-06-14T00:49:51.383+0200] {processor.py:161} INFO - Started process (PID=4613) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:49:51.387+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:49:51.388+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:51.387+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:49:51.399+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:49:51.402+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.021 seconds
+[2024-06-14T00:50:50.402+0200] {processor.py:161} INFO - Started process (PID=4675) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:50:50.404+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:50:50.405+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:50.405+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:50:50.418+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:50:50.422+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-06-14T00:51:51.913+0200] {processor.py:161} INFO - Started process (PID=4795) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:51:51.915+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:51:51.915+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:51.915+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:51:51.927+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:51:51.930+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:52:46.544+0200] {processor.py:161} INFO - Started process (PID=4874) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:52:46.546+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:52:46.547+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:46.547+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:52:46.559+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:52:46.562+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-06-14T00:53:40.676+0200] {processor.py:161} INFO - Started process (PID=11635) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:53:40.678+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:53:40.678+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:40.678+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:53:40.687+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:53:40.690+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.017 seconds
+[2024-06-14T00:54:36.677+0200] {processor.py:161} INFO - Started process (PID=11840) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:54:36.679+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:54:36.679+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:36.679+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:54:36.689+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:54:36.692+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.017 seconds
+[2024-06-14T00:55:35.249+0200] {processor.py:161} INFO - Started process (PID=12180) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:55:35.251+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:55:35.252+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:35.251+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:55:35.265+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:55:35.270+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.023 seconds
+[2024-06-14T00:56:37.822+0200] {processor.py:161} INFO - Started process (PID=15468) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:56:37.824+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T00:56:37.824+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:37.824+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:56:37.838+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T00:56:37.842+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-06-14T01:02:48.045+0200] {processor.py:161} INFO - Started process (PID=6255) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T01:02:48.046+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T01:02:48.046+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:48.046+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T01:02:48.056+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T01:02:48.060+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.017 seconds
+[2024-06-14T01:03:39.839+0200] {processor.py:161} INFO - Started process (PID=6638) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T01:03:39.840+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-06-14T01:03:39.841+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:39.841+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T01:03:39.853+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-06-14T01:03:39.856+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds

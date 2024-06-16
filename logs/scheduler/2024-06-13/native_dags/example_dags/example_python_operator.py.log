@@ -1,0 +1,772 @@
+[2024-06-13T23:19:27.677+0200] {processor.py:161} INFO - Started process (PID=446) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:19:27.677+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:19:27.678+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:27.678+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:19:27.691+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:27.691+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:19:27.691+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:19:27.743+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:27.743+0200] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2024-06-13T23:19:27.754+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:27.754+0200] {override.py:1829} INFO - Created Permission View: can read on DAG:example_python_operator
+[2024-06-13T23:19:27.765+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:27.764+0200] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2024-06-13T23:19:27.765+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:27.765+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:19:27.768+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:27.768+0200] {dag.py:3118} INFO - Creating ORM DAG for example_python_operator
+[2024-06-13T23:19:27.769+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:19:27.769+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:19:27.785+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.110 seconds
+[2024-06-13T23:20:18.597+0200] {processor.py:161} INFO - Started process (PID=497) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:20:18.598+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:20:18.599+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:18.599+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:20:18.613+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:18.612+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:20:18.613+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:20:18.618+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:18.618+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:20:18.622+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:20:18.621+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:20:18.637+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:21:06.985+0200] {processor.py:161} INFO - Started process (PID=548) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:21:06.987+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:21:06.987+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:06.987+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:21:07.001+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:07.000+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:21:07.001+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:21:07.006+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:07.006+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:21:07.055+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:07.055+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:21:07.070+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.087 seconds
+[2024-06-13T23:21:49.711+0200] {processor.py:161} INFO - Started process (PID=592) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:21:49.712+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:21:49.713+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:49.713+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:21:49.726+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:49.726+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:21:49.726+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:21:49.732+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:49.732+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:21:49.736+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:21:49.736+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:21:49.751+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:22:30.138+0200] {processor.py:161} INFO - Started process (PID=635) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:22:30.139+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:22:30.140+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:30.140+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:22:30.153+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:30.153+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:22:30.153+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:22:30.159+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:30.159+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:22:30.163+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:22:30.163+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:22:30.179+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.043 seconds
+[2024-06-13T23:23:09.405+0200] {processor.py:161} INFO - Started process (PID=675) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:23:09.407+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:23:09.407+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:09.407+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:23:09.421+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:09.421+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:23:09.421+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:23:09.427+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:09.427+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:23:09.432+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:09.431+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:23:09.447+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.044 seconds
+[2024-06-13T23:23:49.284+0200] {processor.py:161} INFO - Started process (PID=717) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:23:49.285+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:23:49.286+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:49.285+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:23:49.298+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:49.298+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:23:49.299+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:23:49.305+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:49.305+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:23:49.308+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:23:49.308+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:23:49.324+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:24:44.892+0200] {processor.py:161} INFO - Started process (PID=781) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:24:44.894+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:24:44.894+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:44.894+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:24:44.907+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:44.907+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:24:44.907+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:24:44.913+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:44.913+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:24:44.917+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:24:44.917+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:24:44.931+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-13T23:25:37.712+0200] {processor.py:161} INFO - Started process (PID=838) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:25:37.713+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:25:37.714+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:37.714+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:25:37.727+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:37.727+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:25:37.727+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:25:37.733+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:37.733+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:25:37.737+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:25:37.736+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:25:37.752+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:26:14.692+0200] {processor.py:161} INFO - Started process (PID=877) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:26:14.693+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:26:14.694+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:14.694+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:26:14.707+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:14.707+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:26:14.707+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:26:14.713+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:14.713+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:26:14.717+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:14.717+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:26:14.731+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:26:54.005+0200] {processor.py:161} INFO - Started process (PID=918) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:26:54.007+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:26:54.007+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:54.007+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:26:54.022+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:54.022+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:26:54.022+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:26:54.028+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:54.028+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:26:54.032+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:26:54.032+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:26:54.047+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.044 seconds
+[2024-06-13T23:27:51.018+0200] {processor.py:161} INFO - Started process (PID=977) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:27:51.022+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:27:51.022+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:51.022+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:27:51.037+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:51.037+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:27:51.038+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:27:51.044+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:51.044+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:27:51.048+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:27:51.048+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:27:51.063+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.047 seconds
+[2024-06-13T23:28:30.332+0200] {processor.py:161} INFO - Started process (PID=1019) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:28:30.332+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:28:30.333+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:30.333+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:28:30.346+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:30.346+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:28:30.346+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:28:30.352+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:30.352+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:28:30.356+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:28:30.356+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:28:30.371+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:29:09.744+0200] {processor.py:161} INFO - Started process (PID=1138) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:29:09.746+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:29:09.746+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:09.746+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:29:09.759+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:09.759+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:29:09.759+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:29:09.765+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:09.765+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:29:09.768+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:09.768+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:29:09.783+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-13T23:29:49.018+0200] {processor.py:161} INFO - Started process (PID=1179) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:29:49.019+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:29:49.020+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:49.020+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:29:49.033+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:49.033+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:29:49.033+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:29:49.039+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:49.039+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:29:49.043+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:29:49.043+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:29:49.058+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:30:30.005+0200] {processor.py:161} INFO - Started process (PID=1221) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:30:30.007+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:30:30.007+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:30.007+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:30:30.021+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:30.021+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:30:30.021+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:30:30.027+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:30.027+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:30:30.031+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:30:30.031+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:30:30.045+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:31:09.989+0200] {processor.py:161} INFO - Started process (PID=1263) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:31:09.990+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:31:09.991+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:09.991+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:31:10.005+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:10.005+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:31:10.005+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:31:10.010+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:10.010+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:31:10.014+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:10.014+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:31:10.029+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:31:48.138+0200] {processor.py:161} INFO - Started process (PID=1303) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:31:48.139+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:31:48.140+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:48.140+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:31:48.153+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:48.153+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:31:48.153+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:31:48.159+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:48.159+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:31:48.162+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:31:48.162+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:31:48.177+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-13T23:32:28.372+0200] {processor.py:161} INFO - Started process (PID=1345) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:32:28.374+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:32:28.374+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:28.374+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:32:28.387+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:28.387+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:32:28.387+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:32:28.393+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:28.393+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:32:28.396+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:32:28.396+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:32:28.411+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-13T23:33:06.175+0200] {processor.py:161} INFO - Started process (PID=1385) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:33:06.177+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:33:06.177+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:06.177+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:33:06.190+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:06.190+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:33:06.190+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:33:06.196+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:06.196+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:33:06.200+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:06.200+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:33:06.215+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:33:46.068+0200] {processor.py:161} INFO - Started process (PID=1435) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:33:46.069+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:33:46.069+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:46.069+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:33:46.083+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:46.083+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:33:46.083+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:33:46.089+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:46.089+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:33:46.093+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:33:46.093+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:33:46.108+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:34:41.398+0200] {processor.py:161} INFO - Started process (PID=1495) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:34:41.399+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:34:41.400+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:41.400+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:34:41.413+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:41.413+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:34:41.414+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:34:41.419+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:41.419+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:34:41.423+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:34:41.423+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:34:41.438+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:35:22.794+0200] {processor.py:161} INFO - Started process (PID=1539) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:35:22.799+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:35:22.800+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:22.800+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:35:22.810+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:22.810+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:35:22.810+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:35:22.816+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:22.816+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:35:22.820+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:35:22.820+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:35:22.871+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.079 seconds
+[2024-06-13T23:36:04.994+0200] {processor.py:161} INFO - Started process (PID=1582) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:36:04.996+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:36:04.996+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:04.996+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:36:05.006+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:05.006+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:36:05.006+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:36:05.012+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:05.012+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:36:05.016+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:05.016+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:36:05.031+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.039 seconds
+[2024-06-13T23:36:44.295+0200] {processor.py:161} INFO - Started process (PID=1623) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:36:44.296+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:36:44.297+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:44.297+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:36:44.307+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:44.307+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:36:44.307+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:36:44.313+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:44.313+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:36:44.317+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:36:44.317+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:36:44.332+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.039 seconds
+[2024-06-13T23:37:21.988+0200] {processor.py:161} INFO - Started process (PID=1664) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:37:21.988+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:37:21.989+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:21.989+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:37:22.000+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:22.000+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:37:22.000+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:37:22.005+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:22.005+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:37:22.009+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:37:22.009+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:37:22.024+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.038 seconds
+[2024-06-13T23:38:00.822+0200] {processor.py:161} INFO - Started process (PID=1704) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:38:00.823+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:38:00.823+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:00.823+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:38:00.837+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:00.837+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:38:00.837+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:38:00.843+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:00.842+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:38:00.846+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:00.846+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:38:00.862+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:38:40.101+0200] {processor.py:161} INFO - Started process (PID=1745) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:38:40.103+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:38:40.104+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:40.103+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:38:40.116+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:40.116+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:38:40.116+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:38:40.122+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:40.122+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:38:40.126+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:38:40.126+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:38:40.140+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-13T23:39:21.082+0200] {processor.py:161} INFO - Started process (PID=1787) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:39:21.084+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:39:21.084+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:21.084+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:39:21.097+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:21.097+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:39:21.097+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:39:21.103+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:21.103+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:39:21.106+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:39:21.106+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:39:21.121+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-13T23:40:16.433+0200] {processor.py:161} INFO - Started process (PID=1846) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:40:16.433+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:40:16.434+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:16.434+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:40:16.446+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:16.446+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:40:16.446+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:40:16.452+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:16.452+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:40:16.456+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:16.455+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:40:16.471+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-13T23:40:55.996+0200] {processor.py:161} INFO - Started process (PID=1887) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:40:55.996+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:40:55.997+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:55.997+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:40:56.009+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:56.009+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:40:56.010+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:40:56.015+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:56.015+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:40:56.019+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:40:56.019+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:40:56.033+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.040 seconds
+[2024-06-13T23:41:52.750+0200] {processor.py:161} INFO - Started process (PID=1946) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:41:52.751+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:41:52.751+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:52.751+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:41:52.765+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:52.765+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:41:52.765+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:41:52.770+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:52.770+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:41:52.774+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:41:52.774+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:41:52.789+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:42:30.863+0200] {processor.py:161} INFO - Started process (PID=1987) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:42:30.865+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:42:30.866+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:30.865+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:42:30.879+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:30.879+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:42:30.879+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:42:30.885+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:30.885+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:42:30.888+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:42:30.888+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:42:30.904+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:43:11.259+0200] {processor.py:161} INFO - Started process (PID=2028) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:43:11.261+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:43:11.262+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:11.262+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:43:11.274+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:11.274+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:43:11.274+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:43:11.280+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:11.280+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:43:11.283+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:11.283+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:43:11.297+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.040 seconds
+[2024-06-13T23:43:50.482+0200] {processor.py:161} INFO - Started process (PID=2070) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:43:50.483+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:43:50.483+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:50.483+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:43:50.496+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:50.496+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:43:50.496+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:43:50.502+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:50.502+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:43:50.506+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:43:50.505+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:43:50.520+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-13T23:44:28.630+0200] {processor.py:161} INFO - Started process (PID=2110) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:44:28.631+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:44:28.631+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:28.631+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:44:28.644+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:28.644+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:44:28.644+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:44:28.649+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:28.649+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:44:28.653+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:44:28.653+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:44:28.668+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.040 seconds
+[2024-06-13T23:45:24.022+0200] {processor.py:161} INFO - Started process (PID=2169) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:45:24.029+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:45:24.029+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:24.029+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:45:24.043+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:24.042+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:45:24.043+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:45:24.048+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:24.048+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:45:24.052+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:45:24.052+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:45:24.112+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.092 seconds
+[2024-06-13T23:46:04.163+0200] {processor.py:161} INFO - Started process (PID=2209) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:46:04.167+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:46:04.168+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:04.168+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:46:04.181+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:04.181+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:46:04.181+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:46:04.186+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:04.186+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:46:04.190+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:04.190+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:46:04.240+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.079 seconds
+[2024-06-13T23:46:45.359+0200] {processor.py:161} INFO - Started process (PID=2252) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:46:45.360+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:46:45.360+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:45.360+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:46:45.374+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:45.374+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:46:45.374+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:46:45.379+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:45.379+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:46:45.383+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:46:45.383+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:46:45.398+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-13T23:47:23.479+0200] {processor.py:161} INFO - Started process (PID=2292) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:47:23.481+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:47:23.481+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:23.481+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:47:23.494+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:23.494+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:47:23.494+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:47:23.500+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:23.499+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:47:23.503+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:47:23.503+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:47:23.517+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.040 seconds
+[2024-06-13T23:48:02.313+0200] {processor.py:161} INFO - Started process (PID=2333) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:48:02.314+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:48:02.314+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:02.314+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:48:02.328+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:02.328+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:48:02.328+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:48:02.333+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:02.333+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:48:02.337+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:02.337+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:48:02.351+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.040 seconds
+[2024-06-13T23:48:38.241+0200] {processor.py:161} INFO - Started process (PID=2372) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:48:38.243+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:48:38.244+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:38.244+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:48:38.256+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:38.256+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:48:38.256+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:48:38.262+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:38.262+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:48:38.266+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:48:38.266+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:48:38.280+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-13T23:49:17.552+0200] {processor.py:161} INFO - Started process (PID=2413) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:49:17.553+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:49:17.554+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:49:17.554+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:49:17.566+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:49:17.566+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:49:17.567+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:49:17.572+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:49:17.572+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:49:17.576+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:49:17.575+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:49:17.591+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:55:24.148+0200] {processor.py:161} INFO - Started process (PID=2460) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:55:24.148+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:55:24.149+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:24.148+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:55:24.161+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:24.161+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:55:24.162+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:55:24.167+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:24.167+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:55:24.171+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:55:24.171+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:55:24.186+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.040 seconds
+[2024-06-13T23:56:12.258+0200] {processor.py:161} INFO - Started process (PID=2509) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:56:12.258+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:56:12.259+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:12.259+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:56:12.271+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:12.271+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:56:12.272+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:56:12.277+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:12.277+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:56:12.281+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:56:12.281+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:56:12.295+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.040 seconds
+[2024-06-13T23:57:00.418+0200] {processor.py:161} INFO - Started process (PID=2560) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:57:00.420+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:57:00.420+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:00.420+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:57:00.433+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:00.433+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:57:00.433+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:57:00.439+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:00.439+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:57:00.442+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:00.442+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:57:00.458+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:57:40.909+0200] {processor.py:161} INFO - Started process (PID=2602) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:57:40.911+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:57:40.911+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:40.911+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:57:40.924+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:40.924+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:57:40.925+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:57:40.930+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:40.930+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:57:40.934+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:57:40.934+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:57:40.949+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-13T23:58:38.416+0200] {processor.py:161} INFO - Started process (PID=2661) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:58:38.420+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:58:38.421+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:38.421+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:58:38.435+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:38.435+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:58:38.435+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:58:38.441+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:38.441+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:58:38.445+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:58:38.445+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:58:38.495+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.081 seconds
+[2024-06-13T23:59:32.564+0200] {processor.py:161} INFO - Started process (PID=2719) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:59:32.565+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-13T23:59:32.566+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:32.566+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:59:32.579+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:32.579+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-13T23:59:32.579+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-13T23:59:32.585+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:32.585+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-13T23:59:32.588+0200] {logging_mixin.py:188} INFO - [2024-06-13T23:59:32.588+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-13T23:59:32.603+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-14T00:00:11.062+0200] {processor.py:161} INFO - Started process (PID=2817) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:00:11.065+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:00:11.066+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:11.066+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:00:11.079+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:11.079+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:00:11.079+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:00:11.085+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:11.085+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:00:11.089+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:00:11.089+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:00:11.104+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.044 seconds
+[2024-06-14T00:01:05.429+0200] {processor.py:161} INFO - Started process (PID=2876) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:01:05.431+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:01:05.431+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:05.431+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:01:05.444+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:05.444+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:01:05.444+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:01:05.450+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:05.450+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:01:05.454+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:01:05.454+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:01:05.469+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-14T00:02:01.590+0200] {processor.py:161} INFO - Started process (PID=2934) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:02:01.592+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:02:01.592+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:01.592+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:02:01.605+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:01.605+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:02:01.605+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:02:01.611+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:01.611+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:02:01.615+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:01.615+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:02:01.632+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.044 seconds
+[2024-06-14T00:02:39.765+0200] {processor.py:161} INFO - Started process (PID=2974) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:02:39.767+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:02:39.767+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:39.767+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:02:39.780+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:39.780+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:02:39.780+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:02:39.786+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:39.786+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:02:39.790+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:02:39.790+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:02:39.805+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-14T00:03:33.980+0200] {processor.py:161} INFO - Started process (PID=3032) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:03:33.981+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:03:33.982+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:33.982+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:03:33.995+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:33.995+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:03:33.996+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:03:34.002+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:34.002+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:03:34.006+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:03:34.006+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:03:34.025+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.047 seconds
+[2024-06-14T00:04:29.444+0200] {processor.py:161} INFO - Started process (PID=3091) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:04:29.446+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:04:29.447+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:29.447+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:04:29.460+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:29.460+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:04:29.460+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:04:29.466+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:29.466+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:04:29.470+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:04:29.470+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:04:29.515+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-06-14T00:05:25.047+0200] {processor.py:161} INFO - Started process (PID=3151) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:05:25.048+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:05:25.049+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:25.049+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:05:25.062+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:25.062+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:05:25.062+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:05:25.068+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:25.068+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:05:25.072+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:05:25.072+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:05:25.086+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-14T00:06:16.243+0200] {processor.py:161} INFO - Started process (PID=3207) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:06:16.243+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:06:16.244+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:16.244+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:06:16.257+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:16.257+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:06:16.257+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:06:16.263+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:16.263+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:06:16.267+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:06:16.267+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:06:16.282+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-14T00:07:10.946+0200] {processor.py:161} INFO - Started process (PID=3264) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:07:10.948+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:07:10.948+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:10.948+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:07:10.961+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:10.961+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:07:10.962+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:07:10.967+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:10.967+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:07:10.971+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:10.971+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:07:10.986+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.043 seconds
+[2024-06-14T00:07:49.775+0200] {processor.py:161} INFO - Started process (PID=3305) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:07:49.776+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:07:49.776+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:49.776+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:07:49.791+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:49.791+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:07:49.792+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:07:49.799+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:49.799+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:07:49.804+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:07:49.804+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:07:49.820+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.048 seconds
+[2024-06-14T00:08:28.652+0200] {processor.py:161} INFO - Started process (PID=3345) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:08:28.653+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:08:28.654+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:28.653+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:08:28.667+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:28.666+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:08:28.667+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:08:28.673+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:28.673+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:08:28.677+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:08:28.677+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:08:28.691+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-14T00:09:08.021+0200] {processor.py:161} INFO - Started process (PID=3387) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:09:08.024+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:09:08.024+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:08.024+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:09:08.039+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:08.039+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:09:08.039+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:09:08.047+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:08.046+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:09:08.051+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:08.051+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:09:08.067+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.048 seconds
+[2024-06-14T00:09:46.604+0200] {processor.py:161} INFO - Started process (PID=3425) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:09:46.606+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:09:46.606+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:46.606+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:09:46.619+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:46.619+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:09:46.620+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:09:46.625+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:46.625+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:09:46.629+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:09:46.629+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:09:46.644+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-14T00:10:29.842+0200] {processor.py:161} INFO - Started process (PID=3469) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:10:29.843+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:10:29.844+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:29.844+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:10:29.857+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:29.857+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:10:29.857+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:10:29.863+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:29.863+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:10:29.867+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:10:29.867+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:10:29.881+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-14T00:11:09.213+0200] {processor.py:161} INFO - Started process (PID=3510) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:11:09.215+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:11:09.216+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:09.216+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:11:09.229+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:09.229+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:11:09.229+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:11:09.235+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:09.235+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:11:09.239+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:09.239+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:11:09.254+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.043 seconds
+[2024-06-14T00:11:47.874+0200] {processor.py:161} INFO - Started process (PID=3551) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:11:47.876+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:11:47.877+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:47.876+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:11:47.890+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:47.890+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:11:47.890+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:11:47.896+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:47.896+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:11:47.899+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:11:47.899+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:11:47.914+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-14T00:12:40.847+0200] {processor.py:161} INFO - Started process (PID=3608) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:12:40.852+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:12:40.853+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:40.853+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:12:40.866+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:40.866+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:12:40.866+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:12:40.872+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:40.872+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:12:40.876+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:12:40.876+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:12:40.891+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.046 seconds
+[2024-06-14T00:13:38.412+0200] {processor.py:161} INFO - Started process (PID=3667) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:13:38.413+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:13:38.414+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:38.413+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:13:38.426+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:38.426+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:13:38.426+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:13:38.432+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:38.432+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:13:38.435+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:13:38.435+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:13:38.450+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.040 seconds
+[2024-06-14T00:14:19.485+0200] {processor.py:161} INFO - Started process (PID=3710) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:14:19.486+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:14:19.487+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:19.487+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:14:19.503+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:19.503+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:14:19.504+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:14:19.512+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:19.512+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:14:19.517+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:19.517+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:14:19.534+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.052 seconds
+[2024-06-14T00:14:59.258+0200] {processor.py:161} INFO - Started process (PID=3752) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:14:59.259+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:14:59.260+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:59.260+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:14:59.273+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:59.273+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:14:59.274+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:14:59.282+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:59.281+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:14:59.287+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:14:59.287+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:14:59.306+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.050 seconds
+[2024-06-14T00:15:55.630+0200] {processor.py:161} INFO - Started process (PID=3811) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:15:55.632+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:15:55.632+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:55.632+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:15:55.646+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:55.645+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:15:55.646+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:15:55.652+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:55.652+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:15:55.655+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:15:55.655+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:15:55.671+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.043 seconds
+[2024-06-14T00:16:35.119+0200] {processor.py:161} INFO - Started process (PID=3852) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:16:35.120+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:16:35.121+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:35.121+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:16:35.132+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:35.132+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:16:35.133+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:16:35.139+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:35.138+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:16:35.142+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:16:35.142+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:16:35.158+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-14T00:17:28.019+0200] {processor.py:161} INFO - Started process (PID=3912) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:17:28.020+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:17:28.020+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:28.020+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:17:28.034+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:28.034+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:17:28.034+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:17:28.040+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:28.040+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:17:28.044+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:17:28.043+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:17:28.059+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.043 seconds
+[2024-06-14T00:18:23.712+0200] {processor.py:161} INFO - Started process (PID=3973) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:18:23.714+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:18:23.715+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:23.715+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:18:23.728+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:23.727+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:18:23.728+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:18:23.733+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:23.733+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:18:23.737+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:18:23.737+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:18:23.752+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-14T00:19:26.194+0200] {processor.py:161} INFO - Started process (PID=4056) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:19:26.196+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:19:26.196+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:26.196+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:19:26.209+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:26.209+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:19:26.209+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:19:26.215+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:26.215+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:19:26.219+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:19:26.219+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:19:26.234+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-14T00:20:48.746+0200] {processor.py:161} INFO - Started process (PID=4191) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:20:48.748+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:20:48.749+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:48.749+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:20:48.763+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:48.763+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:20:48.763+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:20:48.769+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:48.769+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:20:48.773+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:20:48.773+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:20:48.790+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.046 seconds
+[2024-06-14T00:21:35.951+0200] {processor.py:161} INFO - Started process (PID=4244) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:21:35.953+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:21:35.954+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:35.953+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:21:35.967+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:35.967+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:21:35.967+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:21:35.973+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:35.973+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:21:35.977+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:21:35.977+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:21:35.992+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.043 seconds
+[2024-06-14T00:22:17.566+0200] {processor.py:161} INFO - Started process (PID=4287) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:22:17.567+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:22:17.567+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:17.567+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:22:17.581+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:17.581+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:22:17.581+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:22:17.587+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:17.587+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:22:17.591+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:22:17.591+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:22:17.606+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.043 seconds
+[2024-06-14T00:23:11.461+0200] {processor.py:161} INFO - Started process (PID=4343) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:23:11.462+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:23:11.463+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:11.463+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:23:11.477+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:11.477+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:23:11.477+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:23:11.485+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:11.485+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:23:11.490+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:11.490+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:23:11.544+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.085 seconds
+[2024-06-14T00:23:51.525+0200] {processor.py:161} INFO - Started process (PID=4385) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:23:51.526+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:23:51.527+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:51.527+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:23:51.539+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:51.539+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:23:51.540+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:23:51.545+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:51.545+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:23:51.549+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:23:51.549+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:23:51.564+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.040 seconds
+[2024-06-14T00:24:32.590+0200] {processor.py:161} INFO - Started process (PID=4427) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:24:32.592+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:24:32.592+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:32.592+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:24:32.606+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:32.606+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:24:32.606+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:24:32.614+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:32.614+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:24:32.618+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:24:32.618+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:24:32.633+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.046 seconds
+[2024-06-14T00:25:27.833+0200] {processor.py:161} INFO - Started process (PID=4486) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:25:27.835+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:25:27.835+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:27.835+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:25:27.848+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:27.848+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:25:27.848+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:25:27.854+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:27.854+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:25:27.858+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:25:27.858+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:25:27.872+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-14T00:48:37.199+0200] {processor.py:161} INFO - Started process (PID=4540) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:48:37.200+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:48:37.201+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:37.201+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:48:37.214+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:37.214+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:48:37.214+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:48:37.217+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:37.217+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:48:37.221+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:48:37.221+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:48:37.236+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.039 seconds
+[2024-06-14T00:49:28.855+0200] {processor.py:161} INFO - Started process (PID=4591) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:49:28.861+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:49:28.861+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:28.861+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:49:28.874+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:28.874+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:49:28.874+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:49:28.960+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:28.960+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:49:28.963+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:49:28.963+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:49:29.025+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.172 seconds
+[2024-06-14T00:50:19.603+0200] {processor.py:161} INFO - Started process (PID=4642) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:50:19.605+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:50:19.605+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:19.605+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:50:19.618+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:19.618+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:50:19.618+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:50:19.624+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:19.624+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:50:19.674+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:50:19.674+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:50:19.690+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.089 seconds
+[2024-06-14T00:51:00.667+0200] {processor.py:161} INFO - Started process (PID=4685) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:51:00.669+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:51:00.670+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:00.670+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:51:00.683+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:00.683+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:51:00.683+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:51:00.689+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:00.689+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:51:00.693+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:00.693+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:51:00.707+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-14T00:51:42.018+0200] {processor.py:161} INFO - Started process (PID=4781) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:51:42.021+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:51:42.022+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:42.022+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:51:42.035+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:42.035+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:51:42.035+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:51:42.041+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:42.041+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:51:42.044+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:51:42.044+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:51:42.059+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.043 seconds
+[2024-06-14T00:52:20.477+0200] {processor.py:161} INFO - Started process (PID=4825) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:52:20.479+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:52:20.480+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:20.479+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:52:20.493+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:20.493+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:52:20.493+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:52:20.498+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:20.498+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:52:20.502+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:52:20.502+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:52:20.517+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.042 seconds
+[2024-06-14T00:53:12.940+0200] {processor.py:161} INFO - Started process (PID=11556) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:53:12.942+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:53:12.943+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:12.943+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:53:12.955+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:12.955+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:53:12.955+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:53:12.961+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:12.961+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:53:12.965+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:12.965+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:53:12.982+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.043 seconds
+[2024-06-14T00:53:52.760+0200] {processor.py:161} INFO - Started process (PID=11696) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:53:52.761+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:53:52.762+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:52.762+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:53:52.772+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:52.772+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:53:52.773+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:53:52.778+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:52.778+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:53:52.782+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:53:52.782+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:53:52.797+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.039 seconds
+[2024-06-14T00:54:49.057+0200] {processor.py:161} INFO - Started process (PID=11958) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:54:49.058+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:54:49.058+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:49.058+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:54:49.072+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:49.072+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:54:49.072+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:54:49.078+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:49.078+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:54:49.082+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:54:49.082+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:54:49.097+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.043 seconds
+[2024-06-14T00:55:28.423+0200] {processor.py:161} INFO - Started process (PID=12131) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:55:28.425+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:55:28.425+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:28.425+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:55:28.440+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:28.440+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:55:28.440+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:55:28.447+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:28.447+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:55:28.451+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:55:28.451+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:55:28.467+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.047 seconds
+[2024-06-14T00:56:07.792+0200] {processor.py:161} INFO - Started process (PID=15275) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:56:07.793+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:56:07.794+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:07.793+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:56:07.806+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:07.806+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:56:07.806+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:56:07.812+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:07.812+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:56:07.816+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:07.816+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:56:07.831+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2024-06-14T00:56:48.246+0200] {processor.py:161} INFO - Started process (PID=15507) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:56:48.247+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T00:56:48.248+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:48.247+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:56:48.261+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:48.261+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T00:56:48.262+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T00:56:48.269+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:48.269+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T00:56:48.274+0200] {logging_mixin.py:188} INFO - [2024-06-14T00:56:48.274+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T00:56:48.290+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.047 seconds
+[2024-06-14T01:02:26.270+0200] {processor.py:161} INFO - Started process (PID=5180) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T01:02:26.271+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T01:02:26.272+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:26.272+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T01:02:26.296+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:26.295+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T01:02:26.296+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T01:02:26.301+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:26.301+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:02:26.310+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:02:26.310+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T01:02:26.334+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.067 seconds
+[2024-06-14T01:03:17.598+0200] {processor.py:161} INFO - Started process (PID=6477) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T01:03:17.600+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T01:03:17.601+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:17.601+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T01:03:17.614+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:17.613+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T01:03:17.614+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T01:03:17.692+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:17.691+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:03:17.694+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:03:17.694+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T01:03:17.709+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.112 seconds
+[2024-06-14T01:04:09.198+0200] {processor.py:161} INFO - Started process (PID=6874) to work on /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T01:04:09.199+0200] {processor.py:830} INFO - Processing file /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-14T01:04:09.200+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:09.200+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T01:04:09.212+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:09.212+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-14T01:04:09.212+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-14T01:04:09.218+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:09.218+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T01:04:09.263+0200] {logging_mixin.py:188} INFO - [2024-06-14T01:04:09.263+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-14T01:04:09.297+0200] {processor.py:183} INFO - Processing /home/hectorv/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.101 seconds
